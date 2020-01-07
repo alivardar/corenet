@@ -1,0 +1,297 @@
+object userrights: Tuserrights
+  Left = 491
+  Height = 354
+  Top = 330
+  Width = 629
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'User Permissions'
+  ClientHeight = 354
+  ClientWidth = 629
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object DBText1: TDBText
+    Left = 210
+    Height = 32
+    Top = 60
+    Width = 93
+    DataField = 'username'
+    DataSource = Datasource1
+    Font.Color = clRed
+    Font.Height = -24
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 20
+    Top = 120
+    Width = 44
+    Caption = 'Admin'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 350
+    Height = 20
+    Top = 120
+    Width = 53
+    Caption = 'Banking'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 20
+    Top = 162
+    Width = 127
+    Caption = 'Customer Accounts'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 350
+    Height = 20
+    Top = 162
+    Width = 53
+    Caption = 'Invoices'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 40
+    Height = 20
+    Top = 205
+    Width = 31
+    Caption = 'Cash'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 350
+    Height = 20
+    Top = 205
+    Width = 45
+    Caption = 'Tickets'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 40
+    Height = 20
+    Top = 248
+    Width = 36
+    Caption = 'Stock'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 30
+    Height = 20
+    Top = 75
+    Width = 79
+    Caption = 'User name:'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 350
+    Height = 20
+    Top = 248
+    Width = 38
+    Caption = 'Acces'
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 629
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 36
+    ClientWidth = 625
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 0
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbEdit, nbPost, nbCancel]
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 190
+    Height = 28
+    Top = 110
+    Width = 68
+    DataField = 'ayarlar'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 1
+  end
+  object DBComboBox2: TDBComboBox
+    Left = 540
+    Height = 28
+    Top = 110
+    Width = 68
+    DataField = 'banka'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 2
+  end
+  object DBComboBox3: TDBComboBox
+    Left = 190
+    Height = 28
+    Top = 152
+    Width = 68
+    DataField = 'cari'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 3
+  end
+  object DBComboBox4: TDBComboBox
+    Left = 540
+    Height = 28
+    Top = 152
+    Width = 68
+    DataField = 'fatura'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 4
+  end
+  object DBComboBox5: TDBComboBox
+    Left = 190
+    Height = 28
+    Top = 195
+    Width = 68
+    DataField = 'kasa'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 5
+  end
+  object DBComboBox6: TDBComboBox
+    Left = 540
+    Height = 28
+    Top = 195
+    Width = 68
+    DataField = 'sorun'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 6
+  end
+  object DBComboBox7: TDBComboBox
+    Left = 190
+    Height = 28
+    Top = 238
+    Width = 68
+    DataField = 'stok'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 7
+  end
+  object BitBtn1: TBitBtn
+    Left = 494
+    Height = 38
+    Top = 300
+    Width = 114
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object DBComboBox8: TDBComboBox
+    Left = 540
+    Height = 28
+    Top = 238
+    Width = 68
+    DataField = 'erisim'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Y'
+      'N'
+    )
+    MaxLength = 1
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Datasource1: TDataSource
+    DataSet = ZTable1
+    left = 530
+    top = 50
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coreusers'
+    left = 490
+    top = 50
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 450
+    top = 50
+  end
+end

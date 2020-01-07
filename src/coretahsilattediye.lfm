@@ -1,0 +1,301 @@
+object caritahsilattediye: Tcaritahsilattediye
+  Left = 286
+  Height = 516
+  Top = 85
+  Width = 928
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Cari Hesap Tahsilat Tediye İşlemleri'
+  ClientHeight = 516
+  ClientWidth = 928
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object Label1: TLabel
+    Left = 16
+    Height = 13
+    Top = 40
+    Width = 148
+    Caption = 'Tahsilat / Tediye İşlemleri'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 13
+    Top = 121
+    Width = 68
+    Caption = 'Makbuz Türü: '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 13
+    Top = 159
+    Width = 50
+    Caption = 'Evrak No: '
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 13
+    Top = 85
+    Width = 31
+    Caption = 'Tarih: '
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 376
+    Height = 13
+    Top = 80
+    Width = 48
+    Caption = 'Açıklama: '
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 376
+    Height = 13
+    Top = 159
+    Width = 33
+    Caption = 'Tutar: '
+    ParentColor = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 928
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 28
+    ClientWidth = 924
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    TabOrder = 0
+    VisibleButtons = [nbInsert, nbPost, nbCancel]
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 144
+    Height = 21
+    Top = 112
+    Width = 161
+    DataField = 'hareketturu'
+    DataSource = Datasource1
+    ItemHeight = 13
+    Items.Strings = (
+      'Tahsilat'
+      'Tediye'
+    )
+    MaxLength = 0
+    TabOrder = 1
+  end
+  object DBEdit1: TDBEdit
+    Left = 145
+    Height = 21
+    Top = 152
+    Width = 160
+    DataField = 'evrakno'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 20
+    TabOrder = 2
+  end
+  object DBMemo1: TDBMemo
+    Left = 488
+    Height = 61
+    Top = 78
+    Width = 313
+    DataField = 'aciklama'
+    DataSource = Datasource1
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 840
+    Height = 30
+    Top = 40
+    Width = 75
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 4
+  end
+  object DBEdit3: TDBEdit
+    Left = 487
+    Height = 21
+    Top = 152
+    Width = 305
+    DataField = 'tutar'
+    DataSource = Datasource1
+    Anchors = [akTop, akLeft, akRight]
+    CharCase = ecNormal
+    MaxLength = 0
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 21
+    Top = 218
+    Width = 200
+    OnClick = Edit1Click
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 6
+    Text = 'Ara...'
+  end
+  object DBGrid1: TDBGrid
+    Left = 16
+    Height = 248
+    Top = 256
+    Width = 904
+    AlternateColor = clSilver
+    AutoEdit = False
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Adı'
+        Width = 140
+        FieldName = 'adi'
+      end    
+      item
+        Title.Caption = 'Soyadı'
+        Width = 140
+        FieldName = 'soyadi'
+      end    
+      item
+        Title.Caption = 'Ünvanı'
+        Width = 120
+        FieldName = 'unvani'
+      end    
+      item
+        Title.Caption = 'Müşteri Türü'
+        Width = 100
+        FieldName = 'musteritipi'
+      end    
+      item
+        Title.Caption = 'TC Kimlik No'
+        Width = 120
+        FieldName = 'tcno'
+      end    
+      item
+        Title.Caption = 'Vergi Dairesi'
+        Width = 120
+        FieldName = 'vergidairesi'
+      end    
+      item
+        Title.Caption = 'Vergi Numarası'
+        Width = 120
+        FieldName = 'verginumarasi'
+      end>
+    DataSource = Datasource3
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 7
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 248
+    Height = 49
+    Top = 192
+    Width = 672
+    AutoFill = True
+    Caption = 'Arama türü'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 6
+    ClientHeight = 31
+    ClientWidth = 668
+    Columns = 6
+    ItemIndex = 0
+    Items.Strings = (
+      'Filtre yok'
+      'Adına Göre'
+      'Soyadına Göre'
+      'Ünvana Göre'
+      'TC Kimlik'
+      'Vergi No'
+    )
+    TabOrder = 8
+  end
+  object DateEdit1: TDateEdit
+    Left = 145
+    Height = 21
+    Top = 73
+    Width = 88
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    OKCaption = 'OK'
+    CancelCaption = 'Cancel'
+    DefaultToday = True
+    DateOrder = doDMY
+    ButtonWidth = 23
+    CharCase = ecNormal
+    DirectInput = False
+    NumGlyphs = 1
+    MaxLength = 10
+    TabOrder = 9
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    BeforePost = ZTable1BeforePost
+    TableName = 'corecarihareket'
+    left = 88
+    top = 432
+  end
+  object Datasource1: TDatasource
+    DataSet = ZTable1
+    left = 120
+    top = 432
+  end
+  object ZTable2: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corecustomers'
+    left = 224
+    top = 432
+  end
+  object Datasource2: TDatasource
+    DataSet = ZTable2
+    left = 256
+    top = 432
+  end
+  object ZQuery2: TZQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select * from corecustomers LIMIT 0,100;'
+    )
+    Params = <>
+    left = 616
+    top = 432
+  end
+  object Datasource3: TDatasource
+    DataSet = ZQuery2
+    left = 647
+    top = 432
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 40
+    top = 432
+  end
+end

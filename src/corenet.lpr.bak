@@ -1,0 +1,29 @@
+program corenet;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms, mainform, LResources, SemaphorGridLPK,  functionconfig
+
+
+ ;
+
+{$IFDEF WINDOWS}{$R corenet.rc}{$ENDIF}
+
+
+begin
+
+//Version Numarası ve Uygulama başlığı yazılacak
+  Application.Title:='CoreBil ISP Automatization Software';
+  {$I corenet.lrs}
+
+  Application.Initialize;
+  Application.CreateForm(Tmainscreen, mainscreen);
+
+  Application.Run;
+end.
+

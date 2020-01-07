@@ -1,0 +1,330 @@
+object indirimturleri: Tindirimturleri
+  Left = 399
+  Height = 523
+  Top = 223
+  Width = 720
+  ActiveControl = DBGrid2
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'İndirim Türleri'
+  ClientHeight = 523
+  ClientWidth = 720
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object BitBtn1: TBitBtn
+    Left = 624
+    Height = 30
+    Top = 488
+    Width = 91
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 0
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 33
+    Top = 256
+    Width = 720
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 29
+    ClientWidth = 716
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    TabOrder = 1
+  end
+  object DBGrid2: TDBGrid
+    Left = 0
+    Height = 256
+    Top = 0
+    Width = 720
+    Align = alTop
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Tarife No'
+        FieldName = 'tarifeno'
+      end    
+      item
+        Title.Caption = 'Tarife Adı'
+        FieldName = 'tarifeadi'
+      end    
+      item
+        Title.Caption = 'Kota Gb'
+        FieldName = 'kotagigabyte'
+      end    
+      item
+        Title.Caption = 'Download Limit'
+        FieldName = 'downloadlimit'
+      end    
+      item
+        Title.Caption = 'Upload Limit'
+        FieldName = 'uploadlimit'
+      end    
+      item
+        Title.Caption = 'Açıklama'
+        Width = 250
+        FieldName = 'aciklama'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object RxDBGrid1: TRxDBGrid
+    Left = 0
+    Height = 191
+    Top = 289
+    Width = 720
+    TitleButtons = False
+    AutoSort = True
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'İndirim Adı'
+        Title.Orientation = toHorizontal
+        FieldName = 'indirimadi'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Kaç Ay'
+        Title.Orientation = toHorizontal
+        FieldName = 'kacay'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Tutar'
+        Title.Orientation = toHorizontal
+        FieldName = 'tutar'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Tarife'
+        Title.Orientation = toHorizontal
+        FieldName = 'tarifeid'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Açıklama'
+        Title.Orientation = toHorizontal
+        Width = 300
+        FieldName = 'aciklama'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end>
+    FooterOptions.Color = clYellow
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind]
+    FooterColor = clYellow
+    Align = alTop
+    AlternateColor = clSilver
+    Color = clWindow
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = clHighlight
+    GridLineStyle = psSolid
+    DataSource = Datasource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentColor = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 3
+  end
+  object Datasource1: TDatasource
+    DataSet = ZTable1
+    left = 96
+    top = 488
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coreindirimturleri'
+    MasterFields = 'id'
+    MasterSource = Datasource2
+    LinkedFields = 'tarifeid'
+    left = 64
+    top = 488
+    object ZTable1id: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'id'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZTable1indirimadi: TStringField
+      DisplayWidth = 40
+      FieldKind = fkData
+      FieldName = 'indirimadi'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 40
+    end
+    object ZTable1aciklama: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'aciklama'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object ZTable1tutar: TFloatField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tutar'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 22
+    end
+    object ZTable1kacay: TSmallintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'kacay'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZTable1tarifeid: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tarifeid'
+      Index = 5
+      KeyFields = 'tarifeid'
+      LookupCache = False
+      LookupDataSet = ZTable2
+      LookupKeyFields = 'id'
+      LookupResultField = 'tarifeadi'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object Datasource2: TDatasource
+    DataSet = ZTable2
+    left = 162
+    top = 488
+  end
+  object ZTable2: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coretarife'
+    left = 197
+    top = 488
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 18
+    top = 488
+  end
+end

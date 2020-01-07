@@ -1,0 +1,19 @@
+{"version":1,"strings":[
+{"hash":149271409,"name":"taboneliksonlandirmaform.caption","sourcebytes":[65,98,111,110,101,108,105,107,32,83,111,110,108,97,110,100,196,177,114,109,97],"value":"Abonelik Sonland\u0131rma"},
+{"hash":295153,"name":"taboneliksonlandirmaform.dbgrid1.columns[0].title.caption","sourcebytes":[65,100,196,177],"value":"Ad\u0131"},
+{"hash":175079585,"name":"taboneliksonlandirmaform.dbgrid1.columns[1].title.caption","sourcebytes":[83,111,121,97,100,196,177],"value":"Soyad\u0131"},
+{"hash":56395297,"name":"taboneliksonlandirmaform.dbgrid1.columns[2].title.caption","sourcebytes":[195,156,110,118,97,110,196,177],"value":"\u00DCnvan\u0131"},
+{"hash":190999004,"name":"taboneliksonlandirmaform.dbgrid1.columns[3].title.caption","sourcebytes":[77,195,188,197,159,116,101,114,105,32,84,195,188,114,195,188],"value":"M\u00FC\u015Fteri T\u00FCr\u00FC"},
+{"hash":128616271,"name":"taboneliksonlandirmaform.dbgrid1.columns[4].title.caption","sourcebytes":[84,67,32,75,105,109,108,105,107,32,78,111],"value":"TC Kimlik No"},
+{"hash":113792905,"name":"taboneliksonlandirmaform.dbgrid1.columns[5].title.caption","sourcebytes":[86,101,114,103,105,32,68,97,105,114,101,115,105],"value":"Vergi Dairesi"},
+{"hash":190031473,"name":"taboneliksonlandirmaform.dbgrid1.columns[6].title.caption","sourcebytes":[86,101,114,103,105,32,78,117,109,97,114,97,115,196,177],"value":"Vergi Numaras\u0131"},
+{"hash":76004828,"name":"taboneliksonlandirmaform.radiogroup1.caption","sourcebytes":[65,114,97,109,97,32,116,195,188,114,195,188],"value":"Arama t\u00FCr\u00FC"},
+{"hash":76038414,"name":"taboneliksonlandirmaform.edit1.text","sourcebytes":[65,114,97,46,46,46],"value":"Ara..."},
+{"hash":101662444,"name":"taboneliksonlandirmaform.dbgrid2.columns[0].title.caption","sourcebytes":[84,195,188,114,195,188],"value":"T\u00FCr\u00FC"},
+{"hash":5050244,"name":"taboneliksonlandirmaform.dbgrid2.columns[1].title.caption","sourcebytes":[70,105,121,97,116],"value":"Fiyat"},
+{"hash":81660919,"name":"taboneliksonlandirmaform.dbgrid2.columns[2].title.caption","sourcebytes":[66,97,197,159,108,97,110,103,196,177,195,167],"value":"Ba\u015Flang\u0131\u00E7"},
+{"hash":234343849,"name":"taboneliksonlandirmaform.dbgrid2.columns[3].title.caption","sourcebytes":[83,111,110,32,70,97,116,117,114,97,32,68,195,182,110,101,109,105],"value":"Son Fatura D\u00F6nemi"},
+{"hash":260504065,"name":"taboneliksonlandirmaform.dbgrid2.columns[4].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":150846673,"name":"taboneliksonlandirmaform.dbgrid2.columns[5].title.caption","sourcebytes":[75,117,108,108,97,110,196,177,99,196,177],"value":"Kullan\u0131c\u0131"},
+{"hash":61092130,"name":"taboneliksonlandirmaform.bitbtn2.caption","sourcebytes":[65,98,111,110,101,108,105,107,32,83,111,110,108,97,100,196,177,114],"value":"Abonelik Sonlad\u0131r"}
+]}

@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":109560244,"name":"tfaturalistesi.caption","sourcebytes":[80,114,101,112,97,114,101,100,32,73,110,118,111,105,99,101,115,32,76,105,115,116],"value":"Prepared Invoices List"},
+{"hash":295153,"name":"tfaturalistesi.dbgrid1.columns[0].title.caption","sourcebytes":[65,100,196,177],"value":"Ad\u0131"},
+{"hash":175079585,"name":"tfaturalistesi.dbgrid1.columns[1].title.caption","sourcebytes":[83,111,121,97,100,196,177],"value":"Soyad\u0131"},
+{"hash":56395297,"name":"tfaturalistesi.dbgrid1.columns[2].title.caption","sourcebytes":[195,156,110,118,97,110,196,177],"value":"\u00DCnvan\u0131"},
+{"hash":5933304,"name":"tfaturalistesi.dbgrid1.columns[3].title.caption","sourcebytes":[84,97,114,105,104],"value":"Tarih"},
+{"hash":6015618,"name":"tfaturalistesi.dbgrid1.columns[4].title.caption","sourcebytes":[84,117,116,97,114],"value":"Tutar"},
+{"hash":197687759,"name":"tfaturalistesi.dbgrid1.columns[5].title.caption","sourcebytes":[70,97,116,117,114,97,32,78,111],"value":"Fatura No"},
+{"hash":76038414,"name":"tfaturalistesi.edit1.text","sourcebytes":[65,114,97,46,46,46],"value":"Ara..."},
+{"hash":76004828,"name":"tfaturalistesi.radiogroup1.caption","sourcebytes":[65,114,97,109,97,32,116,195,188,114,195,188],"value":"Arama t\u00FCr\u00FC"},
+{"hash":43453173,"name":"tfaturalistesi.bitbtn2.caption","sourcebytes":[80,114,105,110,116,32,83,101,108,101,99,116,101,100,32,73,110,118,111,105,99,101],"value":"Print Selected Invoice"},
+{"hash":264942389,"name":"tfaturalistesi.bitbtn4.caption","sourcebytes":[68,101,108,101,116,101,32,83,101,108,101,99,116,101,100,32,73,110,118,111,105,99,101],"value":"Delete Selected Invoice"}
+]}

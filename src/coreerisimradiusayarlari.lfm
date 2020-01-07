@@ -1,0 +1,347 @@
+object erisimradiusayarlari: Terisimradiusayarlari
+  Left = 407
+  Height = 602
+  Top = 181
+  Width = 1200
+  ActiveControl = RadioGroup1.RadioButton0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'İnternet Erişim Radius Ayarları'
+  ClientHeight = 602
+  ClientWidth = 1200
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Label2: TLabel
+    Left = 482
+    Height = 20
+    Top = 339
+    Width = 90
+    Caption = 'Kullanıcı Adı :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 482
+    Height = 20
+    Top = 398
+    Width = 37
+    Caption = 'Şifre :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 842
+    Height = 20
+    Top = 341
+    Width = 102
+    Caption = 'Radius Sunucu :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 842
+    Height = 20
+    Top = 401
+    Width = 106
+    Caption = 'Simultane Giriş :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Bevel1: TBevel
+    Left = 470
+    Height = 12
+    Top = 520
+    Width = 710
+    Shape = bsBottomLine
+  end
+  object Edit2: TEdit
+    Left = 602
+    Height = 28
+    Top = 330
+    Width = 190
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Edit3: TEdit
+    Left = 602
+    Height = 28
+    Top = 389
+    Width = 190
+    ParentFont = False
+    TabOrder = 1
+  end
+  object BitBtn4: TBitBtn
+    Left = 1096
+    Height = 38
+    Top = 550
+    Width = 94
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn4Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object BitBtn5: TBitBtn
+    Left = 1034
+    Height = 38
+    Top = 460
+    Width = 154
+    Caption = 'Oluştur'
+    Kind = bkOK
+    OnClick = BitBtn5Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object DBLookupComboBox2: TDBLookupComboBox
+    Left = 1005
+    Height = 28
+    Top = 330
+    Width = 182
+    DataField = 'id'
+    DataSource = Datasource5
+    KeyField = 'id'
+    ListField = 'servername'
+    ListFieldIndex = 0
+    ListSource = Datasource4
+    LookupCache = False
+    ParentFont = False
+    TabOrder = 4
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 1105
+    Height = 28
+    Top = 389
+    Width = 82
+    MinValue = 1
+    ParentFont = False
+    TabOrder = 5
+    Value = 1
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 258
+    Height = 60
+    Top = 0
+    Width = 930
+    AutoFill = True
+    Caption = 'Arama türü'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 6
+    ClientHeight = 35
+    ClientWidth = 926
+    Columns = 6
+    ItemIndex = 0
+    Items.Strings = (
+      'Filtre yok'
+      'Adına Göre'
+      'Soyadına Göre'
+      'Ünvana Göre'
+      'TC Kimlik'
+      'Vergi No'
+    )
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Edit1: TEdit
+    Left = 10
+    Height = 28
+    Top = 20
+    Width = 230
+    OnClick = Edit1Click
+    OnKeyPress = Edit1KeyPress
+    ParentFont = False
+    TabOrder = 7
+    Text = 'Ara...'
+  end
+  object DBGrid1: TDBGrid
+    Left = 10
+    Height = 250
+    Top = 70
+    Width = 1180
+    AlternateColor = clSilver
+    AutoEdit = False
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Adı'
+        Width = 175
+        FieldName = 'adi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Soyadı'
+        Width = 175
+        FieldName = 'soyadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Ünvanı'
+        Width = 162
+        FieldName = 'unvani'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Müşteri Türü'
+        Width = 125
+        FieldName = 'musteritipi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'TC Kimlik No'
+        Width = 150
+        FieldName = 'tcno'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Dairesi'
+        Width = 162
+        FieldName = 'vergidairesi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Numarası'
+        Width = 162
+        FieldName = 'verginumarasi'
+      end>
+    DataSource = Datasource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 8
+    OnCellClick = DBGrid1CellClick
+  end
+  object DBGrid2: TDBGrid
+    Left = 14
+    Height = 249
+    Top = 330
+    Width = 439
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Tarife Adı'
+        Width = 188
+        FieldName = 'tarifeadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        Width = 188
+        FieldName = 'aciklama'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 9
+  end
+  object Datasource2: TDataSource
+    DataSet = ZReadOnlyQuery1
+    left = 560
+    top = 440
+  end
+  object ZTable4: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coreradiusservers'
+    left = 1033
+    top = 370
+  end
+  object Datasource4: TDataSource
+    DataSet = ZTable4
+    left = 993
+    top = 370
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection2
+    AutoCalcFields = False
+    Params = <>
+    left = 973
+    top = 460
+  end
+  object ZConnection2: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 933
+    top = 460
+  end
+  object ZReadOnlyQuery2: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select * from corecustomers LIMIT 0,100;'
+    )
+    Params = <>
+    left = 230
+    top = 50
+  end
+  object Datasource1: TDataSource
+    DataSet = ZReadOnlyQuery2
+    left = 190
+    top = 50
+  end
+  object ZReadOnlyQuery1: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select coreaboneler.id, coreaboneler.carihesapid, coreaboneler.tarifeid, coretarife.tarifeadi, coretarife.aciklama from '
+      'coreaboneler, coretarife where coreaboneler.tarifeid=coretarife.id  and coreaboneler.carihesapid=4'
+    )
+    Params = <>
+    left = 520
+    top = 440
+  end
+  object dummytable: TRxMemoryData
+    Active = True
+    AutoCalcFields = False
+    FieldDefs = <    
+      item
+        Name = 'id'
+        DataType = ftInteger
+      end>
+    PacketRecords = 0
+    left = 933
+    top = 370
+  end
+  object Datasource5: TDataSource
+    DataSet = dummytable
+    left = 893
+    top = 370
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    HostName = '192.168.2.26'
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 150
+    top = 50
+  end
+end

@@ -1,0 +1,75 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tuserrights','FORMDATA',[
+  'TPF0'#11'Tuserrights'#10'userrights'#4'Left'#3#235#1#6'Height'#3'b'#1#3'Top'
+  +#3'J'#1#5'Width'#3'u'#2#13'ActiveControl'#7#12'DBNavigator1'#11'BorderIcons'
+  +#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#16'User Pe'
+  +'rmissions'#12'ClientHeight'#3'b'#1#11'ClientWidth'#3'u'#2#13'DesignTimePPI'
+  +#2'x'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'#10'LCLVersio'
+  +'n'#6#7'2.0.6.0'#0#7'TDBText'#7'DBText1'#4'Left'#3#210#0#6'Height'#2' '#3'To'
+  +'p'#2'<'#5'Width'#2']'#9'DataField'#6#8'username'#10'DataSource'#7#11'Dataso'
+  +'urce1'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#232#10'Font.Style'#11#6
+  +'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label1'#4'Left'
+  +#2'('#6'Height'#2#20#3'Top'#2'x'#5'Width'#2','#7'Caption'#6#5'Admin'#11'Pare'
+  +'ntColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#3'^'#1#6'Height'
+  +#2#20#3'Top'#2'x'#5'Width'#2'5'#7'Caption'#6#7'Banking'#11'ParentColor'#8#10
+  +'ParentFont'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2'('#6'Height'#2#20#3'Top'#3
+  +#162#0#5'Width'#2#127#7'Caption'#6#17'Customer Accounts'#11'ParentColor'#8#10
+  +'ParentFont'#8#0#0#6'TLabel'#6'Label4'#4'Left'#3'^'#1#6'Height'#2#20#3'Top'#3
+  +#162#0#5'Width'#2'5'#7'Caption'#6#8'Invoices'#11'ParentColor'#8#10'ParentFon'
+  +'t'#8#0#0#6'TLabel'#6'Label5'#4'Left'#2'('#6'Height'#2#20#3'Top'#3#205#0#5'W'
+  +'idth'#2#31#7'Caption'#6#4'Cash'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TL'
+  +'abel'#6'Label6'#4'Left'#3'^'#1#6'Height'#2#20#3'Top'#3#205#0#5'Width'#2'-'#7
+  +'Caption'#6#7'Tickets'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'La'
+  +'bel7'#4'Left'#2'('#6'Height'#2#20#3'Top'#3#248#0#5'Width'#2'$'#7'Caption'#6
+  +#5'Stock'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label8'#4'Left'
+  +#2#30#6'Height'#2#20#3'Top'#2'K'#5'Width'#2'O'#7'Caption'#6#10'User name:'#10
+  +'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#6'Label9'#4'Left'#3'^'#1#6'Height'#2#20#3'Top'#3#248#0#5'Width'#2'&'#7'Capt'
+  +'ion'#6#5'Acces'#11'ParentColor'#8#10'ParentFont'#8#0#0#12'TDBNavigator'#12
+  +'DBNavigator1'#4'Left'#2#0#6'Height'#2'('#3'Top'#2#0#5'Width'#3'u'#2#5'Align'
+  +#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#11'BorderStyle'#7#8'bsSingle'#29'Chil'
+  +'dSizing.EnlargeHorizontal'#7#14'crsScaleChilds'#27'ChildSizing.EnlargeVerti'
+  +'cal'#7#14'crsScaleChilds'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChi'
+  +'lds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Lay'
+  +'out'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2
+  +'d'#12'ClientHeight'#2'$'#11'ClientWidth'#3'q'#2#10'DataSource'#7#11'Datasou'
+  +'rce1'#4'Flat'#9#7'Options'#11#0#10'ParentFont'#8#8'TabOrder'#2#0#14'Visible'
+  +'Buttons'#11#7'nbFirst'#7'nbPrior'#6'nbNext'#6'nbLast'#6'nbEdit'#6'nbPost'#8
+  +'nbCancel'#0#0#0#11'TDBComboBox'#11'DBComboBox1'#4'Left'#3#190#0#6'Height'#2
+  +#28#3'Top'#2'n'#5'Width'#2'D'#9'DataField'#6#7'ayarlar'#10'DataSource'#7#11
+  +'Datasource1'#10'ItemHeight'#2#20#13'Items.Strings'#1#6#1'Y'#6#1'N'#0#9'MaxL'
+  +'ength'#2#1#10'ParentFont'#8#8'TabOrder'#2#1#0#0#11'TDBComboBox'#11'DBComboB'
+  +'ox2'#4'Left'#3#28#2#6'Height'#2#28#3'Top'#2'n'#5'Width'#2'D'#9'DataField'#6
+  +#5'banka'#10'DataSource'#7#11'Datasource1'#10'ItemHeight'#2#20#13'Items.Stri'
+  +'ngs'#1#6#1'Y'#6#1'N'#0#9'MaxLength'#2#1#10'ParentFont'#8#8'TabOrder'#2#2#0#0
+  +#11'TDBComboBox'#11'DBComboBox3'#4'Left'#3#190#0#6'Height'#2#28#3'Top'#3#152
+  +#0#5'Width'#2'D'#9'DataField'#6#4'cari'#10'DataSource'#7#11'Datasource1'#10
+  +'ItemHeight'#2#20#13'Items.Strings'#1#6#1'Y'#6#1'N'#0#9'MaxLength'#2#1#10'Pa'
+  +'rentFont'#8#8'TabOrder'#2#3#0#0#11'TDBComboBox'#11'DBComboBox4'#4'Left'#3#28
+  +#2#6'Height'#2#28#3'Top'#3#152#0#5'Width'#2'D'#9'DataField'#6#6'fatura'#10'D'
+  +'ataSource'#7#11'Datasource1'#10'ItemHeight'#2#20#13'Items.Strings'#1#6#1'Y'
+  +#6#1'N'#0#9'MaxLength'#2#1#10'ParentFont'#8#8'TabOrder'#2#4#0#0#11'TDBComboB'
+  +'ox'#11'DBComboBox5'#4'Left'#3#190#0#6'Height'#2#28#3'Top'#3#195#0#5'Width'#2
+  +'D'#9'DataField'#6#4'kasa'#10'DataSource'#7#11'Datasource1'#10'ItemHeight'#2
+  +#20#13'Items.Strings'#1#6#1'Y'#6#1'N'#0#9'MaxLength'#2#1#10'ParentFont'#8#8
+  +'TabOrder'#2#5#0#0#11'TDBComboBox'#11'DBComboBox6'#4'Left'#3#28#2#6'Height'#2
+  +#28#3'Top'#3#195#0#5'Width'#2'D'#9'DataField'#6#5'sorun'#10'DataSource'#7#11
+  +'Datasource1'#10'ItemHeight'#2#20#13'Items.Strings'#1#6#1'Y'#6#1'N'#0#9'MaxL'
+  +'ength'#2#1#10'ParentFont'#8#8'TabOrder'#2#6#0#0#11'TDBComboBox'#11'DBComboB'
+  +'ox7'#4'Left'#3#190#0#6'Height'#2#28#3'Top'#3#238#0#5'Width'#2'D'#9'DataFiel'
+  +'d'#6#4'stok'#10'DataSource'#7#11'Datasource1'#10'ItemHeight'#2#20#13'Items.'
+  +'Strings'#1#6#1'Y'#6#1'N'#0#9'MaxLength'#2#1#10'ParentFont'#8#8'TabOrder'#2#7
+  +#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3#238#1#6'Height'#2'&'#3'Top'#3','#1#5'Wi'
+  +'dth'#2'r'#7'Default'#9#14'DefaultCaption'#9#4'Kind'#7#4'bkOK'#11'ModalResul'
+  +'t'#2#1#7'OnClick'#7#12'BitBtn1Click'#10'ParentFont'#8#8'TabOrder'#2#8#0#0#11
+  +'TDBComboBox'#11'DBComboBox8'#4'Left'#3#28#2#6'Height'#2#28#3'Top'#3#238#0#5
+  +'Width'#2'D'#9'DataField'#6#6'erisim'#10'DataSource'#7#11'Datasource1'#10'It'
+  ,'emHeight'#2#20#13'Items.Strings'#1#6#1'Y'#6#1'N'#0#9'MaxLength'#2#1#10'Pare'
+  +'ntFont'#8#8'TabOrder'#2#9#0#0#11'TDataSource'#11'Datasource1'#7'DataSet'#7#7
+  +'ZTable1'#4'left'#3#18#2#3'top'#2'2'#0#0#7'TZTable'#7'ZTable1'#10'Connection'
+  +#7#12'ZConnection1'#14'AutoCalcFields'#8#9'TableName'#6#9'coreusers'#4'left'
+  +#3#234#1#3'top'#2'2'#0#0#12'TZConnection'#12'ZConnection1'#16'ControlsCodePa'
+  +'ge'#7#8'cCP_UTF8'#18'Properties.Strings'#1#6#18'AutoEncodeStrings='#0#4'Por'
+  +'t'#2#0#8'Protocol'#6#7'mysql-5'#4'left'#3#194#1#3'top'#2'2'#0#0#0
+]);

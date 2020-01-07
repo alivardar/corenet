@@ -1,0 +1,184 @@
+object bankadanparacekme: Tbankadanparacekme
+  Left = 419
+  Height = 201
+  Top = 317
+  Width = 618
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Bankadan Para Çekme'
+  ClientHeight = 201
+  ClientWidth = 618
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object Label1: TLabel
+    Left = 24
+    Height = 13
+    Top = 89
+    Width = 24
+    Caption = 'Tarih'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 13
+    Top = 129
+    Width = 46
+    Caption = 'Evrak no:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 13
+    Top = 169
+    Width = 26
+    Caption = 'Tutar'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 368
+    Height = 13
+    Top = 40
+    Width = 41
+    Caption = 'Açıklama'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 13
+    Top = 49
+    Width = 61
+    Caption = 'Banka hesap'
+    ParentColor = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 25
+    Top = 0
+    Width = 618
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 21
+    ClientWidth = 614
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    TabOrder = 0
+    VisibleButtons = [nbInsert, nbDelete, nbEdit, nbPost, nbCancel]
+  end
+  object DBEdit2: TDBEdit
+    Left = 136
+    Height = 21
+    Top = 122
+    Width = 200
+    DataField = 'evrakno'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 20
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 136
+    Height = 21
+    Top = 162
+    Width = 200
+    DataField = 'tutar'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 2
+  end
+  object DBMemo1: TDBMemo
+    Left = 368
+    Height = 72
+    Top = 64
+    Width = 240
+    DataField = 'aciklama'
+    DataSource = Datasource1
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 533
+    Height = 30
+    Top = 157
+    Width = 75
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 4
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 136
+    Height = 21
+    Top = 40
+    Width = 205
+    DataField = 'bankaid'
+    DataSource = Datasource1
+    KeyField = 'id'
+    ListField = 'hesapno'
+    ListFieldIndex = 0
+    ListSource = Datasource2
+    LookupCache = False
+    TabOrder = 5
+  end
+  object DateEdit1: TDateEdit
+    Left = 137
+    Height = 21
+    Top = 82
+    Width = 79
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    OKCaption = 'OK'
+    CancelCaption = 'Cancel'
+    DefaultToday = True
+    DateOrder = doDMY
+    ButtonWidth = 23
+    CharCase = ecNormal
+    DirectInput = False
+    NumGlyphs = 1
+    MaxLength = 10
+    TabOrder = 6
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    BeforePost = ZTable1BeforePost
+    TableName = 'corebankahareket'
+    left = 400
+    top = 160
+  end
+  object Datasource1: TDatasource
+    DataSet = ZTable1
+    left = 432
+    top = 160
+  end
+  object ZTable2: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corebankalar'
+    left = 312
+    top = 80
+  end
+  object Datasource2: TDatasource
+    DataSet = ZTable2
+    left = 280
+    top = 80
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 492
+    top = 160
+  end
+end

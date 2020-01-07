@@ -1,0 +1,101 @@
+object vergioranlari: Tvergioranlari
+  Left = 615
+  Height = 259
+  Top = 271
+  Width = 431
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Tax Percentage'
+  ClientHeight = 259
+  ClientWidth = 431
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object DBGrid2: TDBGrid
+    Left = 0
+    Height = 165
+    Top = 31
+    Width = 429
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'VAT Percentage'
+        Width = 188
+        FieldName = 'kdvorani'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Other Tax Percentage'
+        Width = 188
+        FieldName = 'oivorani'
+      end>
+    DataSource = Datasource2
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 31
+    Top = 0
+    Width = 431
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 27
+    ClientWidth = 427
+    DataSource = Datasource2
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 1
+    VisibleButtons = [nbEdit, nbPost, nbCancel, nbRefresh]
+  end
+  object BitBtn1: TBitBtn
+    Left = 310
+    Height = 38
+    Top = 210
+    Width = 114
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Datasource2: TDataSource
+    DataSet = ZTable1
+    left = 110
+    top = 210
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corevergiler'
+    left = 60
+    top = 210
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 14
+    top = 211
+  end
+end

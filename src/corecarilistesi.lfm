@@ -1,0 +1,173 @@
+object carilistesi: Tcarilistesi
+  Left = 5
+  Height = 598
+  Top = 71
+  Width = 1346
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Cari Listesi'
+  ClientHeight = 598
+  ClientWidth = 1346
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 1346
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 28
+    ClientWidth = 1342
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    TabOrder = 0
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbDelete, nbEdit, nbPost, nbCancel, nbRefresh]
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 520
+    Top = 78
+    Width = 1346
+    Align = alBottom
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Adı'
+        Width = 150
+        FieldName = 'adi'
+      end    
+      item
+        Title.Caption = 'Soyadı'
+        Width = 100
+        FieldName = 'soyadi'
+      end    
+      item
+        Title.Caption = 'T.C No.'
+        Width = 100
+        FieldName = 'tcno'
+      end    
+      item
+        Title.Caption = 'Ünvanı'
+        Width = 350
+        FieldName = 'unvani'
+      end    
+      item
+        Title.Caption = 'Vergi Dairesi'
+        Width = 100
+        FieldName = 'vergidairesi'
+      end    
+      item
+        Title.Caption = 'Vergi Numarası'
+        Width = 110
+        FieldName = 'verginumarasi'
+      end    
+      item
+        PickList.Strings = (
+          'Bireysel'
+          'Kurumsal'
+        )
+        Title.Caption = 'Müşteri Tipi'
+        Width = 100
+        FieldName = 'musteritipi'
+      end    
+      item
+        Title.Caption = 'Telefon'
+        Width = 150
+        FieldName = 'telefon'
+      end    
+      item
+        Title.Caption = 'E-Posta'
+        Width = 150
+        FieldName = 'eposta'
+      end>
+    DataSource = Datasource1
+    Scrollbars = ssAutoBoth
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 1240
+    Height = 30
+    Top = 41
+    Width = 75
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 21
+    Top = 48
+    Width = 264
+    OnClick = Edit1Click
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 3
+    Text = 'Ara...'
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 304
+    Height = 39
+    Top = 32
+    Width = 912
+    AutoFill = True
+    Caption = 'Arama türü'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 6
+    ClientHeight = 21
+    ClientWidth = 908
+    Columns = 6
+    ItemIndex = 0
+    Items.Strings = (
+      'Filtre yok'
+      'Adına Göre'
+      'Soyadına Göre'
+      'Ünvana Göre'
+      'TC Kimlik'
+      'Vergi No'
+    )
+    TabOrder = 4
+  end
+  object Datasource1: TDatasource
+    DataSet = ZQuery1
+    left = 104
+    top = 16
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select * from corecustomers LIMIT 0,100;'
+    )
+    Params = <>
+    left = 136
+    top = 16
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 176
+    top = 16
+  end
+end

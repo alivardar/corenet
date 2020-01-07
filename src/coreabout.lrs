@@ -1,0 +1,27 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tabout','FORMDATA',[
+  'TPF0'#6'Tabout'#5'about'#4'Left'#3'-'#2#6'Height'#3#160#1#3'Top'#3#18#1#5'Wi'
+  +'dth'#3#233#2#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDi'
+  +'alog'#7'Caption'#6#5'About'#12'ClientHeight'#3#160#1#11'ClientWidth'#3#233#2
+  +#13'DesignTimePPI'#2'x'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCe'
+  +'nter'#10'LCLVersion'#6#7'2.0.6.0'#0#6'TPanel'#6'Panel1'#4'Left'#2#5#6'Heigh'
+  +'t'#3#148#1#3'Top'#2#6#5'Width'#3#224#2#12'ClientHeight'#3#148#1#11'ClientWi'
+  +'dth'#3#224#2#10'ParentFont'#8#8'TabOrder'#2#0#0#6'TLabel'#6'Label1'#4'Left'
+  +#3'X'#1#6'Height'#3#140#0#3'Top'#2'('#5'Width'#3'['#1#7'Caption'#6'VBilling '
+  +'for Internet Service Providers'#13#10'Stock'#13#10'Accounting'#13#10'Bankin'
+  +'g'#13#10'Support Management'#11'Font.Height'#2#236#10'Font.Style'#11#6'fsBo'
+  +'ld'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label5'#4'Left'#2
+  +'0'#6'Height'#2'.'#3'Top'#2#24#5'Width'#3#132#0#7'Caption'#6#7'CoreNet'#11'F'
+  +'ont.Height'#2#222#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'Parent'
+  +'Font'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2' '#6'Height'#2'T'#3'Top'#3#200#0#5
+  +'Width'#3#157#0#7'Caption'#6'&Ali VARDAR   '#13#10'www.md5m.com'#13#10'2009-'
+  +'2020'#11'Font.Height'#2#236#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2#15#6'Height'#2#20#3'Top'
+  +#3'b'#1#5'Width'#3#128#0#7'Caption'#6#19'Build number :  002'#11'ParentColor'
+  +#8#10'ParentFont'#8#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'I'#2#6'Height'#2'&'#3
+  +'Top'#3'N'#1#5'Width'#2'r'#7'Caption'#6#3'&OK'#7'Default'#9#4'Kind'#7#4'bkOK'
+  +#11'ModalResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#10'ParentFont'#8#8'TabOrd'
+  +'er'#2#0#0#0#0#14'TRxVersionInfo'#14'RxVersionInfo1'#4'left'#3'('#1#3'top'#3
+  +'0'#1#0#0#0
+]);

@@ -1,0 +1,130 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Taboneliksonlandirmaform','FORMDATA',[
+  'TPF0'#24'Taboneliksonlandirmaform'#23'aboneliksonlandirmaform'#4'Left'#3#137
+  +#1#6'Height'#3'p'#2#3'Top'#3#194#0#5'Width'#3#171#4#13'ActiveControl'#7#24'R'
+  +'adioGroup1.RadioButton0'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderSty'
+  +'le'#7#8'bsDialog'#7'Caption'#6#21'Abonelik Sonland'#196#177'rma'#12'ClientH'
+  +'eight'#3'p'#2#11'ClientWidth'#3#171#4#13'DesignTimePPI'#2'x'#6'OnShow'#7#8
+  +'FormShow'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#7'2.0.6.0'#0#7
+  +'TDBGrid'#7'DBGrid1'#4'Left'#2#10#6'Height'#3#240#0#3'Top'#2'F'#5'Width'#3
+  +#150#4#14'AlternateColor'#7#8'clSilver'#8'AutoEdit'#8#5'Color'#7#8'clWindow'
+  +#7'Columns'#14#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#4'Ad'
+  +#196#177#5'Width'#3#175#0#9'FieldName'#6#3'adi'#0#1#7'MinSize'#2#12#7'MaxSiz'
+  +'e'#3#250#0#13'Title.Caption'#6#7'Soyad'#196#177#5'Width'#3#175#0#9'FieldNam'
+  +'e'#6#6'soyadi'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#8
+  +#195#156'nvan'#196#177#5'Width'#3#162#0#9'FieldName'#6#6'unvani'#0#1#5'Color'
+  +#7#7'clWhite'#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#16'M'
+  +#195#188#197#159'teri T'#195#188'r'#195#188#5'Width'#2'}'#9'FieldName'#6#11
+  +'musteritipi'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#12
+  +'TC Kimlik No'#5'Width'#3#150#0#9'FieldName'#6#4'tcno'#0#1#5'Color'#7#7'clWh'
+  +'ite'#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#13'Vergi Daires'
+  +'i'#5'Width'#3#162#0#9'FieldName'#6#12'vergidairesi'#0#1#7'MinSize'#2#12#7'M'
+  +'axSize'#3#250#0#13'Title.Caption'#6#15'Vergi Numaras'#196#177#5'Width'#3#162
+  +#0#9'FieldName'#6#13'verginumarasi'#0#0#10'DataSource'#7#11'Datasource1'#7'O'
+  +'ptions'#11#8'dgTitles'#11'dgIndicator'#14'dgColumnResize'#12'dgColumnMove'
+  +#10'dgColLines'#10'dgRowLines'#6'dgTabs'#11'dgRowSelect'#21'dgAlwaysShowSele'
+  +'ction'#15'dgConfirmDelete'#14'dgCancelOnExit'#0#10'ParentFont'#8#8'ReadOnly'
+  +#9#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#11'OnCellClick'#7#16'DBGr'
+  +'id1CellClick'#0#0#11'TRadioGroup'#11'RadioGroup1'#4'Left'#3#2#1#6'Height'#2
+  +'<'#3'Top'#2#0#5'Width'#3#162#3#8'AutoFill'#9#7'Caption'#6#12'Arama t'#195
+  +#188'r'#195#188#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBotto'
+  +'mSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildResi'
+  +'ze'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'Child'
+  +'Sizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'
+  +#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBot'
+  +'tom'#27'ChildSizing.ControlsPerLine'#2#6#12'ClientHeight'#2'#'#11'ClientWid'
+  +'th'#3#158#3#7'Columns'#2#6#9'ItemIndex'#2#0#13'Items.Strings'#1#6#10'Filtre'
+  +' yok'#6#12'Ad'#196#177'na G'#195#182're'#6#15'Soyad'#196#177'na G'#195#182
+  +'re'#6#13#195#156'nvana G'#195#182're'#6#9'TC Kimlik'#6#8'Vergi No'#0#10'Par'
+  +'entFont'#8#8'TabOrder'#2#1#0#0#5'TEdit'#5'Edit1'#4'Left'#2#10#6'Height'#2#28
+  +#3'Top'#2#20#5'Width'#3#230#0#7'OnClick'#7#10'Edit1Click'#10'OnKeyPress'#7#13
+  +'Edit1KeyPress'#10'ParentFont'#8#8'TabOrder'#2#2#4'Text'#6#6'Ara...'#0#0#7'T'
+  +'DBGrid'#7'DBGrid2'#4'Left'#2#10#6'Height'#3#250#0#3'Top'#3'@'#1#5'Width'#3
+  +#156#4#14'AlternateColor'#7#8'clSilver'#5'Color'#7#8'clWindow'#7'Columns'#14
+  +#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#6'T'#195#188'r'#195
+  +#188#5'Width'#3#250#0#9'FieldName'#6#9'tarifeadi'#0#1#7'MinSize'#2#12#7'MaxS'
+  +'ize'#3#250#0#13'Title.Caption'#6#5'Fiyat'#5'Width'#2'}'#9'FieldName'#6#5'fi'
+  +'yat'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#12'Ba'#197
+  +#159'lang'#196#177#195#167#9'FieldName'#6#15'baslangictarihi'#0#1#7'MinSize'
+  +#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#18'Son Fatura D'#195#182'nemi'#9
+  +'FieldName'#6#13'sonhesapbitis'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Ti'
+  +'tle.Caption'#6#10'A'#195#167#196#177'klama'#5'Width'#3#250#0#9'FieldName'#6
+  +#8'aciklama'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#11'K'
+  +'ullan'#196#177'c'#196#177#5'Width'#2'}'#9'FieldName'#6#17'baslatankullanici'
+  +#0#0#10'DataSource'#7#11'Datasource2'#7'Options'#11#8'dgTitles'#11'dgIndicat'
+  +'or'#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6'dgT'
+  +'abs'#11'dgRowSelect'#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCan'
+  +'celOnExit'#0#10'ParentFont'#8#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2
+  +#3#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'B'#4#6'Height'#2'&'#3'Top'#3'D'#2#5'W'
+  +'idth'#2'^'#7'Default'#9#14'DefaultCaption'#9#4'Kind'#7#4'bkOK'#11'ModalResu'
+  +'lt'#2#1#10'ParentFont'#8#8'TabOrder'#2#4#0#0#7'TBitBtn'#7'BitBtn2'#4'Left'#2
+  +#10#6'Height'#2'&'#3'Top'#3'D'#2#5'Width'#3#220#0#7'Caption'#6#18'Abonelik S'
+  +'onlad'#196#177'r'#10'Glyph.Data'#10':'#4#0#0'6'#4#0#0'BM6'#4#0#0#0#0#0#0'6'
+  +#0#0#0'('#0#0#0#16#0#0#0#16#0#0#0#1#0' '#0#0#0#0#0#0#4#0#0'd'#0#0#0'd'#0#0#0
+  +#0#0#0#0#0#0#0#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  ,#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0'EP'#191#230'99'#134#230'99'#134
+  +#230'99'#134#230'99'#134#230'99'#134#230'99'#134#230'99'#134#230'99'#134#230
+  +'99'#134#230'99'#134#230'99'#134#230#255#255#255#0#255#255#255#0#255#255#255
+  +#0#255#255#255#0'EP'#191#230#135#150#246#255'|'#141#247#255'r'#132#248#255'h'
+  +'|'#248#255'^s'#250#255'Sj'#250#255'Jc'#250#255'B\'#251#255':U'#252#255'3O'
+  +#252#255'99'#134#230#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +'EP'#191#230#146#158#245#255#135#150#246#255'|'#141#247#255'r'#133#248#255'h'
+  +'|'#249#255'^s'#249#255'Tk'#250#255'Kc'#251#255'B\'#251#255'9U'#252#255'99'
+  +#134#230#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0'EP'#191#230
+  +#155#167#245#255#146#159#245#255#135#150#247#255'|'#141#247#255'r'#132#248
+  +#255'g|'#248#255'^s'#249#255'Tk'#250#255'Jc'#251#255'A\'#251#255'99'#134#230
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0'EP'#191#230#166#175
+  +#244#255#156#167#245#255#145#159#245#255#135#150#246#255'}'#141#247#255'q'
+  +#132#247#255'h|'#248#255']s'#249#255'Tj'#250#255'Jc'#251#255'99'#134#230#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0'EP'#191#230#174#183#243
+  +#255#165#175#245#255#156#167#245#255#145#159#245#255#135#150#247#255'|'#141
+  +#247#255'r'#132#248#255'h{'#249#255']s'#249#255'Sk'#250#255'99'#134#230#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0'EP'#191#230#183#190#243
+  +#255#175#183#244#255#166#176#244#255#155#168#245#255#146#159#246#255#135#150
+  +#246#255'|'#141#247#255'r'#132#248#255'g{'#248#255']s'#249#255'99'#134#230
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0'EP'#191#230#191#197
+  +#242#255#183#190#243#255#175#183#244#255#165#175#244#255#156#167#245#255#146
+  +#159#246#255#135#149#246#255'}'#141#247#255'r'#132#248#255'h|'#248#255'99'
+  +#134#230#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0'EP'#191#230
+  +#199#202#241#255#191#197#243#255#183#190#243#255#174#183#244#255#166#175#244
+  +#255#155#167#245#255#146#159#246#255#135#150#246#255'|'#141#247#255'r'#132
+  +#247#255'99'#134#230#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +'EP'#191#230#204#208#241#255#198#203#241#255#191#197#242#255#183#191#243#255
+  +#175#183#244#255#166#175#245#255#155#168#245#255#145#159#246#255#135#150#246
+  +#255'}'#141#247#255'99'#134#230#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0'EP'#191#230#209#212#241#255#204#208#242#255#198#203#242#255#191
+  +#197#242#255#183#190#243#255#174#184#243#255#165#175#244#255#155#168#244#255
+  +#145#159#245#255#135#149#246#255'99'#134#230#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0'EP'#191#230'EP'#191#230'EP'#191#230'EP'#191#230'EP'
+  +#191#230'EP'#191#230'EP'#191#230'EP'#191#230'EP'#191#230'EP'#191#230'EP'#191
+  +#230'EP'#191#230#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0#7'OnClick'#7#12'BitBtn2Click'#10
+  +'ParentFont'#8#8'TabOrder'#2#5#0#0#15'TZReadOnlyQuery'#15'ZReadOnlyQuery2'#10
+  +'Connection'#7#12'ZConnection1'#14'AutoCalcFields'#8#11'SQL.Strings'#1#6'(se'
+  +'lect * from corecustomers LIMIT 0,100;'#0#6'Params'#14#0#4'left'#3#210#0#3
+  +'top'#2'2'#0#0#11'TDataSource'#11'Datasource1'#7'DataSet'#7#15'ZReadOnlyQuer'
+  +'y2'#4'left'#3#170#0#3'top'#2'2'#0#0#11'TDataSource'#11'Datasource2'#7'DataS'
+  +'et'#7#15'ZReadOnlyQuery3'#4'left'#2#20#3'top'#3','#1#0#0#15'TZReadOnlyQuery'
+  +#15'ZReadOnlyQuery3'#10'Connection'#7#12'ZConnection1'#14'AutoCalcFields'#8
+  +#11'SQL.Strings'#1#6#253'SELECT coreaboneler.id, coreaboneler.carihesapid, c'
+  +'oreaboneler.tarifeid, coreaboneler.baslangictarihi, coreaboneler.sonhesapbi'
+  +'tis, coreaboneler.baslatankullanici, coretarife.tarifeadi, coretarife.acikl'
+  +'ama, coretarife.fiyat  FROM coreaboneler, coretarife'#6'Jwhere coreaboneler'
+  +'.tarifeid=coretarife.id and  coreaboneler.carihesapid=4 '#0#6'Params'#14#0#4
+  +'left'#2'<'#3'top'#3','#1#0#0#7'TZQuery'#7'ZQuery1'#10'Connection'#7#12'ZCon'
+  +'nection1'#14'AutoCalcFields'#8#6'Params'#14#0#4'left'#3'6'#1#3'top'#3'D'#2#0
+  +#0#12'TZConnection'#12'ZConnection1'#16'ControlsCodePage'#7#8'cCP_UTF8'#18'P'
+  +'roperties.Strings'#1#6#18'AutoEncodeStrings='#0#4'Port'#2#0#8'Protocol'#6#7
+  +'mysql-5'#4'left'#3#134#1#3'top'#3'D'#2#0#0#0
+]);

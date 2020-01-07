@@ -1,0 +1,164 @@
+object tarifeler: Ttarifeler
+  Left = 396
+  Height = 638
+  Top = 190
+  Width = 1118
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Price List'
+  ClientHeight = 638
+  ClientWidth = 1118
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object DBGrid2: TDBGrid
+    Left = 2
+    Height = 540
+    Top = 44
+    Width = 1108
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Tarife No'
+        FieldName = 'tarifeno'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Tarife Adı'
+        Width = 188
+        FieldName = 'tarifeadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        Width = 250
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Kota GB'
+        Width = 75
+        FieldName = 'kotagigabyte'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Fiyat'
+        FieldName = 'fiyat'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        PickList.Strings = (
+          '256K'
+          '512K'
+          '1024K'
+          '2M'
+          '3M'
+          '4M'
+          '5M'
+          '6M'
+          '7M'
+          '8M'
+          '12M'
+          '16M'
+          '24M'
+          '32M'
+        )
+        Title.Caption = 'Download'
+        Width = 138
+        FieldName = 'downloadlimit'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        PickList.Strings = (
+          '256K'
+          '512K'
+          '1024K'
+          '2M'
+          '3M'
+          '4M'
+          '5M'
+          '6M'
+          '7M'
+          '8M'
+          '12M'
+          '16M'
+          '24M'
+          '32M'
+        )
+        Title.Caption = 'Upload'
+        FieldName = 'uploadlimit'
+      end>
+    DataSource = Datasource2
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 1118
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 36
+    ClientWidth = 1114
+    DataSource = Datasource2
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 980
+    Height = 38
+    Top = 592
+    Width = 124
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Datasource2: TDataSource
+    DataSet = ZTable1
+    left = 160
+    top = 590
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coretarife'
+    left = 120
+    top = 590
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 64
+    top = 590
+  end
+end

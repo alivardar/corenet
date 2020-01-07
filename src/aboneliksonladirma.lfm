@@ -1,0 +1,285 @@
+object aboneliksonlandirmaform: Taboneliksonlandirmaform
+  Left = 393
+  Height = 624
+  Top = 194
+  Width = 1195
+  ActiveControl = RadioGroup1.RadioButton0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Abonelik Sonlandırma'
+  ClientHeight = 624
+  ClientWidth = 1195
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object DBGrid1: TDBGrid
+    Left = 10
+    Height = 240
+    Top = 70
+    Width = 1174
+    AlternateColor = clSilver
+    AutoEdit = False
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Adı'
+        Width = 175
+        FieldName = 'adi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Soyadı'
+        Width = 175
+        FieldName = 'soyadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Ünvanı'
+        Width = 162
+        FieldName = 'unvani'
+      end    
+      item
+        Color = clWhite
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Müşteri Türü'
+        Width = 125
+        FieldName = 'musteritipi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'TC Kimlik No'
+        Width = 150
+        FieldName = 'tcno'
+      end    
+      item
+        Color = clWhite
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Dairesi'
+        Width = 162
+        FieldName = 'vergidairesi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Numarası'
+        Width = 162
+        FieldName = 'verginumarasi'
+      end>
+    DataSource = Datasource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+    OnCellClick = DBGrid1CellClick
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 258
+    Height = 60
+    Top = 0
+    Width = 930
+    AutoFill = True
+    Caption = 'Arama türü'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 6
+    ClientHeight = 35
+    ClientWidth = 926
+    Columns = 6
+    ItemIndex = 0
+    Items.Strings = (
+      'Filtre yok'
+      'Adına Göre'
+      'Soyadına Göre'
+      'Ünvana Göre'
+      'TC Kimlik'
+      'Vergi No'
+    )
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 10
+    Height = 28
+    Top = 20
+    Width = 230
+    OnClick = Edit1Click
+    OnKeyPress = Edit1KeyPress
+    ParentFont = False
+    TabOrder = 2
+    Text = 'Ara...'
+  end
+  object DBGrid2: TDBGrid
+    Left = 10
+    Height = 250
+    Top = 320
+    Width = 1180
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Türü'
+        Width = 250
+        FieldName = 'tarifeadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Fiyat'
+        Width = 125
+        FieldName = 'fiyat'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Başlangıç'
+        FieldName = 'baslangictarihi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Son Fatura Dönemi'
+        FieldName = 'sonhesapbitis'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        Width = 250
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Kullanıcı'
+        Width = 125
+        FieldName = 'baslatankullanici'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 1090
+    Height = 38
+    Top = 580
+    Width = 94
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 4
+  end
+  object BitBtn2: TBitBtn
+    Left = 10
+    Height = 38
+    Top = 580
+    Width = 220
+    Caption = 'Abonelik Sonladır'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6393986E6393986E6393986E6393986E6393986E6393986E63939
+      86E6393986E6393986E6393986E6393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE68796F6FF7C8DF7FF7284F8FF687CF8FF5E73FAFF536AFAFF4A63
+      FAFF425CFBFF3A55FCFF334FFCFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6929EF5FF8796F6FF7C8DF7FF7285F8FF687CF9FF5E73F9FF546B
+      FAFF4B63FBFF425CFBFF3955FCFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE69BA7F5FF929FF5FF8796F7FF7C8DF7FF7284F8FF677CF8FF5E73
+      F9FF546BFAFF4A63FBFF415CFBFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6A6AFF4FF9CA7F5FF919FF5FF8796F6FF7D8DF7FF7184F7FF687C
+      F8FF5D73F9FF546AFAFF4A63FBFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6AEB7F3FFA5AFF5FF9CA7F5FF919FF5FF8796F7FF7C8DF7FF7284
+      F8FF687BF9FF5D73F9FF536BFAFF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6B7BEF3FFAFB7F4FFA6B0F4FF9BA8F5FF929FF6FF8796F6FF7C8D
+      F7FF7284F8FF677BF8FF5D73F9FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6BFC5F2FFB7BEF3FFAFB7F4FFA5AFF4FF9CA7F5FF929FF6FF8795
+      F6FF7D8DF7FF7284F8FF687CF8FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6C7CAF1FFBFC5F3FFB7BEF3FFAEB7F4FFA6AFF4FF9BA7F5FF929F
+      F6FF8796F6FF7C8DF7FF7284F7FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6CCD0F1FFC6CBF1FFBFC5F2FFB7BFF3FFAFB7F4FFA6AFF5FF9BA8
+      F5FF919FF6FF8796F6FF7D8DF7FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE6D1D4F1FFCCD0F2FFC6CBF2FFBFC5F2FFB7BEF3FFAEB8F3FFA5AF
+      F4FF9BA8F4FF919FF5FF8795F6FF393986E6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004550BFE64550BFE64550BFE64550BFE64550BFE64550BFE64550BFE64550
+      BFE64550BFE64550BFE64550BFE64550BFE6FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    OnClick = BitBtn2Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object ZReadOnlyQuery2: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select * from corecustomers LIMIT 0,100;'
+    )
+    Params = <>
+    left = 210
+    top = 50
+  end
+  object Datasource1: TDataSource
+    DataSet = ZReadOnlyQuery2
+    left = 170
+    top = 50
+  end
+  object Datasource2: TDataSource
+    DataSet = ZReadOnlyQuery3
+    left = 20
+    top = 300
+  end
+  object ZReadOnlyQuery3: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'SELECT coreaboneler.id, coreaboneler.carihesapid, coreaboneler.tarifeid, coreaboneler.baslangictarihi, coreaboneler.sonhesapbitis, coreaboneler.baslatankullanici, coretarife.tarifeadi, coretarife.aciklama, coretarife.fiyat  FROM coreaboneler, coretarife'
+      'where coreaboneler.tarifeid=coretarife.id and  coreaboneler.carihesapid=4 '
+    )
+    Params = <>
+    left = 60
+    top = 300
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    Params = <>
+    left = 310
+    top = 580
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 390
+    top = 580
+  end
+end

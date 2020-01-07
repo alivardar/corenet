@@ -1,0 +1,50 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tbankahesaphareketleri','FORMDATA',[
+  'TPF0'#22'Tbankahesaphareketleri'#21'bankahesaphareketleri'#4'Left'#3#240#0#6
+  +'Height'#3'd'#2#3'Top'#3#163#0#5'Width'#3'B'#5#13'ActiveControl'#7#7'DBGrid1'
+  +#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Capti'
+  +'on'#6#12'Bank Records'#12'ClientHeight'#3'd'#2#11'ClientWidth'#3'B'#5#13'De'
+  +'signTimePPI'#2'x'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'
+  +#10'LCLVersion'#6#7'2.0.6.0'#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3#216#4#6'Heigh'
+  +'t'#2'&'#3'Top'#3':'#2#5'Width'#2'^'#7'Default'#9#14'DefaultCaption'#9#4'Kin'
+  +'d'#7#4'bkOK'#11'ModalResult'#2#1#10'ParentFont'#8#8'TabOrder'#2#0#0#0#7'TDB'
+  +'Grid'#7'DBGrid1'#4'Left'#2#10#6'Height'#3#210#0#3'Top'#2#10#5'Width'#3'2'#5
+  +#14'AlternateColor'#7#8'clSilver'#5'Color'#7#8'clWindow'#7'Columns'#14#1#7'M'
+  +'inSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#10'Banka Ad'#196#177#5
+  +'Width'#3#250#0#9'FieldName'#6#8'bankaadi'#0#1#7'MinSize'#2#12#7'MaxSize'#3
+  +#250#0#13'Title.Caption'#6#10'A'#195#167#196#177'klama'#5'Width'#3#250#0#9'F'
+  +'ieldName'#6#8'aciklama'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Cap'
+  +'tion'#6#8'Hesap No'#5'Width'#3#250#0#9'FieldName'#6#7'hesapno'#0#1#7'MinSiz'
+  +'e'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#10#197#158'ube Ad'#196#177#5
+  +'Width'#3#250#0#9'FieldName'#6#7'subeadi'#0#1#7'MinSize'#2#12#7'MaxSize'#3
+  +#250#0#13'Title.Caption'#6#6'Bakiye'#5'Width'#3#188#0#9'FieldName'#6#8'sondu'
+  +'rum'#0#0#10'DataSource'#7#11'Datasource1'#7'Options'#11#8'dgTitles'#11'dgIn'
+  +'dicator'#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6
+  +'dgTabs'#11'dgRowSelect'#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dg'
+  +'CancelOnExit'#0#10'ParentFont'#8#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'
+  +#2#1#0#0#7'TDBGrid'#7'DBGrid2'#4'Left'#2#10#6'Height'#3'J'#1#3'Top'#3#230#0#5
+  +'Width'#3'2'#5#14'AlternateColor'#7#8'clSilver'#5'Color'#7#8'clWindow'#7'Col'
+  +'umns'#14#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#10'A'#195
+  +#167#196#177'klama'#5'Width'#3'8'#1#9'FieldName'#6#8'aciklama'#0#1#7'MinSize'
+  +#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#12'Bor'#195#167'/Alacak'#9'Fiel'
+  +'dName'#6#10'borcalacak'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Cap'
+  +'tion'#6#8'Evrak No'#9'FieldName'#6#7'evrakno'#0#1#7'MinSize'#2#12#7'MaxSize'
+  +#3#250#0#13'Title.Caption'#6#5'Tarih'#9'FieldName'#6#5'tarih'#0#1#7'MinSize'
+  +#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#5'Tutar'#5'Width'#3#250#0#9'Fie'
+  +'ldName'#6#5'tutar'#0#0#10'DataSource'#7#11'Datasource2'#7'Options'#11#8'dgT'
+  +'itles'#11'dgIndicator'#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10
+  +'dgRowLines'#6'dgTabs'#11'dgRowSelect'#21'dgAlwaysShowSelection'#15'dgConfir'
+  +'mDelete'#14'dgCancelOnExit'#0#10'ParentFont'#8#10'Scrollbars'#7#10'ssAutoBo'
+  +'th'#8'TabOrder'#2#2#0#0#7'TZTable'#7'ZTable1'#10'Connection'#7#12'ZConnecti'
+  +'on1'#14'AutoCalcFields'#8#9'TableName'#6#12'corebankalar'#4'left'#3#180#0#3
+  +'top'#3':'#2#0#0#11'TDataSource'#11'Datasource1'#7'DataSet'#7#7'ZTable1'#4'l'
+  +'eft'#3#223#0#3'top'#3':'#2#0#0#11'TDataSource'#11'Datasource2'#7'DataSet'#7
+  +#7'ZTable2'#4'left'#3#232#2#3'top'#3':'#2#0#0#7'TZTable'#7'ZTable2'#10'Conne'
+  +'ction'#7#12'ZConnection1'#14'AutoCalcFields'#8#9'TableName'#6#16'corebankah'
+  +'areket'#12'MasterFields'#6#2'id'#12'MasterSource'#7#11'Datasource1'#12'Link'
+  +'edFields'#6#7'bankaid'#4'left'#3#189#2#3'top'#3':'#2#0#0#12'TZConnection'#12
+  +'ZConnection1'#16'ControlsCodePage'#7#8'cCP_UTF8'#18'Properties.Strings'#1#6
+  +#18'AutoEncodeStrings='#0#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'left'#2#25#3
+  +'top'#3'9'#2#0#0#0
+]);

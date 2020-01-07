@@ -1,0 +1,55 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tdigertahsilattediye','FORMDATA',[
+  'TPF0'#20'Tdigertahsilattediye'#19'digertahsilattediye'#4'Left'#3#16#2#6'Heig'
+  +'ht'#3'g'#1#3'Top'#3#25#1#5'Width'#3#171#1#13'ActiveControl'#7#12'DBNavigato'
+  +'r1'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'C'
+  +'aption'#6'"Di'#196#159'er Tahsilat Tediye '#196#176#197#159'lemleri'#12'Cli'
+  +'entHeight'#3'g'#1#11'ClientWidth'#3#171#1#6'OnShow'#7#8'FormShow'#8'Positio'
+  +'n'#7#15'poDesktopCenter'#10'LCLVersion'#6#3'1.1'#0#6'TLabel'#6'Label1'#4'Le'
+  +'ft'#2#16#6'Height'#2#13#3'Top'#2'('#5'Width'#3#9#1#7'Caption'#6'5Cari '#196
+  +#176'li'#197#159'kisi Olmayan Tahsilat / Tediye '#196#176#197#159'lemleri'#10
+  +'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#6'Label2'#4'Left'#2' '#6'Height'#2#13#3'Top'#2'y'#5'Width'#2'F'#7'Caption'#6
+  +#16'Hareket T'#195#188'r'#195#188': '#11'ParentColor'#8#0#0#6'TLabel'#6'Labe'
+  +'l3'#4'Left'#2' '#6'Height'#2#13#3'Top'#3#159#0#5'Width'#2'2'#7'Caption'#6#10
+  +'Evrak No: '#11'ParentColor'#8#0#0#6'TLabel'#6'Label5'#4'Left'#2' '#6'Height'
+  +#2#13#3'Top'#2'O'#5'Width'#2#31#7'Caption'#6#7'Tarih: '#11'ParentColor'#8#0#0
+  +#6'TLabel'#6'Label6'#4'Left'#2' '#6'Height'#2#13#3'Top'#3#216#0#5'Width'#2'0'
+  +#7'Caption'#6#12'A'#195#167#196#177'klama: '#11'ParentColor'#8#0#0#6'TLabel'
+  +#6'Label7'#4'Left'#2' '#6'Height'#2#13#3'Top'#3#29#1#5'Width'#2'!'#7'Caption'
+  +#6#7'Tutar: '#11'ParentColor'#8#0#0#12'TDBNavigator'#12'DBNavigator1'#4'Left'
+  +#2#0#6'Height'#2' '#3'Top'#2#0#5'Width'#3#171#1#5'Align'#7#5'alTop'#10'Bevel'
+  +'Outer'#7#6'bvNone'#11'BorderStyle'#7#8'bsSingle'#29'ChildSizing.EnlargeHori'
+  +'zontal'#7#14'crsScaleChilds'#27'ChildSizing.EnlargeVertical'#7#14'crsScaleC'
+  +'hilds'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing'
+  +'.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftTo'
+  +'RightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2'd'#12'ClientHeight'
+  +#2#28#11'ClientWidth'#3#167#1#10'DataSource'#7#11'Datasource1'#4'Flat'#9#7'O'
+  +'ptions'#11#0#8'TabOrder'#2#0#14'VisibleButtons'#11#8'nbInsert'#6'nbPost'#8
+  +'nbCancel'#0#0#0#11'TDBComboBox'#11'DBComboBox1'#4'Left'#3#144#0#6'Height'#2
+  +#21#3'Top'#2'p'#5'Width'#3#161#0#9'DataField'#6#11'hareketturu'#10'DataSourc'
+  +'e'#7#11'Datasource1'#10'ItemHeight'#2#13#13'Items.Strings'#1#6#8'Tahsilat'#6
+  +#6'Tediye'#0#9'MaxLength'#2#0#8'TabOrder'#2#1#0#0#7'TDBEdit'#7'DBEdit1'#4'Le'
+  +'ft'#3#144#0#6'Height'#2#21#3'Top'#3#152#0#5'Width'#3#160#0#9'DataField'#6#7
+  +'evrakno'#10'DataSource'#7#11'Datasource1'#8'CharCase'#7#8'ecNormal'#9'MaxLe'
+  +'ngth'#2#20#8'TabOrder'#2#2#0#0#7'TDBMemo'#7'DBMemo1'#4'Left'#3#144#0#6'Heig'
+  +'ht'#2'@'#3'Top'#3#192#0#5'Width'#3#11#1#9'DataField'#6#8'aciklama'#10'DataS'
+  +'ource'#7#11'Datasource1'#8'TabOrder'#2#3#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3
+  +'P'#1#6'Height'#2#30#3'Top'#3'@'#1#5'Width'#2'K'#7'Default'#9#14'DefaultCapt'
+  +'ion'#9#4'Kind'#7#4'bkOK'#11'ModalResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#8
+  +'TabOrder'#2#4#0#0#7'TDBEdit'#7'DBEdit2'#4'Left'#3#144#0#6'Height'#2#21#3'To'
+  +'p'#3#22#1#5'Width'#3#8#1#9'DataField'#6#5'tutar'#10'DataSource'#7#11'Dataso'
+  +'urce1'#8'CharCase'#7#8'ecNormal'#9'MaxLength'#2#0#8'TabOrder'#2#5#0#0#9'TDa'
+  +'teEdit'#9'DateEdit1'#4'Left'#3#144#0#6'Height'#2#21#3'Top'#2'H'#5'Width'#2
+  +'P'#23'CalendarDisplaySettings'#11#14'dsShowHeadings'#14'dsShowDayNames'#0#9
+  +'OKCaption'#6#2'OK'#13'CancelCaption'#6#6'Cancel'#12'DefaultToday'#9#9'DateO'
+  +'rder'#7#5'doDMY'#11'ButtonWidth'#2#23#8'CharCase'#7#8'ecNormal'#11'DirectIn'
+  +'put'#8#9'NumGlyphs'#2#1#9'MaxLength'#2#10#8'TabOrder'#2#6#0#0#7'TZTable'#7
+  +'ZTable1'#10'Connection'#7#12'ZConnection1'#14'AutoCalcFields'#8#10'BeforePo'
+  +'st'#7#17'ZTable1BeforePost'#9'TableName'#6#15'corekasahareket'#4'left'#3'`'
+  +#1#3'top'#2')'#0#0#11'TDatasource'#11'Datasource1'#7'DataSet'#7#7'ZTable1'#4
+  +'left'#3#128#1#3'top'#2')'#0#0#12'TZConnection'#12'ZConnection1'#16'Controls'
+  +'CodePage'#7#8'cCP_UTF8'#17'AutoEncodeStrings'#8#4'Port'#2#0#8'Protocol'#6#7
+  +'mysql-5'#4'left'#3'8'#1#3'top'#2'('#0#0#0
+]);

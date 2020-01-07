@@ -1,0 +1,325 @@
+object abonelikbaslatmaform: Tabonelikbaslatmaform
+  Left = 540
+  Height = 624
+  Top = 203
+  Width = 1202
+  ActiveControl = RadioGroup1.RadioButton0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Add New Internet Subscriptions'
+  ClientHeight = 624
+  ClientWidth = 1202
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 20
+    Top = 589
+    Width = 103
+    Caption = 'Beginning Date'
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBGrid1: TDBGrid
+    Left = 10
+    Height = 240
+    Top = 80
+    Width = 1180
+    AlternateColor = clSilver
+    AutoEdit = False
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Adı'
+        Width = 175
+        FieldName = 'adi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Soyadı'
+        Width = 175
+        FieldName = 'soyadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Ünvanı'
+        Width = 162
+        FieldName = 'unvani'
+      end    
+      item
+        Color = clWhite
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Müşteri Türü'
+        Width = 125
+        FieldName = 'musteritipi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'TC Kimlik No'
+        Width = 150
+        FieldName = 'tcno'
+      end    
+      item
+        Color = clWhite
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Dairesi'
+        Width = 162
+        FieldName = 'vergidairesi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Numarası'
+        Width = 162
+        FieldName = 'verginumarasi'
+      end>
+    DataSource = Datasource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 258
+    Height = 60
+    Top = 0
+    Width = 930
+    AutoFill = True
+    Caption = 'Arama türü'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 6
+    ClientHeight = 35
+    ClientWidth = 926
+    Columns = 6
+    ItemIndex = 0
+    Items.Strings = (
+      'Filtre yok'
+      'Adına Göre'
+      'Soyadına Göre'
+      'Ünvana Göre'
+      'TC Kimlik'
+      'Vergi No'
+    )
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 10
+    Height = 28
+    Top = 20
+    Width = 230
+    OnClick = Edit1Click
+    OnKeyPress = Edit1KeyPress
+    ParentFont = False
+    TabOrder = 2
+    Text = 'Ara...'
+  end
+  object DBGrid2: TDBGrid
+    Left = 10
+    Height = 240
+    Top = 330
+    Width = 1180
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'No'
+        Width = 62
+        FieldName = 'tarifeno'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Tarife Adı'
+        Width = 250
+        FieldName = 'tarifeadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        Width = 312
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Fiyat'
+        FieldName = 'fiyat'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Download Limit'
+        Width = 138
+        FieldName = 'downloadlimit'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Upload Limit'
+        Width = 138
+        FieldName = 'uploadlimit'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Kota GB'
+        Width = 75
+        FieldName = 'kotagigabyte'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 1090
+    Height = 38
+    Top = 580
+    Width = 94
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object BitBtn2: TBitBtn
+    Left = 611
+    Height = 38
+    Top = 580
+    Width = 189
+    Caption = 'Start Subscription'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      20000000000000040000640000006400000000000000000000004646466F3E3E
+      3EFF171717FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00696969FFC9C9
+      C9FF959595FF161616FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00696969FFDEDE
+      DEFF313131FF454545FF151515FFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF004343
+      43FF818181FF353535FF3E3E3EFF151515FFFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00474747FF838383FF373737FF3F3F3FFF151515FFFFFFFF00FFFFFF00FFFF
+      FF0000AFEF45FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00585858FF848484FF373737FF3F3F3FFF151515FFFFFFFF0000B3
+      F13C00B1F1B7FFFFFF0000AFEF0600AFEF48FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF004E4E4EFF676767FF373737FF404040FF161616FF00B5
+      F19300B3F1FC00B3F13900B1F1CF00AFF169FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF004E4E4EFF676767FF383838FF424242FF4D4D
+      4DFF4BCCF5FF19BDF2FF0DB7F2FF00B1F11EFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF0019BFF31E13BDF3B14F4F4FFF676767FF8C8C8CFFA9A9
+      A9FF4197B4FF77D9F8FF00B5F1FC00B5F1CC00B3F17FFFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF001BC1F31517BFF3B74C4C4CFFCACACAFFF7F7
+      F7FFD3D3D3FF4BA1BFFF74D9F8FF00B5F1F300B5F138FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF001FC1F57E51CFF6FF4FA5C2FFF8F8
+      F8FFFEFEFEFF5AB0CDFF6AD6F7FF00B7F1D500B7F11FFFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF002DC5F5182BC3F5BD25C1F5FF4ECEF7FF83DDF8FF4EA4
+      C2FF5BB1CFFF68BFDCFF41CAF6FF08BCF1FF00B9F197FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0029C3F57E5AD0F7FF6DD7
+      F8FF7DDCF8FF4BCDF6FF11BDF3F60DBBF30CFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF002FC5F5D22BC3F5B727C1
+      F5B450CEF7FF1FC1F57519BFF3F015BDF35AFFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0033C5F51E33C5F56CFFFFFF002DC5
+      F54B2BC3F5CFFFFFFF0021C1F5211DC1F366FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0031C5
+      F5092FC5F566FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    OnClick = BitBtn2Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object DateEdit1: TDateEdit
+    Left = 249
+    Height = 28
+    Top = 580
+    Width = 111
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    DefaultToday = True
+    DateOrder = doDMY
+    ButtonWidth = 29
+    DirectInput = False
+    NumGlyphs = 1
+    MaxLength = 10
+    ParentFont = False
+    TabOrder = 6
+    Text = '06/01/2020'
+  end
+  object ZReadOnlyQuery2: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select * from corecustomers LIMIT 0,100;'
+    )
+    Params = <>
+    left = 210
+    top = 50
+  end
+  object Datasource1: TDataSource
+    DataSet = ZReadOnlyQuery2
+    left = 170
+    top = 50
+  end
+  object Datasource2: TDataSource
+    DataSet = ZReadOnlyQuery3
+    left = 10
+    top = 310
+  end
+  object ZReadOnlyQuery3: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'SELECT * FROM coretarife'
+    )
+    Params = <>
+    left = 50
+    top = 310
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    BeforePost = ZTable1BeforePost
+    TableName = 'coreaboneler'
+    left = 550
+    top = 580
+  end
+  object Datasource3: TDataSource
+    DataSet = ZTable1
+    left = 510
+    top = 580
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 890
+    top = 580
+  end
+end

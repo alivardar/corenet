@@ -1,0 +1,81 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Taktifdesteklistesi','FORMDATA',[
+  'TPF0'#19'Taktifdesteklistesi'#18'aktifdesteklistesi'#4'Left'#3'_'#1#6'Height'
+  +#3#197#2#3'Top'#3#15#1#5'Width'#3#225#5#13'ActiveControl'#7#12'DBNavigator1'
+  +#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Capti'
+  +'on'#6#22'Active Support Tickets'#12'ClientHeight'#3#197#2#11'ClientWidth'#3
+  +#225#5#13'DesignTimePPI'#2'x'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDes'
+  +'ktopCenter'#10'LCLVersion'#6#7'2.0.6.0'#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'd'
+  +#5#6'Height'#2'('#3'Top'#3#148#2#5'Width'#2'r'#7'Default'#9#14'DefaultCaptio'
+  +'n'#9#4'Kind'#7#4'bkOK'#11'ModalResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#10
+  +'ParentFont'#8#8'TabOrder'#2#0#0#0#7'TDBGrid'#7'DBGrid1'#4'Left'#2#0#6'Heigh'
+  +'t'#3#27#2#3'Top'#2#31#5'Width'#3#225#5#5'Align'#7#5'alTop'#14'AlternateColo'
+  +'r'#7#8'clSilver'#5'Color'#7#8'clWindow'#7'Columns'#14#1#5'Color'#7#5'clRed'
+  +#7'MinSize'#2#12#7'MaxSize'#3#250#0#16'PickList.Strings'#1#6#5'Aktif'#6#5'Pa'
+  +'sif'#0#13'Title.Caption'#6#5'Durum'#9'FieldName'#6#5'durum'#0#1#7'MinSize'#2
+  +#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#10'A'#195#167#196#177'klama'#5'Wi'
+  +'dth'#3#244#1#9'FieldName'#6#8'aciklama'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250
+  +#0#13'Title.Caption'#6#14'M'#195#188#197#159'teri Notu'#5'Width'#3#244#1#9'F'
+  +'ieldName'#6#11'musterinotu'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title'
+  +'.Caption'#6#7'Sorumlu'#9'FieldName'#6#10'kimsorumlu'#0#0#10'DataSource'#7#11
+  +'Datasource1'#10'ParentFont'#8#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2
+  +#1#0#0#7'TDBGrid'#7'DBGrid2'#4'Left'#2#0#6'Height'#2'O'#3'Top'#3':'#2#5'Widt'
+  +'h'#3#225#5#5'Align'#7#5'alTop'#5'Color'#7#8'clWindow'#7'Columns'#14#1#7'Min'
+  +'Size'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#6'unvani'#5'Width'#3#250#0
+  +#9'FieldName'#6#6'unvani'#0#1#5'Color'#7#8'clSilver'#7'MinSize'#2#12#7'MaxSi'
+  +'ze'#3#250#0#13'Title.Caption'#6#3'adi'#5'Width'#3#250#0#9'FieldName'#6#3'ad'
+  +'i'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#6'soyadi'#5'W'
+  +'idth'#3#250#0#9'FieldName'#6#6'soyadi'#0#1#5'Color'#7#8'clSilver'#7'MinSize'
+  +#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#7'telefon'#5'Width'#2'}'#9'Fiel'
+  +'dName'#6#7'telefon'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'
+  +#6#6'eposta'#5'Width'#3#250#0#9'FieldName'#6#6'eposta'#0#1#5'Color'#7#8'clSi'
+  +'lver'#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#5'adres'#5'Wid'
+  +'th'#3'8'#1#9'FieldName'#6#5'adres'#0#0#10'DataSource'#7#11'Datasource2'#7'O'
+  +'ptions'#11#8'dgTitles'#11'dgIndicator'#14'dgColumnResize'#12'dgColumnMove'
+  +#10'dgColLines'#10'dgRowLines'#6'dgTabs'#11'dgRowSelect'#21'dgAlwaysShowSele'
+  +'ction'#15'dgConfirmDelete'#14'dgCancelOnExit'#0#10'ParentFont'#8#10'Scrollb'
+  +'ars'#7#10'ssAutoBoth'#8'TabOrder'#2#2#0#0#12'TDBNavigator'#12'DBNavigator1'
+  +#4'Left'#2#0#6'Height'#2#31#3'Top'#2#0#5'Width'#3#225#5#5'Align'#7#5'alTop'
+  +#10'BevelOuter'#7#6'bvNone'#11'BorderStyle'#7#8'bsSingle'#29'ChildSizing.Enl'
+  +'argeHorizontal'#7#14'crsScaleChilds'#27'ChildSizing.EnlargeVertical'#7#14'c'
+  +'rsScaleChilds'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'Chi'
+  +'ldSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'c'
+  +'clLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2'd'#12'Clien'
+  +'tHeight'#2#27#11'ClientWidth'#3#221#5#10'DataSource'#7#11'Datasource1'#4'Fl'
+  +'at'#9#7'Options'#11#0#10'ParentFont'#8#8'TabOrder'#2#3#14'VisibleButtons'#11
+  +#7'nbFirst'#7'nbPrior'#6'nbNext'#6'nbLast'#8'nbDelete'#6'nbEdit'#6'nbPost'#8
+  +'nbCancel'#9'nbRefresh'#0#0#0#7'TZQuery'#7'ZQuery1'#10'Connection'#7#12'ZCon'
+  +'nection1'#14'AutoCalcFields'#8#11'SQL.Strings'#1#6'2SELECT * FROM corehatal'
+  +'istesi where durum="Aktif" '#0#6'Params'#14#0#4'left'#3#246#4#3'top'#3#148#2
+  +#0#0#11'TDataSource'#11'Datasource1'#7'DataSet'#7#7'ZQuery1'#4'left'#3#30#5#3
+  +'top'#3#148#2#0#0#7'TZTable'#7'ZTable1'#10'Connection'#7#12'ZConnection1'#14
+  +'AutoCalcFields'#8#9'TableName'#6#13'corecustomers'#12'MasterFields'#6#11'ca'
+  +'rihesapid'#12'MasterSource'#7#11'Datasource1'#12'LinkedFields'#6#2'id'#4'le'
+  +'ft'#3'L'#4#3'top'#3#148#2#0#12'TStringField'#10'ZTable1adi'#12'DisplayWidth'
+  +#2'2'#9'FieldKind'#7#6'fkData'#9'FieldName'#6#3'adi'#5'Index'#2#0#11'LookupC'
+  +'ache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8
+  +'Required'#8#4'Size'#2'2'#0#0#12'TStringField'#13'ZTable1soyadi'#12'DisplayW'
+  +'idth'#2'2'#9'FieldKind'#7#6'fkData'#9'FieldName'#6#6'soyadi'#5'Index'#2#1#11
+  +'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnl'
+  +'y'#8#8'Required'#8#4'Size'#2'2'#0#0#12'TStringField'#13'ZTable1unvani'#12'D'
+  +'isplayWidth'#2'd'#9'FieldKind'#7#6'fkData'#9'FieldName'#6#6'unvani'#5'Index'
+  +#2#2#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8
+  +'ReadOnly'#8#8'Required'#8#4'Size'#2'd'#0#0#12'TStringField'#12'ZTable1adres'
+  +#12'DisplayWidth'#3#250#0#9'FieldKind'#7#6'fkData'#9'FieldName'#6#5'adres'#5
+  +'Index'#2#3#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWher'
+  +'e'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#250#0#0#0#12'TStringField'#14'ZT'
+  ,'able1telefon'#12'DisplayWidth'#2#30#9'FieldKind'#7#6'fkData'#9'FieldName'#6
+  +#7'telefon'#5'Index'#2#4#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdat'
+  +'e'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#2#30#0#0#12'TStringFi'
+  +'eld'#13'ZTable1eposta'#12'DisplayWidth'#2'd'#9'FieldKind'#7#6'fkData'#9'Fie'
+  +'ldName'#6#6'eposta'#5'Index'#2#5#11'LookupCache'#8#13'ProviderFlags'#11#10
+  +'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#2'd'#0#0#14
+  +'TLargeintField'#9'ZTable1id'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'
+  +#9'FieldName'#6#2'id'#5'Index'#2#6#11'LookupCache'#8#13'ProviderFlags'#11#10
+  +'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#0#0#0#11'TDataSource'
+  +#11'Datasource2'#7'DataSet'#7#7'ZTable1'#4'left'#3'~'#4#3'top'#3#148#2#0#0#12
+  +'TZConnection'#12'ZConnection1'#16'ControlsCodePage'#7#8'cCP_UTF8'#17'AutoEn'
+  +'codeStrings'#9#18'Properties.Strings'#1#6#18'AutoEncodeStrings='#0#4'Port'#2
+  +#0#8'Protocol'#6#7'mysql-5'#4'left'#3#16#4#3'top'#3#148#2#0#0#0
+]);

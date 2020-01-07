@@ -1,0 +1,214 @@
+object stokkart: Tstokkart
+  Left = 374
+  Height = 340
+  Top = 255
+  Width = 795
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'New Stock Record'
+  ClientHeight = 340
+  ClientWidth = 795
+  DesignTimePPI = 120
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 20
+    Height = 20
+    Top = 50
+    Width = 111
+    Caption = 'Stok Kart Bilgisi'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 560
+    Height = 20
+    Top = 50
+    Width = 166
+    Caption = 'Şu anda Stokta Bulunan'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 30
+    Height = 20
+    Top = 99
+    Width = 53
+    Caption = 'Ürün ID:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 30
+    Height = 20
+    Top = 149
+    Width = 65
+    Caption = 'Ürün Adı :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 30
+    Height = 20
+    Top = 199
+    Width = 106
+    Caption = 'Ürün Açıklaması'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 30
+    Height = 20
+    Top = 248
+    Width = 80
+    Caption = 'Ölçü Birimi :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 30
+    Height = 20
+    Top = 299
+    Width = 54
+    Caption = 'Barkod :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 795
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 36
+    ClientWidth = 791
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object DBEdit1: TDBEdit
+    Left = 200
+    Height = 28
+    Top = 90
+    Width = 230
+    DataField = 'id'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 0
+    ParentFont = False
+    TabOrder = 1
+  end
+  object DBEdit2: TDBEdit
+    Left = 200
+    Height = 28
+    Top = 140
+    Width = 350
+    DataField = 'urunadi'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 30
+    ParentFont = False
+    TabOrder = 2
+  end
+  object DBEdit3: TDBEdit
+    Left = 200
+    Height = 28
+    Top = 190
+    Width = 450
+    DataField = 'aciklama'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 20
+    ParentFont = False
+    TabOrder = 3
+  end
+  object DBEdit5: TDBEdit
+    Left = 610
+    Height = 28
+    Top = 90
+    Width = 172
+    DataField = 'sondurum'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 0
+    ParentFont = False
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 689
+    Height = 38
+    Top = 284
+    Width = 94
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 200
+    Height = 28
+    Top = 236
+    Width = 240
+    DataField = 'birim'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'adet'
+      'kilogram'
+      'litre'
+    )
+    MaxLength = 0
+    ParentFont = False
+    TabOrder = 6
+  end
+  object DBEdit4: TDBEdit
+    Left = 200
+    Height = 28
+    Top = 290
+    Width = 450
+    DataField = 'barkod'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 30
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Datasource1: TDataSource
+    DataSet = ZTable1
+    left = 520
+    top = 230
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corestokkart'
+    left = 560
+    top = 230
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 610
+    top = 230
+  end
+end

@@ -1,0 +1,22 @@
+{"version":1,"strings":[
+{"hash":247011859,"name":"tabonelikbaslatmaform.caption","sourcebytes":[65,100,100,32,78,101,119,32,73,110,116,101,114,110,101,116,32,83,117,98,115,99,114,105,112,116,105,111,110,115],"value":"Add New Internet Subscriptions"},
+{"hash":259323941,"name":"tabonelikbaslatmaform.label1.caption","sourcebytes":[66,101,103,105,110,110,105,110,103,32,68,97,116,101],"value":"Beginning Date"},
+{"hash":295153,"name":"tabonelikbaslatmaform.dbgrid1.columns[0].title.caption","sourcebytes":[65,100,196,177],"value":"Ad\u0131"},
+{"hash":175079585,"name":"tabonelikbaslatmaform.dbgrid1.columns[1].title.caption","sourcebytes":[83,111,121,97,100,196,177],"value":"Soyad\u0131"},
+{"hash":56395297,"name":"tabonelikbaslatmaform.dbgrid1.columns[2].title.caption","sourcebytes":[195,156,110,118,97,110,196,177],"value":"\u00DCnvan\u0131"},
+{"hash":190999004,"name":"tabonelikbaslatmaform.dbgrid1.columns[3].title.caption","sourcebytes":[77,195,188,197,159,116,101,114,105,32,84,195,188,114,195,188],"value":"M\u00FC\u015Fteri T\u00FCr\u00FC"},
+{"hash":128616271,"name":"tabonelikbaslatmaform.dbgrid1.columns[4].title.caption","sourcebytes":[84,67,32,75,105,109,108,105,107,32,78,111],"value":"TC Kimlik No"},
+{"hash":113792905,"name":"tabonelikbaslatmaform.dbgrid1.columns[5].title.caption","sourcebytes":[86,101,114,103,105,32,68,97,105,114,101,115,105],"value":"Vergi Dairesi"},
+{"hash":190031473,"name":"tabonelikbaslatmaform.dbgrid1.columns[6].title.caption","sourcebytes":[86,101,114,103,105,32,78,117,109,97,114,97,115,196,177],"value":"Vergi Numaras\u0131"},
+{"hash":76004828,"name":"tabonelikbaslatmaform.radiogroup1.caption","sourcebytes":[65,114,97,109,97,32,116,195,188,114,195,188],"value":"Arama t\u00FCr\u00FC"},
+{"hash":76038414,"name":"tabonelikbaslatmaform.edit1.text","sourcebytes":[65,114,97,46,46,46],"value":"Ara..."},
+{"hash":1359,"name":"tabonelikbaslatmaform.dbgrid2.columns[0].title.caption","sourcebytes":[78,111],"value":"No"},
+{"hash":204408833,"name":"tabonelikbaslatmaform.dbgrid2.columns[1].title.caption","sourcebytes":[84,97,114,105,102,101,32,65,100,196,177],"value":"Tarife Ad\u0131"},
+{"hash":260504065,"name":"tabonelikbaslatmaform.dbgrid2.columns[2].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":5050244,"name":"tabonelikbaslatmaform.dbgrid2.columns[3].title.caption","sourcebytes":[70,105,121,97,116],"value":"Fiyat"},
+{"hash":12047300,"name":"tabonelikbaslatmaform.dbgrid2.columns[4].title.caption","sourcebytes":[68,111,119,110,108,111,97,100,32,76,105,109,105,116],"value":"Download Limit"},
+{"hash":60151668,"name":"tabonelikbaslatmaform.dbgrid2.columns[5].title.caption","sourcebytes":[85,112,108,111,97,100,32,76,105,109,105,116],"value":"Upload Limit"},
+{"hash":40514786,"name":"tabonelikbaslatmaform.dbgrid2.columns[6].title.caption","sourcebytes":[75,111,116,97,32,71,66],"value":"Kota GB"},
+{"hash":151437470,"name":"tabonelikbaslatmaform.bitbtn2.caption","sourcebytes":[83,116,97,114,116,32,83,117,98,115,99,114,105,112,116,105,111,110],"value":"Start Subscription"},
+{"hash":54618736,"name":"tabonelikbaslatmaform.dateedit1.text","sourcebytes":[48,54,47,48,49,47,50,48,50,48],"value":"06/01/2020"}
+]}

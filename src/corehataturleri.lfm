@@ -1,0 +1,94 @@
+object hataturleri: Thataturleri
+  Left = 619
+  Height = 392
+  Top = 269
+  Width = 500
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Customer Ticket Types'
+  ClientHeight = 392
+  ClientWidth = 500
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 299
+    Top = 31
+    Width = 500
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Hata Türünün Adı'
+        Width = 450
+        FieldName = 'hataturuadi'
+      end>
+    DataSource = Datasource1
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 1
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 500
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 28
+    ClientWidth = 496
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 0
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbInsert, nbDelete, nbEdit, nbPost, nbCancel]
+  end
+  object BitBtn1: TBitBtn
+    Left = 380
+    Height = 38
+    Top = 340
+    Width = 114
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corehataturleri'
+    left = 70
+    top = 340
+  end
+  object Datasource1: TDataSource
+    DataSet = ZTable1
+    left = 110
+    top = 340
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 30
+    top = 341
+  end
+end

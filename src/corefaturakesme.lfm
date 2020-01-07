@@ -1,0 +1,792 @@
+object faturakesmehizmet: Tfaturakesmehizmet
+  Left = 279
+  Height = 820
+  Top = 31
+  Width = 1200
+  ActiveControl = RadioGroup1.RadioButton0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Hizmet Faturası Kesme'
+  ClientHeight = 820
+  ClientWidth = 1200
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 10
+    Height = 20
+    Top = 338
+    Width = 86
+    Caption = 'Fatura Tarihi :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 360
+    Height = 20
+    Top = 338
+    Width = 71
+    Caption = 'Fatura No :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 40
+    Height = 20
+    Top = 610
+    Width = 68
+    Caption = 'Açıklama :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 11
+    Height = 400
+    Top = 360
+    Width = 1179
+    Caption = 'Fatura Detayı'
+    ClientHeight = 375
+    ClientWidth = 1175
+    ParentFont = False
+    TabOrder = 6
+    object Label5: TLabel
+      Left = 598
+      Height = 20
+      Top = 276
+      Width = 95
+      Caption = 'Genel Toplam:'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 28
+      Height = 20
+      Top = 326
+      Width = 53
+      Caption = 'K.D.V.   :'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 28
+      Height = 20
+      Top = 276
+      Width = 44
+      Caption = 'Ö.İ.V.  :'
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label9: TLabel
+      Left = 598
+      Height = 20
+      Top = 326
+      Width = 89
+      Caption = 'Fatura Tutarı :'
+      ParentColor = False
+      ParentFont = False
+    end
+    object CurrencyEdit1: TCurrencyEdit
+      Left = 125
+      Height = 28
+      Top = 268
+      Width = 371
+      Alignment = taRightJustify
+      MaxValue = 0
+      MinValue = 0
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+      Value = 0
+      ZeroEmpty = False
+    end
+    object CurrencyEdit3: TCurrencyEdit
+      Left = 125
+      Height = 28
+      Top = 318
+      Width = 371
+      Alignment = taRightJustify
+      MaxValue = 0
+      MinValue = 0
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 1
+      Value = 0
+      ZeroEmpty = False
+    end
+    object CurrencyEdit4: TCurrencyEdit
+      Left = 738
+      Height = 28
+      Top = 318
+      Width = 411
+      Alignment = taRightJustify
+      MaxValue = 0
+      MinValue = 0
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+      Value = 0
+      ZeroEmpty = False
+    end
+  end
+  object BitBtn1: TBitBtn
+    Left = 30
+    Height = 38
+    Top = 770
+    Width = 180
+    Caption = 'Faturayı Yazdır'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000000000006C49
+      1C2C7E551F5A754F1D62895C217B7F5418877F5418877F5418877F5418877F54
+      18877F5418877F5418877F5418877F541887845920680000000000000000FFB6
+      58FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F
+      15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FF7F5418870000000000000000FFCD
+      9DFFFEDDBBFFFEDAB5FFFEDAB5FFFED7B0FFFED7B0FFFED4ABFFFED4ABFFFED2
+      A6FFFED2A6FFFECFA2FFFECFA2FFFF9F15FF7F5418870000000000000000FFCD
+      9DFFFEDFC1FF88463DFF88463DFF88463AFF88463AFF884438FF884438FF8844
+      36FF884436FFA86A54FFFED2A6FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE2C7FFFEDFC1FFFEDFC1FFFEDDBBFFFEDDBBFFFEDAB5FFFEDAB5FFFED7
+      B0FFFED7B0FFFED4ABFFFED2A6FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE2C7FF965B50FF965A4EFF965A4EFF96584CFF96584CFF965849FF9658
+      49FF965646FFBF886FFFFED4ABFFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE5CDFFFEE5CDFFFEE2C7FFFEE2C7FFFEDFC1FFFEDFC1FFFEDDBBFFFEDD
+      BBFFFEDAB5FFFEDAB5FFFED7B0FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE8D2FFA8756AFF965C52FFA87367FF965B50FFA87264FF965A4EFFA871
+      62FF96584CFFDBB095FFFEDAB5FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEEBD8FFFEEBD8FFFEE8D2FFFEE8D2FFFEE5CDFFFEE2C7FFFEE2C7FFFEDF
+      C1FFFEDFC1FFFEDDBBFFFEDDBBFFFF9F15FF895C217B1A130C0800000000FFCD
+      9DFFFFEEDEFFA8776DFFBF9589FFA8756AFFBF9385FFA87367FFFEE5CDFFFEE2
+      C7FFFEE2C7FFFEDFC1FFFEDFC1FFFF9F15FF775121641A130C0800000000FFCD
+      9DFFFFF1E4FFFFEEDEFFFFEEDEFFFEEBD8FFFEEBD8FFFEE8D2FFFEE8D2FFFBE1
+      BFFFFF9F15CBFF9F15CBFF9F15CBFF9F15FF907150620000000900000000FFD9
+      B3FFFFF4EAFFBF9991FFBF9991FFBF968DFFBF968DFFBF9589FFFEEBD8FFF8C8
+      8AFFF4D1ACFFF5BD83FFF6B677FFFF9F15FF9F774D370000000000000000FFDF
+      BEFFFFF4EAFFFFF4EAFFFFF1E4FFFFF1E4FFFFEEDEFFFFEEDEFFFEEBD8FFF8C8
+      8AFFF5D6B2E9F4D1ACFFFF9F15FFFF9F152E000000000000000000000000FFE2
+      C4FFFFECD6FFFFF7F0FFFFF4EAFFFFF4EAFFFFF1E4FFFFF1E4FFFFEEDEFFF8C8
+      8AFFFCEEDEDBFFB658FFC47A102300000000000000000000000000000000FFE4
+      C982FFE2C4FFFFDFBEFFFFD9B3FFFFCD9DFFFFCD9DFFFFCD9DFFFFCD9DFFFFCD
+      9DFFFFCD9DFF975E0C1B00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000
+    }
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object BitBtn2: TBitBtn
+    Left = 1075
+    Height = 38
+    Top = 770
+    Width = 114
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 1
+  end
+  object DBGrid1: TDBGrid
+    Left = 10
+    Height = 240
+    Top = 70
+    Width = 1180
+    AlternateColor = clSilver
+    AutoEdit = False
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Adı'
+        Width = 175
+        FieldName = 'adi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Soyadı'
+        Width = 175
+        FieldName = 'soyadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Ünvanı'
+        Width = 162
+        FieldName = 'unvani'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Müşteri Türü'
+        Width = 125
+        FieldName = 'musteritipi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'TC Kimlik No'
+        Width = 150
+        FieldName = 'tcno'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Dairesi'
+        Width = 162
+        FieldName = 'vergidairesi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Vergi Numarası'
+        Width = 162
+        FieldName = 'verginumarasi'
+      end>
+    DataSource = Datasource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 289
+    Height = 60
+    Top = 0
+    Width = 900
+    AutoFill = True
+    Caption = 'Arama türü'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 6
+    ClientHeight = 35
+    ClientWidth = 896
+    Columns = 6
+    ItemIndex = 0
+    Items.Strings = (
+      'Filtre yok'
+      'Adına Göre'
+      'Soyadına Göre'
+      'Ünvana Göre'
+      'TC Kimlik'
+      'Vergi No'
+    )
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Edit1: TEdit
+    Left = 10
+    Height = 28
+    Top = 20
+    Width = 230
+    OnClick = Edit1Click
+    OnKeyPress = Edit1KeyPress
+    ParentFont = False
+    TabOrder = 4
+    Text = 'Ara...'
+  end
+  object Edit2: TEdit
+    Left = 470
+    Height = 28
+    Top = 329
+    Width = 210
+    ParentFont = False
+    TabOrder = 5
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 900
+    Height = 31
+    Top = 329
+    Width = 281
+    BevelOuter = bvNone
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 31
+    ClientWidth = 281
+    DataSource = Datasource2
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 7
+    VisibleButtons = [nbInsert, nbDelete, nbPost, nbRefresh]
+  end
+  object RxDBGrid1: TRxDBGrid
+    Left = 30
+    Height = 200
+    Top = 390
+    Width = 1144
+    ColumnDefValues.BlobText = '(blob)'
+    TitleButtons = False
+    AutoSort = True
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'Hizmet Adı'
+        Width = 450
+        FieldName = 'hizmetadi'
+        EditButtons = <>
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'Adet'
+        Width = 75
+        FieldName = 'adet'
+        EditButtons = <>
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'Birim Fiyat'
+        Width = 225
+        FieldName = 'fiyat'
+        EditButtons = <>
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Alignment = taCenter
+        Title.Orientation = toHorizontal
+        Title.Caption = 'Toplam'
+        Width = 325
+        FieldName = 'toplam'
+        EditButtons = <>
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.NotEmptyValue = '(Not empty)'
+        Filter.AllValue = '(All values)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        Footers = <>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end>
+    FooterOptions.Active = True
+    FooterOptions.Color = clInfoBk
+    FooterOptions.DrawFullLine = False
+    SearchOptions.QuickSearchOptions = [loCaseInsensitive, loPartialKey]
+    SearchOptions.FromStart = False
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind, rdgFooterRows]
+    FooterColor = clInfoBk
+    AlternateColor = clSilver
+    Color = clWindow
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = clHighlight
+    GridLineStyle = psSolid
+    DataSource = Datasource2
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 8
+  end
+  object CheckGroup1: TCheckGroup
+    Left = 700
+    Height = 52
+    Top = 310
+    Width = 170
+    AutoFill = True
+    Caption = 'Vergiler'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 27
+    ClientWidth = 166
+    Columns = 2
+    Items.Strings = (
+      'KDV'
+      'ÖİV'
+    )
+    ParentFont = False
+    TabOrder = 9
+    Data = {
+      020000000202
+    }
+  end
+  object BitBtn3: TBitBtn
+    Left = 530
+    Height = 38
+    Top = 770
+    Width = 180
+    Caption = 'Faturayı Kaydet'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000000000006C49
+      1C2C7E551F5A754F1D62895C217B7F5418877F5418877F5418877F5418877F54
+      18877F5418877F5418877F5418877F541887845920680000000000000000FFB6
+      58FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FFFF9F
+      15FFFF9F15FFFF9F15FFFF9F15FFFF9F15FF7F5418870000000000000000FFCD
+      9DFFFEDDBBFFFEDAB5FFFEDAB5FFFED7B0FFFED7B0FFFED4ABFFFED4ABFFFED2
+      A6FFFED2A6FFFECFA2FFFECFA2FFFF9F15FF7F5418870000000000000000FFCD
+      9DFFFEDFC1FF88463DFF88463DFF88463AFF88463AFF884438FF884438FF8844
+      36FF884436FFA86A54FFFED2A6FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE2C7FFFEDFC1FFFEDFC1FFFEDDBBFFFEDDBBFFFEDAB5FFFEDAB5FFFED7
+      B0FFFED7B0FFFED4ABFFFED2A6FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE2C7FF965B50FF965A4EFF965A4EFF96584CFF96584CFF965849FF9658
+      49FF965646FFBF886FFFFED4ABFFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE5CDFFFEE5CDFFFEE2C7FFFEE2C7FFFEDFC1FFFEDFC1FFFEDDBBFFFEDD
+      BBFFFEDAB5FFFEDAB5FFFED7B0FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEE8D2FFA8756AFF965C52FFA87367FF965B50FFA87264FF965A4EFFA871
+      62FF96584CFFDBB095FFFEDAB5FFFF9F15FF7F5418871A130C0800000000FFCD
+      9DFFFEEBD8FFFEEBD8FFFEE8D2FFFEE8D2FFFEE5CDFFFEE2C7FFFEE2C7FFFEDF
+      C1FFFEDFC1FFFEDDBBFFFEDDBBFFFF9F15FF895C217B1A130C0800000000FFCD
+      9DFFFFEEDEFFA8776DFFBF9589FFA8756AFFBF9385FFA87367FFFEE5CDFFFEE2
+      C7FFFEE2C7FFFEDFC1FFFEDFC1FFFF9F15FF775121641A130C0800000000FFCD
+      9DFFFFF1E4FFFFEEDEFFFFEEDEFFFEEBD8FFFEEBD8FFFEE8D2FFFEE8D2FFFBE1
+      BFFFFF9F15CBFF9F15CBFF9F15CBFF9F15FF907150620000000900000000FFD9
+      B3FFFFF4EAFFBF9991FFBF9991FFBF968DFFBF968DFFBF9589FFFEEBD8FFF8C8
+      8AFFF4D1ACFFF5BD83FFF6B677FFFF9F15FF9F774D370000000000000000FFDF
+      BEFFFFF4EAFFFFF4EAFFFFF1E4FFFFF1E4FFFFEEDEFFFFEEDEFFFEEBD8FFF8C8
+      8AFFF5D6B2E9F4D1ACFFFF9F15FFFF9F152E000000000000000000000000FFE2
+      C4FFFFECD6FFFFF7F0FFFFF4EAFFFFF4EAFFFFF1E4FFFFF1E4FFFFEEDEFFF8C8
+      8AFFFCEEDEDBFFB658FFC47A102300000000000000000000000000000000FFE4
+      C982FFE2C4FFFFDFBEFFFFD9B3FFFFCD9DFFFFCD9DFFFFCD9DFFFFCD9DFFFFCD
+      9DFFFFCD9DFF975E0C1B00000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000
+    }
+    OnClick = BitBtn3Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object CurrencyEdit2: TCurrencyEdit
+    Left = 750
+    Height = 28
+    Top = 650
+    Width = 411
+    Alignment = taRightJustify
+    MaxValue = 0
+    MinValue = 0
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 11
+    Value = 0
+    ZeroEmpty = False
+  end
+  object DateEdit1: TDateEdit
+    Left = 130
+    Height = 28
+    Top = 329
+    Width = 110
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    DefaultToday = True
+    DateOrder = doDMY
+    ButtonWidth = 29
+    NumGlyphs = 1
+    MaxLength = 10
+    ParentFont = False
+    TabOrder = 12
+    Text = '07/01/2020'
+  end
+  object Edit3: TEdit
+    Left = 141
+    Height = 28
+    Top = 600
+    Width = 1020
+    ParentFont = False
+    TabOrder = 13
+  end
+  object frDBDataSet1: TfrDBDataSet
+    DataSet = ZReadOnlyQuery1
+    left = 280
+    top = 774
+  end
+  object Datasource1: TDataSource
+    DataSet = ZReadOnlyQuery2
+    left = 220
+    top = 40
+  end
+  object ZReadOnlyQuery1: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'SELECT corecustomers.adi, corecustomers.soyadi, corecustomers.unvani, corecustomers.adres, corecustomers.vergidairesi, corecustomers.verginumarasi, corefaturalar.tarih, corefaturalar.hizmetid, corefaturalar.adet, corefaturalar.tutar, corefaturalar.aciklama, corefaturalar.faturano, corehizmetturleri.hizmetadi FROM corefaturalar, corecustomers, corehizmetturleri where corecustomers.id=corefaturalar.carihesapid  and corefaturalar.turu="hizmet" and corehizmetturleri.id=corefaturalar.hizmetid and  corefaturalar.faturano=1'
+    )
+    Params = <>
+    left = 320
+    top = 774
+  end
+  object ZReadOnlyQuery2: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select * from corecustomers LIMIT 0,100;'
+    )
+    Params = <>
+    left = 260
+    top = 40
+  end
+  object Datasource2: TDataSource
+    DataSet = RxMemoryData1
+    left = 20
+    top = 350
+  end
+  object Datasource4: TDataSource
+    DataSet = ZTable1
+    left = 150
+    top = 350
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corehizmetturleri'
+    left = 190
+    top = 350
+  end
+  object RxMemoryData1: TRxMemoryData
+    Active = True
+    AutoCalcFields = False
+    FieldDefs = <    
+      item
+        Name = 'hizmetid'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'hizmetadi'
+        DataType = ftString
+        Precision = -1
+        Size = 30
+      end    
+      item
+        Name = 'adet'
+        DataType = ftInteger
+        Precision = -1
+      end    
+      item
+        Name = 'fiyat'
+        DataType = ftCurrency
+        Precision = 2
+      end    
+      item
+        Name = 'toplam'
+        DataType = ftCurrency
+        Precision = 2
+      end>
+    BeforePost = RxMemoryData1BeforePost
+    AfterPost = RxMemoryData1AfterPost
+    PacketRecords = 0
+    left = 60
+    top = 350
+    object RxMemoryData1hizmetid: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'hizmetid'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object RxMemoryData1hizmetadi: TStringField
+      DisplayWidth = 30
+      FieldKind = fkData
+      FieldName = 'hizmetadi'
+      Index = 1
+      KeyFields = 'hizmetadi'
+      LookupCache = False
+      LookupDataSet = ZTable1
+      LookupKeyFields = 'hizmetadi'
+      LookupResultField = 'hizmetadi'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 30
+    end
+    object RxMemoryData1adet: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'adet'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object RxMemoryData1fiyat: TCurrencyField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'fiyat'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 2
+    end
+    object RxMemoryData1toplam: TCurrencyField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'toplam'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 2
+    end
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    Params = <>
+    left = 890
+    top = 770
+  end
+  object frReport1: TfrReport
+    Dataset = frDBDataSet1
+    InitialZoom = pzDefault
+    Options = []
+    PreviewButtons = [pbZoom, pbSave, pbPrint, pbExit]
+    DataType = dtDataSet
+    Title = 'Rapor'
+    left = 230
+    top = 774
+  end
+  object RxMemoryData2: TRxMemoryData
+    Active = True
+    AutoCalcFields = False
+    FieldDefs = <    
+      item
+        Name = 'kdvtoplam'
+        DataType = ftCurrency
+      end    
+      item
+        Name = 'oivtoplam'
+        DataType = ftCurrency
+      end    
+      item
+        Name = 'toplam'
+        DataType = ftCurrency
+      end    
+      item
+        Name = 'geneltoplam'
+        DataType = ftCurrency
+      end    
+      item
+        Name = 'yaziyla'
+        DataType = ftString
+        Size = 250
+      end    
+      item
+        Name = 'aciklama'
+        DataType = ftString
+        Size = 100
+      end>
+    PacketRecords = 0
+    left = 380
+    top = 774
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 810
+    top = 770
+  end
+end

@@ -1,0 +1,84 @@
+object about: Tabout
+  Left = 557
+  Height = 416
+  Top = 274
+  Width = 745
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'About'
+  ClientHeight = 416
+  ClientWidth = 745
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Panel1: TPanel
+    Left = 5
+    Height = 404
+    Top = 6
+    Width = 736
+    ClientHeight = 404
+    ClientWidth = 736
+    ParentFont = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 344
+      Height = 140
+      Top = 40
+      Width = 347
+      Caption = 'Billing for Internet Service Providers'#13#10'Stock'#13#10'Accounting'#13#10'Banking'#13#10'Support Management'
+      Font.Height = -20
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 48
+      Height = 46
+      Top = 24
+      Width = 132
+      Caption = 'CoreNet'
+      Font.Height = -34
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 32
+      Height = 84
+      Top = 200
+      Width = 157
+      Caption = 'Ali VARDAR   '#13#10'www.md5m.com'#13#10'2009-2020'
+      Font.Height = -20
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 15
+      Height = 20
+      Top = 354
+      Width = 128
+      Caption = 'Build number :  002'
+      ParentColor = False
+      ParentFont = False
+    end
+    object BitBtn1: TBitBtn
+      Left = 585
+      Height = 38
+      Top = 334
+      Width = 114
+      Caption = '&OK'
+      Default = True
+      Kind = bkOK
+      ModalResult = 1
+      OnClick = BitBtn1Click
+      ParentFont = False
+      TabOrder = 0
+    end
+  end
+  object RxVersionInfo1: TRxVersionInfo
+    left = 296
+    top = 304
+  end
+end

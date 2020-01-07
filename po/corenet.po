@@ -1,0 +1,1163 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tabonelikbaslatmaform.bitbtn2.caption
+msgid "Start Subscription"
+msgstr ""
+
+#: tabonelikbaslatmaform.caption
+msgid "Add New Internet Subscriptions"
+msgstr ""
+
+#: tabonelikbaslatmaform.dateedit1.text
+msgid "06/01/2020"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid1.columns[0].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid1.columns[0].title.caption"
+msgid "Adı"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid1.columns[1].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid1.columns[1].title.caption"
+msgid "Soyadı"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid1.columns[2].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid1.columns[2].title.caption"
+msgid "Ünvanı"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid1.columns[3].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid1.columns[3].title.caption"
+msgid "Müşteri Türü"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid1.columns[4].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid1.columns[4].title.caption"
+msgid "TC Kimlik No"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid1.columns[5].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid1.columns[5].title.caption"
+msgid "Vergi Dairesi"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid1.columns[6].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid1.columns[6].title.caption"
+msgid "Vergi Numarası"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid2.columns[0].title.caption
+msgid "No"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid2.columns[1].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid2.columns[1].title.caption"
+msgid "Tarife Adı"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid2.columns[2].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid2.columns[2].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid2.columns[3].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid2.columns[3].title.caption"
+msgid "Fiyat"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid2.columns[4].title.caption
+msgid "Download Limit"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid2.columns[5].title.caption
+msgid "Upload Limit"
+msgstr ""
+
+#: tabonelikbaslatmaform.dbgrid2.columns[6].title.caption
+msgctxt "tabonelikbaslatmaform.dbgrid2.columns[6].title.caption"
+msgid "Kota GB"
+msgstr ""
+
+#: tabonelikbaslatmaform.edit1.text
+msgctxt "tabonelikbaslatmaform.edit1.text"
+msgid "Ara..."
+msgstr ""
+
+#: tabonelikbaslatmaform.label1.caption
+msgid "Beginning Date"
+msgstr ""
+
+#: tabonelikbaslatmaform.radiogroup1.caption
+msgctxt "tabonelikbaslatmaform.radiogroup1.caption"
+msgid "Arama türü"
+msgstr ""
+
+#: taboneliksonlandirmaform.bitbtn2.caption
+msgid "Abonelik Sonladır"
+msgstr ""
+
+#: taboneliksonlandirmaform.caption
+msgid "Abonelik Sonlandırma"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid1.columns[0].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid1.columns[0].title.caption"
+msgid "Adı"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid1.columns[1].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid1.columns[1].title.caption"
+msgid "Soyadı"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid1.columns[2].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid1.columns[2].title.caption"
+msgid "Ünvanı"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid1.columns[3].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid1.columns[3].title.caption"
+msgid "Müşteri Türü"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid1.columns[4].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid1.columns[4].title.caption"
+msgid "TC Kimlik No"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid1.columns[5].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid1.columns[5].title.caption"
+msgid "Vergi Dairesi"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid1.columns[6].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid1.columns[6].title.caption"
+msgid "Vergi Numarası"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid2.columns[0].title.caption
+msgid "Türü"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid2.columns[1].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid2.columns[1].title.caption"
+msgid "Fiyat"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid2.columns[2].title.caption
+msgid "Başlangıç"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid2.columns[3].title.caption
+msgid "Son Fatura Dönemi"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid2.columns[4].title.caption
+msgctxt "taboneliksonlandirmaform.dbgrid2.columns[4].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: taboneliksonlandirmaform.dbgrid2.columns[5].title.caption
+msgid "Kullanıcı"
+msgstr ""
+
+#: taboneliksonlandirmaform.edit1.text
+msgctxt "taboneliksonlandirmaform.edit1.text"
+msgid "Ara..."
+msgstr ""
+
+#: taboneliksonlandirmaform.radiogroup1.caption
+msgctxt "taboneliksonlandirmaform.radiogroup1.caption"
+msgid "Arama türü"
+msgstr ""
+
+#: tabout.bitbtn1.caption
+msgid "&OK"
+msgstr ""
+
+#: tabout.caption
+msgid "About"
+msgstr ""
+
+#: tabout.label1.caption
+msgid ""
+"Billing for Internet Service Providers\n"
+"Stock\n"
+"Accounting\n"
+"Banking\n"
+"Support Management\n"
+msgstr ""
+
+#: tabout.label2.caption
+msgid ""
+"Ali VARDAR   \n"
+"www.md5m.com\n"
+"2009-2020\n"
+msgstr ""
+
+#: tabout.label3.caption
+msgid "Build number :  002"
+msgstr ""
+
+#: tabout.label5.caption
+msgid "CoreNet"
+msgstr ""
+
+#: taktifdesteklistesi.caption
+msgid "Active Support Tickets"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid1.columns[0].title.caption
+msgid "Durum"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid1.columns[1].title.caption
+msgctxt "taktifdesteklistesi.dbgrid1.columns[1].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid1.columns[2].title.caption
+msgid "Müşteri Notu"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid1.columns[3].title.caption
+msgid "Sorumlu"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid2.columns[0].title.caption
+msgid "unvani"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid2.columns[1].title.caption
+msgid "adi"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid2.columns[2].title.caption
+msgid "soyadi"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid2.columns[3].title.caption
+msgid "telefon"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid2.columns[4].title.caption
+msgid "eposta"
+msgstr ""
+
+#: taktifdesteklistesi.dbgrid2.columns[5].title.caption
+msgid "adres"
+msgstr ""
+
+#: tbankahesaphareketleri.caption
+msgid "Bank Records"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid1.columns[0].title.caption
+msgid "Banka Adı"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid1.columns[1].title.caption
+msgctxt "tbankahesaphareketleri.dbgrid1.columns[1].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid1.columns[2].title.caption
+msgid "Hesap No"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid1.columns[3].title.caption
+msgid "Şube Adı"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid1.columns[4].title.caption
+msgid "Bakiye"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid2.columns[0].title.caption
+msgctxt "tbankahesaphareketleri.dbgrid2.columns[0].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid2.columns[1].title.caption
+msgid "Borç/Alacak"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid2.columns[2].title.caption
+msgid "Evrak No"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid2.columns[3].title.caption
+msgctxt "tbankahesaphareketleri.dbgrid2.columns[3].title.caption"
+msgid "Tarih"
+msgstr ""
+
+#: tbankahesaphareketleri.dbgrid2.columns[4].title.caption
+msgctxt "tbankahesaphareketleri.dbgrid2.columns[4].title.caption"
+msgid "Tutar"
+msgstr ""
+
+#: tcoreusers.caption
+msgid "Users"
+msgstr ""
+
+#: tcoreusers.dbgrid1.columns[0].title.caption
+msgid "Name Surname"
+msgstr ""
+
+#: tcoreusers.dbgrid1.columns[1].title.caption
+msgid "User name"
+msgstr ""
+
+#: tcoreusers.dbgrid1.columns[2].title.caption
+msgctxt "tcoreusers.dbgrid1.columns[2].title.caption"
+msgid "Password"
+msgstr ""
+
+#: terisimradiusayarlari.bitbtn5.caption
+msgid "Oluştur"
+msgstr ""
+
+#: terisimradiusayarlari.caption
+msgid "İnternet Erişim Radius Ayarları"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid1.columns[0].title.caption
+msgctxt "terisimradiusayarlari.dbgrid1.columns[0].title.caption"
+msgid "Adı"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid1.columns[1].title.caption
+msgctxt "terisimradiusayarlari.dbgrid1.columns[1].title.caption"
+msgid "Soyadı"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid1.columns[2].title.caption
+msgctxt "terisimradiusayarlari.dbgrid1.columns[2].title.caption"
+msgid "Ünvanı"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid1.columns[3].title.caption
+msgctxt "terisimradiusayarlari.dbgrid1.columns[3].title.caption"
+msgid "Müşteri Türü"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid1.columns[4].title.caption
+msgctxt "terisimradiusayarlari.dbgrid1.columns[4].title.caption"
+msgid "TC Kimlik No"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid1.columns[5].title.caption
+msgctxt "terisimradiusayarlari.dbgrid1.columns[5].title.caption"
+msgid "Vergi Dairesi"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid1.columns[6].title.caption
+msgctxt "terisimradiusayarlari.dbgrid1.columns[6].title.caption"
+msgid "Vergi Numarası"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid2.columns[0].title.caption
+msgctxt "terisimradiusayarlari.dbgrid2.columns[0].title.caption"
+msgid "Tarife Adı"
+msgstr ""
+
+#: terisimradiusayarlari.dbgrid2.columns[1].title.caption
+msgctxt "terisimradiusayarlari.dbgrid2.columns[1].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: terisimradiusayarlari.edit1.text
+msgctxt "terisimradiusayarlari.edit1.text"
+msgid "Ara..."
+msgstr ""
+
+#: terisimradiusayarlari.label2.caption
+msgid "Kullanıcı Adı :"
+msgstr ""
+
+#: terisimradiusayarlari.label3.caption
+msgid "Şifre :"
+msgstr ""
+
+#: terisimradiusayarlari.label4.caption
+msgid "Radius Sunucu :"
+msgstr ""
+
+#: terisimradiusayarlari.label6.caption
+msgid "Simultane Giriş :"
+msgstr ""
+
+#: terisimradiusayarlari.radiogroup1.caption
+msgctxt "terisimradiusayarlari.radiogroup1.caption"
+msgid "Arama türü"
+msgstr ""
+
+#: tfaturakesmehizmet.bitbtn1.caption
+msgid "Faturayı Yazdır"
+msgstr ""
+
+#: tfaturakesmehizmet.bitbtn3.caption
+msgid "Faturayı Kaydet"
+msgstr ""
+
+#: tfaturakesmehizmet.caption
+msgctxt "tfaturakesmehizmet.caption"
+msgid "Hizmet Faturası Kesme"
+msgstr ""
+
+#: tfaturakesmehizmet.checkgroup1.caption
+msgid "Vergiler"
+msgstr ""
+
+#: tfaturakesmehizmet.dateedit1.text
+msgctxt "tfaturakesmehizmet.dateedit1.text"
+msgid "07/01/2020"
+msgstr ""
+
+#: tfaturakesmehizmet.dbgrid1.columns[0].title.caption
+msgctxt "tfaturakesmehizmet.dbgrid1.columns[0].title.caption"
+msgid "Adı"
+msgstr ""
+
+#: tfaturakesmehizmet.dbgrid1.columns[1].title.caption
+msgctxt "tfaturakesmehizmet.dbgrid1.columns[1].title.caption"
+msgid "Soyadı"
+msgstr ""
+
+#: tfaturakesmehizmet.dbgrid1.columns[2].title.caption
+msgctxt "tfaturakesmehizmet.dbgrid1.columns[2].title.caption"
+msgid "Ünvanı"
+msgstr ""
+
+#: tfaturakesmehizmet.dbgrid1.columns[3].title.caption
+msgctxt "tfaturakesmehizmet.dbgrid1.columns[3].title.caption"
+msgid "Müşteri Türü"
+msgstr ""
+
+#: tfaturakesmehizmet.dbgrid1.columns[4].title.caption
+msgctxt "tfaturakesmehizmet.dbgrid1.columns[4].title.caption"
+msgid "TC Kimlik No"
+msgstr ""
+
+#: tfaturakesmehizmet.dbgrid1.columns[5].title.caption
+msgctxt "tfaturakesmehizmet.dbgrid1.columns[5].title.caption"
+msgid "Vergi Dairesi"
+msgstr ""
+
+#: tfaturakesmehizmet.dbgrid1.columns[6].title.caption
+msgctxt "tfaturakesmehizmet.dbgrid1.columns[6].title.caption"
+msgid "Vergi Numarası"
+msgstr ""
+
+#: tfaturakesmehizmet.edit1.text
+msgctxt "tfaturakesmehizmet.edit1.text"
+msgid "Ara..."
+msgstr ""
+
+#: tfaturakesmehizmet.groupbox1.caption
+msgid "Fatura Detayı"
+msgstr ""
+
+#: tfaturakesmehizmet.label1.caption
+msgid "Fatura Tarihi :"
+msgstr ""
+
+#: tfaturakesmehizmet.label10.caption
+msgid "Açıklama :"
+msgstr ""
+
+#: tfaturakesmehizmet.label4.caption
+msgid "Fatura No :"
+msgstr ""
+
+#: tfaturakesmehizmet.label5.caption
+msgid "Genel Toplam:"
+msgstr ""
+
+#: tfaturakesmehizmet.label6.caption
+msgid "K.D.V.   :"
+msgstr ""
+
+#: tfaturakesmehizmet.label8.caption
+msgid "Ö.İ.V.  :"
+msgstr ""
+
+#: tfaturakesmehizmet.label9.caption
+msgid "Fatura Tutarı :"
+msgstr ""
+
+#: tfaturakesmehizmet.radiogroup1.caption
+msgctxt "tfaturakesmehizmet.radiogroup1.caption"
+msgid "Arama türü"
+msgstr ""
+
+#: tfaturakesmehizmet.rxdbgrid1.columns[0].title.caption
+msgid "Hizmet Adı"
+msgstr ""
+
+#: tfaturakesmehizmet.rxdbgrid1.columns[1].title.caption
+msgid "Adet"
+msgstr ""
+
+#: tfaturakesmehizmet.rxdbgrid1.columns[2].title.caption
+msgid "Birim Fiyat"
+msgstr ""
+
+#: tfaturakesmehizmet.rxdbgrid1.columns[3].title.caption
+msgid "Toplam"
+msgstr ""
+
+#: tfaturalistesi.bitbtn2.caption
+msgid "Print Selected Invoice"
+msgstr ""
+
+#: tfaturalistesi.bitbtn4.caption
+msgid "Delete Selected Invoice"
+msgstr ""
+
+#: tfaturalistesi.caption
+msgid "Prepared Invoices List"
+msgstr ""
+
+#: tfaturalistesi.dbgrid1.columns[0].title.caption
+msgctxt "tfaturalistesi.dbgrid1.columns[0].title.caption"
+msgid "Adı"
+msgstr ""
+
+#: tfaturalistesi.dbgrid1.columns[1].title.caption
+msgctxt "tfaturalistesi.dbgrid1.columns[1].title.caption"
+msgid "Soyadı"
+msgstr ""
+
+#: tfaturalistesi.dbgrid1.columns[2].title.caption
+msgctxt "tfaturalistesi.dbgrid1.columns[2].title.caption"
+msgid "Ünvanı"
+msgstr ""
+
+#: tfaturalistesi.dbgrid1.columns[3].title.caption
+msgctxt "tfaturalistesi.dbgrid1.columns[3].title.caption"
+msgid "Tarih"
+msgstr ""
+
+#: tfaturalistesi.dbgrid1.columns[4].title.caption
+msgctxt "tfaturalistesi.dbgrid1.columns[4].title.caption"
+msgid "Tutar"
+msgstr ""
+
+#: tfaturalistesi.dbgrid1.columns[5].title.caption
+msgid "Fatura No"
+msgstr ""
+
+#: tfaturalistesi.edit1.text
+msgctxt "tfaturalistesi.edit1.text"
+msgid "Ara..."
+msgstr ""
+
+#: tfaturalistesi.radiogroup1.caption
+msgctxt "tfaturalistesi.radiogroup1.caption"
+msgid "Arama türü"
+msgstr ""
+
+#: thataturleri.caption
+msgid "Customer Ticket Types"
+msgstr ""
+
+#: thataturleri.dbgrid1.columns[0].title.caption
+msgid "Hata Türünün Adı"
+msgstr ""
+
+#: tmainscreen.caption
+msgid "Workbench - CoreNet ISP Automatization"
+msgstr ""
+
+#: tmainscreen.menuitem1.caption
+msgid "Stok"
+msgstr ""
+
+#: tmainscreen.menuitem10.caption
+msgid "Kullanıcı Hakları"
+msgstr ""
+
+#: tmainscreen.menuitem11.caption
+msgid "Stok Kartı"
+msgstr ""
+
+#: tmainscreen.menuitem12.caption
+msgid "Diğer Tahsilat/Tediye"
+msgstr ""
+
+#: tmainscreen.menuitem14.caption
+msgid "Radius Sunucuları"
+msgstr ""
+
+#: tmainscreen.menuitem15.caption
+msgid "Hakkında"
+msgstr ""
+
+#: tmainscreen.menuitem16.caption
+msgid "Yazılım Hakkında"
+msgstr ""
+
+#: tmainscreen.menuitem17.caption
+msgid "Günlük Kasa Raporu"
+msgstr ""
+
+#: tmainscreen.menuitem18.caption
+msgid "Yeni Stok Hareketi"
+msgstr ""
+
+#: tmainscreen.menuitem19.caption
+msgid "Kesilmiş Faturalar"
+msgstr ""
+
+#: tmainscreen.menuitem2.caption
+msgid "Cari İşlemler"
+msgstr ""
+
+#: tmainscreen.menuitem20.caption
+msgid "De&stek Takip"
+msgstr ""
+
+#: tmainscreen.menuitem21.caption
+msgid "Yeni Destek Kaydı"
+msgstr ""
+
+#: tmainscreen.menuitem22.caption
+msgid "Yeni Kullanıcı"
+msgstr ""
+
+#: tmainscreen.menuitem23.caption
+msgid "Bankalar"
+msgstr ""
+
+#: tmainscreen.menuitem24.caption
+msgid "Cari Gelen/Giden Havale"
+msgstr ""
+
+#: tmainscreen.menuitem25.caption
+msgid "Banka Hesapları"
+msgstr ""
+
+#: tmainscreen.menuitem26.caption
+msgid "Kasa"
+msgstr ""
+
+#: tmainscreen.menuitem27.caption
+msgid "Kasa Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem28.caption
+msgid "Bankaya Para Yatırma"
+msgstr ""
+
+#: tmainscreen.menuitem3.caption
+msgid "Faturalar"
+msgstr ""
+
+#: tmainscreen.menuitem30.caption
+msgid "Bankadan Para Çekme"
+msgstr ""
+
+#: tmainscreen.menuitem31.caption
+msgid "Aktif D&estek Listesi"
+msgstr ""
+
+#: tmainscreen.menuitem33.caption
+msgid "Envanter Listesi"
+msgstr ""
+
+#: tmainscreen.menuitem34.caption
+msgctxt "tmainscreen.menuitem34.caption"
+msgid "Stok Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem35.caption
+msgid "Stok Kartı Ekstresi"
+msgstr ""
+
+#: tmainscreen.menuitem36.caption
+msgctxt "tmainscreen.menuitem36.caption"
+msgid "Hizmet Faturası Kesme"
+msgstr ""
+
+#: tmainscreen.menuitem37.caption
+msgid "Banka Hesap Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem38.caption
+msgid "Cari Tahsilat/Tediye "
+msgstr ""
+
+#: tmainscreen.menuitem39.caption
+msgid "Emtia Faturası Kesme"
+msgstr ""
+
+#: tmainscreen.menuitem4.caption
+msgid "Ayarlar"
+msgstr ""
+
+#: tmainscreen.menuitem41.caption
+msgid "Destek Kayıtları"
+msgstr ""
+
+#: tmainscreen.menuitem42.caption
+msgid "Cari Listesi"
+msgstr ""
+
+#: tmainscreen.menuitem43.caption
+msgid "Çıkış"
+msgstr ""
+
+#: tmainscreen.menuitem44.caption
+msgid "Destek Türleri"
+msgstr ""
+
+#: tmainscreen.menuitem45.caption
+msgid "Hizmetler"
+msgstr ""
+
+#: tmainscreen.menuitem46.caption
+msgid "İnternete Erişim Sonlandır"
+msgstr ""
+
+#: tmainscreen.menuitem47.caption
+msgid "İnternete Erişim Başlat"
+msgstr ""
+
+#: tmainscreen.menuitem48.caption
+msgid "Hizmet Türleri"
+msgstr ""
+
+#: tmainscreen.menuitem49.caption
+msgid "Fatura Hareketlerini CSV Transfer"
+msgstr ""
+
+#: tmainscreen.menuitem5.caption
+msgid "Kullanıcılar"
+msgstr ""
+
+#: tmainscreen.menuitem50.caption
+msgid "Cari Hareketlerini CSV Transfer"
+msgstr ""
+
+#: tmainscreen.menuitem52.caption
+msgid "Bankadan Cari Hareket Girişi"
+msgstr ""
+
+#: tmainscreen.menuitem53.caption
+msgid "İndirim Türleri"
+msgstr ""
+
+#: tmainscreen.menuitem54.caption
+msgid "İlave Türleri"
+msgstr ""
+
+#: tmainscreen.menuitem55.caption
+msgid "Abonelik Başlat"
+msgstr ""
+
+#: tmainscreen.menuitem56.caption
+msgid "Müşteri Yetkilisi Tanımla"
+msgstr ""
+
+#: tmainscreen.menuitem57.caption
+msgid "Abonelik Sonlandır"
+msgstr ""
+
+#: tmainscreen.menuitem58.caption
+msgid "Borç Alacak Raporu"
+msgstr ""
+
+#: tmainscreen.menuitem59.caption
+msgid "Abonelik Hesaplamaları"
+msgstr ""
+
+#: tmainscreen.menuitem6.caption
+msgctxt "tmainscreen.menuitem6.caption"
+msgid "Stok Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem60.caption
+msgid "Bekleyen Faturalar"
+msgstr ""
+
+#: tmainscreen.menuitem63.caption
+msgid "Hizmet Hareketleri Raporu"
+msgstr ""
+
+#: tmainscreen.menuitem65.caption
+msgid "Kesilen Faturalar Raporu"
+msgstr ""
+
+#: tmainscreen.menuitem67.caption
+msgid "Banka Hesap Hareketleri Raporu"
+msgstr ""
+
+#: tmainscreen.menuitem69.caption
+msgid "Müşteri Çağrı Hareketleri Raporu"
+msgstr ""
+
+#: tmainscreen.menuitem7.caption
+msgid "Cari Hesap Oluştur"
+msgstr ""
+
+#: tmainscreen.menuitem70.caption
+msgid "Kullanıcı Çağrı Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem71.caption
+msgid "İki Tarih Arası Kasa Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem72.caption
+msgid "Cari Hesap Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem73.caption
+msgid "Detaylı Müşteri Hareketleri"
+msgstr ""
+
+#: tmainscreen.menuitem9.caption
+msgid "Tarifeler"
+msgstr ""
+
+#: tmainscreen.vergi.caption
+msgid "Vergi Oranları"
+msgstr ""
+
+#: tnewstockrecord.caption
+msgctxt "tnewstockrecord.caption"
+msgid "New Stock Record"
+msgstr ""
+
+#: tnewstockrecord.dateedit1.text
+msgctxt "tnewstockrecord.dateedit1.text"
+msgid "07/01/2020"
+msgstr ""
+
+#: tnewstockrecord.dbgrid1.columns[0].title.caption
+msgctxt "tnewstockrecord.dbgrid1.columns[0].title.caption"
+msgid "Adı"
+msgstr ""
+
+#: tnewstockrecord.dbgrid1.columns[1].title.caption
+msgctxt "tnewstockrecord.dbgrid1.columns[1].title.caption"
+msgid "Soyadı"
+msgstr ""
+
+#: tnewstockrecord.dbgrid1.columns[2].title.caption
+msgctxt "tnewstockrecord.dbgrid1.columns[2].title.caption"
+msgid "Ünvanı"
+msgstr ""
+
+#: tnewstockrecord.dbgrid1.columns[3].title.caption
+msgctxt "tnewstockrecord.dbgrid1.columns[3].title.caption"
+msgid "Müşteri Türü"
+msgstr ""
+
+#: tnewstockrecord.dbgrid1.columns[4].title.caption
+msgctxt "tnewstockrecord.dbgrid1.columns[4].title.caption"
+msgid "TC Kimlik No"
+msgstr ""
+
+#: tnewstockrecord.dbgrid1.columns[5].title.caption
+msgctxt "tnewstockrecord.dbgrid1.columns[5].title.caption"
+msgid "Vergi Dairesi"
+msgstr ""
+
+#: tnewstockrecord.dbgrid1.columns[6].title.caption
+msgctxt "tnewstockrecord.dbgrid1.columns[6].title.caption"
+msgid "Vergi Numarası"
+msgstr ""
+
+#: tnewstockrecord.edit1.text
+msgctxt "tnewstockrecord.edit1.text"
+msgid "Ara..."
+msgstr ""
+
+#: tnewstockrecord.label2.caption
+msgid "Date"
+msgstr ""
+
+#: tnewstockrecord.label3.caption
+msgid "Product :"
+msgstr ""
+
+#: tnewstockrecord.label4.caption
+msgid "Gelen/Giden :"
+msgstr ""
+
+#: tnewstockrecord.label6.caption
+msgid "Description :"
+msgstr ""
+
+#: tnewstockrecord.label7.caption
+msgid "Quantity :"
+msgstr ""
+
+#: tnewstockrecord.radiogroup1.caption
+msgid "Search by"
+msgstr ""
+
+#: tstokhareketleri.bitbtn1.caption
+msgid "&Close"
+msgstr ""
+
+#: tstokhareketleri.caption
+msgid "Stock Actions"
+msgstr ""
+
+#: tstokhareketleri.dbgrid1.columns[0].title.caption
+msgid "Ürün Adı"
+msgstr ""
+
+#: tstokhareketleri.dbgrid1.columns[1].title.caption
+msgctxt "tstokhareketleri.dbgrid1.columns[1].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: tstokhareketleri.dbgrid1.columns[2].title.caption
+msgid "Birim"
+msgstr ""
+
+#: tstokhareketleri.dbgrid1.columns[3].title.caption
+msgid "Son Durum"
+msgstr ""
+
+#: tstokhareketleri.dbgrid2.columns[0].title.caption
+msgctxt "tstokhareketleri.dbgrid2.columns[0].title.caption"
+msgid "Tarih"
+msgstr ""
+
+#: tstokhareketleri.dbgrid2.columns[1].title.caption
+msgid "Gelen / Giden"
+msgstr ""
+
+#: tstokhareketleri.dbgrid2.columns[2].title.caption
+msgctxt "tstokhareketleri.dbgrid2.columns[2].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: tstokhareketleri.dbgrid2.columns[3].title.caption
+msgid "Miktar"
+msgstr ""
+
+#: tstokhareketleri.dbgrid3.columns[0].title.caption
+msgctxt "tstokhareketleri.dbgrid3.columns[0].title.caption"
+msgid "Ünvanı"
+msgstr ""
+
+#: tstokhareketleri.dbgrid3.columns[1].title.caption
+msgctxt "tstokhareketleri.dbgrid3.columns[1].title.caption"
+msgid "Adı"
+msgstr ""
+
+#: tstokhareketleri.dbgrid3.columns[2].title.caption
+msgctxt "tstokhareketleri.dbgrid3.columns[2].title.caption"
+msgid "Soyadı"
+msgstr ""
+
+#: tstokkart.caption
+msgctxt "tstokkart.caption"
+msgid "New Stock Record"
+msgstr ""
+
+#: tstokkart.label1.caption
+msgid "Stok Kart Bilgisi"
+msgstr ""
+
+#: tstokkart.label2.caption
+msgid "Şu anda Stokta Bulunan"
+msgstr ""
+
+#: tstokkart.label3.caption
+msgid "Ürün ID:"
+msgstr ""
+
+#: tstokkart.label4.caption
+msgid "Ürün Adı :"
+msgstr ""
+
+#: tstokkart.label5.caption
+msgid "Ürün Açıklaması"
+msgstr ""
+
+#: tstokkart.label6.caption
+msgid "Ölçü Birimi :"
+msgstr ""
+
+#: tstokkart.label7.caption
+msgid "Barkod :"
+msgstr ""
+
+#: ttarifeler.caption
+msgid "Price List"
+msgstr ""
+
+#: ttarifeler.dbgrid2.columns[0].title.caption
+msgid "Tarife No"
+msgstr ""
+
+#: ttarifeler.dbgrid2.columns[1].title.caption
+msgctxt "ttarifeler.dbgrid2.columns[1].title.caption"
+msgid "Tarife Adı"
+msgstr ""
+
+#: ttarifeler.dbgrid2.columns[2].title.caption
+msgctxt "ttarifeler.dbgrid2.columns[2].title.caption"
+msgid "Açıklama"
+msgstr ""
+
+#: ttarifeler.dbgrid2.columns[3].title.caption
+msgctxt "ttarifeler.dbgrid2.columns[3].title.caption"
+msgid "Kota GB"
+msgstr ""
+
+#: ttarifeler.dbgrid2.columns[4].title.caption
+msgctxt "ttarifeler.dbgrid2.columns[4].title.caption"
+msgid "Fiyat"
+msgstr ""
+
+#: ttarifeler.dbgrid2.columns[5].title.caption
+msgid "Download"
+msgstr ""
+
+#: ttarifeler.dbgrid2.columns[6].title.caption
+msgid "Upload"
+msgstr ""
+
+#: tuserrights.caption
+msgid "User Permissions"
+msgstr ""
+
+#: tuserrights.label1.caption
+msgid "Admin"
+msgstr ""
+
+#: tuserrights.label2.caption
+msgid "Banking"
+msgstr ""
+
+#: tuserrights.label3.caption
+msgid "Customer Accounts"
+msgstr ""
+
+#: tuserrights.label4.caption
+msgid "Invoices"
+msgstr ""
+
+#: tuserrights.label5.caption
+msgid "Cash"
+msgstr ""
+
+#: tuserrights.label6.caption
+msgid "Tickets"
+msgstr ""
+
+#: tuserrights.label7.caption
+msgid "Stock"
+msgstr ""
+
+#: tuserrights.label8.caption
+msgid "User name:"
+msgstr ""
+
+#: tuserrights.label9.caption
+msgid "Acces"
+msgstr ""
+
+#: tvergioranlari.caption
+msgid "Tax Percentage"
+msgstr ""
+
+#: tvergioranlari.dbgrid2.columns[0].title.caption
+msgid "VAT Percentage"
+msgstr ""
+
+#: tvergioranlari.dbgrid2.columns[1].title.caption
+msgid "Other Tax Percentage"
+msgstr ""
+
+#: tyenicorebiluser.bitbtn3.caption
+msgid "Save"
+msgstr ""
+
+#: tyenicorebiluser.caption
+msgid "Create new user"
+msgstr ""
+
+#: tyenicorebiluser.label1.caption
+msgid "Name surname :"
+msgstr ""
+
+#: tyenicorebiluser.label2.caption
+msgid "User name :"
+msgstr ""
+
+#: tyenicorebiluser.label3.caption
+msgctxt "tyenicorebiluser.label3.caption"
+msgid "Password"
+msgstr ""
+
+#: tyenimusteri.caption
+msgid "Yeni Cari Kartı"
+msgstr ""
+
+#: tyenimusteri.label1.caption
+msgid "Adı:"
+msgstr ""
+
+#: tyenimusteri.label10.caption
+msgid "E-Posta:"
+msgstr ""
+
+#: tyenimusteri.label11.caption
+msgid "Cari Türü : "
+msgstr ""
+
+#: tyenimusteri.label12.caption
+msgid "IP Kontrol :"
+msgstr ""
+
+#: tyenimusteri.label13.caption
+msgid "IP Aralığı :"
+msgstr ""
+
+#: tyenimusteri.label14.caption
+msgid "Müşteri ve Satıcı Bilgileri"
+msgstr ""
+
+#: tyenimusteri.label2.caption
+msgid "Soyadı:"
+msgstr ""
+
+#: tyenimusteri.label3.caption
+msgid "Ünvan:"
+msgstr ""
+
+#: tyenimusteri.label4.caption
+msgid "Adres:"
+msgstr ""
+
+#: tyenimusteri.label5.caption
+msgid "T.C Kimlik No:"
+msgstr ""
+
+#: tyenimusteri.label6.caption
+msgid "Hizmet No :"
+msgstr ""
+
+#: tyenimusteri.label7.caption
+msgid "Vergi Dairesi:"
+msgstr ""
+
+#: tyenimusteri.label8.caption
+msgid "Vergi Numarası:"
+msgstr ""
+
+#: tyenimusteri.label9.caption
+msgid "Telefon Numarası:"
+msgstr ""
+

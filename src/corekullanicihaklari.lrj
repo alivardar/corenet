@@ -1,0 +1,12 @@
+{"version":1,"strings":[
+{"hash":83560275,"name":"tuserrights.caption","sourcebytes":[85,115,101,114,32,80,101,114,109,105,115,115,105,111,110,115],"value":"User Permissions"},
+{"hash":4699134,"name":"tuserrights.label1.caption","sourcebytes":[65,100,109,105,110],"value":"Admin"},
+{"hash":142942215,"name":"tuserrights.label2.caption","sourcebytes":[66,97,110,107,105,110,103],"value":"Banking"},
+{"hash":267406195,"name":"tuserrights.label3.caption","sourcebytes":[67,117,115,116,111,109,101,114,32,65,99,99,111,117,110,116,115],"value":"Customer Accounts"},
+{"hash":97909955,"name":"tuserrights.label4.caption","sourcebytes":[73,110,118,111,105,99,101,115],"value":"Invoices"},
+{"hash":301208,"name":"tuserrights.label5.caption","sourcebytes":[67,97,115,104],"value":"Cash"},
+{"hash":184163555,"name":"tuserrights.label6.caption","sourcebytes":[84,105,99,107,101,116,115],"value":"Tickets"},
+{"hash":5944731,"name":"tuserrights.label7.caption","sourcebytes":[83,116,111,99,107],"value":"Stock"},
+{"hash":74566218,"name":"tuserrights.label8.caption","sourcebytes":[85,115,101,114,32,110,97,109,101,58],"value":"User name:"},
+{"hash":4692419,"name":"tuserrights.label9.caption","sourcebytes":[65,99,99,101,115],"value":"Acces"}
+]}

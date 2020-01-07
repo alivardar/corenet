@@ -1,0 +1,414 @@
+object ilaveturleri: Tilaveturleri
+  Left = 450
+  Height = 484
+  Top = 169
+  Width = 622
+  ActiveControl = DBGrid2
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'İlave Türleri'
+  ClientHeight = 484
+  ClientWidth = 622
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 33
+    Top = 256
+    Width = 622
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 29
+    ClientWidth = 618
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 520
+    Height = 30
+    Top = 448
+    Width = 91
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 1
+  end
+  object RxDBGrid1: TRxDBGrid
+    Left = 0
+    Height = 154
+    Top = 289
+    Width = 622
+    TitleButtons = False
+    AutoSort = True
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'İlave Adı'
+        Title.Orientation = toHorizontal
+        FieldName = 'ilaveadi'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Kaç Ay'
+        Title.Orientation = toHorizontal
+        FieldName = 'kacay'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Tutar'
+        Title.Orientation = toHorizontal
+        FieldName = 'tutar'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Tarife'
+        Title.Orientation = toHorizontal
+        FieldName = 'tarifeid'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Açıklama'
+        Title.Orientation = toHorizontal
+        Width = 300
+        FieldName = 'aciklama'
+        Filter.Font.Style = [fsItalic]
+        Filter.DropDownRows = 0
+        Filter.EmptyValue = '(Empty)'
+        Filter.EmptyFont.Style = [fsItalic]
+        Filter.ItemIndex = -1
+        EditButtons = <>
+      end>
+    KeyStrokes = <    
+      item
+        Command = rxgcShowFindDlg
+        ShortCut = 16454
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowColumnsDlg
+        ShortCut = 16471
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowFilterDlg
+        ShortCut = 16468
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowSortDlg
+        ShortCut = 16467
+        Enabled = True
+      end    
+      item
+        Command = rxgcShowQuickFilter
+        ShortCut = 16465
+        Enabled = True
+      end    
+      item
+        Command = rxgcHideQuickFilter
+        ShortCut = 16456
+        Enabled = True
+      end    
+      item
+        Command = rxgcSelectAll
+        ShortCut = 16449
+        Enabled = True
+      end    
+      item
+        Command = rxgcDeSelectAll
+        ShortCut = 16429
+        Enabled = True
+      end    
+      item
+        Command = rxgcInvertSelection
+        ShortCut = 16426
+        Enabled = True
+      end    
+      item
+        Command = rxgcOptimizeColumnsWidth
+        ShortCut = 16427
+        Enabled = True
+      end>
+    FooterOptions.Color = clYellow
+    OptionsRx = [rdgAllowColumnsForm, rdgAllowDialogFind]
+    FooterColor = clYellow
+    Align = alTop
+    AlternateColor = clSilver
+    Color = clWindow
+    DrawFullLine = False
+    FocusColor = clRed
+    SelectedColor = clHighlight
+    GridLineStyle = psSolid
+    DataSource = Datasource1
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentColor = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object DBGrid2: TDBGrid
+    Left = 0
+    Height = 256
+    Top = 0
+    Width = 622
+    Align = alTop
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Tarife No'
+        FieldName = 'tarifeno'
+      end    
+      item
+        Title.Caption = 'Tarife Adı'
+        FieldName = 'tarifeadi'
+      end    
+      item
+        Title.Caption = 'Kota Gb'
+        FieldName = 'kotagigabyte'
+      end    
+      item
+        Title.Caption = 'Download Limit'
+        FieldName = 'downloadlimit'
+      end    
+      item
+        Title.Caption = 'Upload Limit'
+        FieldName = 'uploadlimit'
+      end    
+      item
+        Title.Caption = 'Açıklama'
+        Width = 250
+        FieldName = 'aciklama'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    Scrollbars = ssAutoBoth
+    TabOrder = 3
+  end
+  object Datasource1: TDatasource
+    DataSet = ZTable1
+    left = 104
+    top = 448
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coreilaveturleri'
+    MasterFields = 'id'
+    MasterSource = Datasource2
+    LinkedFields = 'tarifeid'
+    left = 72
+    top = 448
+    object ZTable1id: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'id'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZTable1ilaveadi: TStringField
+      DisplayWidth = 40
+      FieldKind = fkData
+      FieldName = 'ilaveadi'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 40
+    end
+    object ZTable1aciklama: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'aciklama'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object ZTable1tutar: TFloatField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tutar'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 22
+    end
+    object ZTable1kacay: TSmallintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'kacay'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZTable1tarifeid: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tarifeid'
+      Index = 5
+      KeyFields = 'tarifeid'
+      LookupCache = False
+      LookupDataSet = ZTable2
+      LookupKeyFields = 'id'
+      LookupResultField = 'tarifeadi'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object Datasource2: TDatasource
+    DataSet = ZTable2
+    left = 224
+    top = 448
+  end
+  object ZTable2: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coretarife'
+    left = 192
+    top = 448
+    object ZTable2id: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'id'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZTable2tarifeadi: TStringField
+      DisplayWidth = 30
+      FieldKind = fkData
+      FieldName = 'tarifeadi'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 30
+    end
+    object ZTable2tarifeno: TStringField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'tarifeno'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object ZTable2uploadlimit: TStringField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'uploadlimit'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object ZTable2downloadlimit: TStringField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'downloadlimit'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object ZTable2fiyat: TFloatField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'fiyat'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 11
+    end
+    object ZTable2kotagigabyte: TSmallintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'kotagigabyte'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object ZTable2aciklama: TStringField
+      DisplayWidth = 200
+      FieldKind = fkData
+      FieldName = 'aciklama'
+      Index = 7
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 200
+    end
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 24
+    top = 448
+  end
+end

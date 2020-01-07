@@ -1,0 +1,83 @@
+unit corekasaunit;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, db, FileUtil, LResources, Forms, Controls, Graphics,
+  Dialogs, DBGrids, DbCtrls,  EditBtn, Buttons, StdCtrls, ExtCtrls,
+  ExtDlgs, ZConnection, ZDataset,functionconfig;
+
+type
+
+  { Tcorekasa }
+
+  Tcorekasa = class(TForm)
+    BitBtn1: TBitBtn;
+    Datasource1: TDatasource;
+    DateEdit1: TDateEdit;
+    DBGrid1: TDBGrid;
+    ZConnection1: TZConnection;
+    ZTable1: TZTable;
+    procedure BitBtn1Click(Sender: TObject);
+    procedure DateEdit1Change(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
+
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end; 
+
+var
+  corekasa: Tcorekasa;
+
+implementation
+
+{ Tcorekasa }
+
+
+procedure Tcorekasa.SpeedButton1Click(Sender: TObject);
+begin
+//DateEdit1.Date:=StrToDate('');
+//showmessage( DateToStr( DateEdit1.Date ) );
+end;
+
+
+
+procedure Tcorekasa.DateEdit1Change(Sender: TObject);
+begin
+  ZTable1.Active:=False;
+  ZTable1.Filter:='tarih='+DateToStr(DateEdit1.Date);
+  ZTable1.Filtered:=True;
+  ZTable1.Active:=True;
+end;
+
+procedure Tcorekasa.FormShow(Sender: TObject);
+begin
+  //SQL Connection bu alandan ayarlanacak
+  ZConnection1.HostName:=mysqlserver;
+  ZConnection1.Database:=mysqldbname;
+  ZConnection1.User:=mysqlusername;
+  ZConnection1.Password:=mysqlpassword;
+  ZConnection1.Connected:=True;
+
+  ZTable1.Active:=True;
+end;
+
+procedure Tcorekasa.BitBtn1Click(Sender: TObject);
+begin
+  Self.Free;
+end;
+
+
+
+
+
+initialization
+  {$I corekasaunit.lrs}
+
+end.
+

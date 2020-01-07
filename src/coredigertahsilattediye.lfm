@@ -1,0 +1,183 @@
+object digertahsilattediye: Tdigertahsilattediye
+  Left = 528
+  Height = 359
+  Top = 281
+  Width = 427
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Diğer Tahsilat Tediye İşlemleri'
+  ClientHeight = 359
+  ClientWidth = 427
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object Label1: TLabel
+    Left = 16
+    Height = 13
+    Top = 40
+    Width = 265
+    Caption = 'Cari İlişkisi Olmayan Tahsilat / Tediye İşlemleri'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 13
+    Top = 121
+    Width = 70
+    Caption = 'Hareket Türü: '
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 13
+    Top = 159
+    Width = 50
+    Caption = 'Evrak No: '
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 13
+    Top = 79
+    Width = 31
+    Caption = 'Tarih: '
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 32
+    Height = 13
+    Top = 216
+    Width = 48
+    Caption = 'Açıklama: '
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 32
+    Height = 13
+    Top = 285
+    Width = 33
+    Caption = 'Tutar: '
+    ParentColor = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 427
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 28
+    ClientWidth = 423
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    TabOrder = 0
+    VisibleButtons = [nbInsert, nbPost, nbCancel]
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 144
+    Height = 21
+    Top = 112
+    Width = 161
+    DataField = 'hareketturu'
+    DataSource = Datasource1
+    ItemHeight = 13
+    Items.Strings = (
+      'Tahsilat'
+      'Tediye'
+    )
+    MaxLength = 0
+    TabOrder = 1
+  end
+  object DBEdit1: TDBEdit
+    Left = 144
+    Height = 21
+    Top = 152
+    Width = 160
+    DataField = 'evrakno'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 20
+    TabOrder = 2
+  end
+  object DBMemo1: TDBMemo
+    Left = 144
+    Height = 64
+    Top = 192
+    Width = 267
+    DataField = 'aciklama'
+    DataSource = Datasource1
+    TabOrder = 3
+  end
+  object BitBtn1: TBitBtn
+    Left = 336
+    Height = 30
+    Top = 320
+    Width = 75
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 4
+  end
+  object DBEdit2: TDBEdit
+    Left = 144
+    Height = 21
+    Top = 278
+    Width = 264
+    DataField = 'tutar'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 5
+  end
+  object DateEdit1: TDateEdit
+    Left = 144
+    Height = 21
+    Top = 72
+    Width = 80
+    CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+    OKCaption = 'OK'
+    CancelCaption = 'Cancel'
+    DefaultToday = True
+    DateOrder = doDMY
+    ButtonWidth = 23
+    CharCase = ecNormal
+    DirectInput = False
+    NumGlyphs = 1
+    MaxLength = 10
+    TabOrder = 6
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    BeforePost = ZTable1BeforePost
+    TableName = 'corekasahareket'
+    left = 352
+    top = 41
+  end
+  object Datasource1: TDatasource
+    DataSet = ZTable1
+    left = 384
+    top = 41
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 312
+    top = 40
+  end
+end

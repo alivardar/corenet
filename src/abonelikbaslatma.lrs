@@ -1,0 +1,134 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tabonelikbaslatmaform','FORMDATA',[
+  'TPF0'#21'Tabonelikbaslatmaform'#20'abonelikbaslatmaform'#4'Left'#3#28#2#6'He'
+  +'ight'#3'p'#2#3'Top'#3#203#0#5'Width'#3#178#4#13'ActiveControl'#7#24'RadioGr'
+  +'oup1.RadioButton0'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8
+  +'bsDialog'#7'Caption'#6#30'Add New Internet Subscriptions'#12'ClientHeight'#3
+  +'p'#2#11'ClientWidth'#3#178#4#13'DesignTimePPI'#2'x'#7'OnClose'#7#9'FormClos'
+  +'e'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'
+  +#6#7'2.0.6.0'#0#6'TLabel'#6'Label1'#4'Left'#2#10#6'Height'#2#20#3'Top'#3'M'#2
+  +#5'Width'#2'g'#7'Caption'#6#14'Beginning Date'#11'ParentColor'#8#10'ParentFo'
+  +'nt'#8#0#0#7'TDBGrid'#7'DBGrid1'#4'Left'#2#10#6'Height'#3#240#0#3'Top'#2'P'#5
+  +'Width'#3#156#4#14'AlternateColor'#7#8'clSilver'#8'AutoEdit'#8#5'Color'#7#8
+  +'clWindow'#7'Columns'#14#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Capti'
+  +'on'#6#4'Ad'#196#177#5'Width'#3#175#0#9'FieldName'#6#3'adi'#0#1#7'MinSize'#2
+  +#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#7'Soyad'#196#177#5'Width'#3#175#0
+  +#9'FieldName'#6#6'soyadi'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Ca'
+  +'ption'#6#8#195#156'nvan'#196#177#5'Width'#3#162#0#9'FieldName'#6#6'unvani'#0
+  +#1#5'Color'#7#7'clWhite'#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'
+  +#6#16'M'#195#188#197#159'teri T'#195#188'r'#195#188#5'Width'#2'}'#9'FieldNam'
+  +'e'#6#11'musteritipi'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Captio'
+  +'n'#6#12'TC Kimlik No'#5'Width'#3#150#0#9'FieldName'#6#4'tcno'#0#1#5'Color'#7
+  +#7'clWhite'#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#13'Vergi '
+  +'Dairesi'#5'Width'#3#162#0#9'FieldName'#6#12'vergidairesi'#0#1#7'MinSize'#2
+  +#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#15'Vergi Numaras'#196#177#5'Width'
+  +#3#162#0#9'FieldName'#6#13'verginumarasi'#0#0#10'DataSource'#7#11'Datasource'
+  +'1'#7'Options'#11#8'dgTitles'#11'dgIndicator'#14'dgColumnResize'#12'dgColumn'
+  +'Move'#10'dgColLines'#10'dgRowLines'#6'dgTabs'#11'dgRowSelect'#21'dgAlwaysSh'
+  +'owSelection'#15'dgConfirmDelete'#14'dgCancelOnExit'#0#10'ParentFont'#8#8'Re'
+  +'adOnly'#9#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#0#0#11'TRadioGrou'
+  +'p'#11'RadioGroup1'#4'Left'#3#2#1#6'Height'#2'<'#3'Top'#2#0#5'Width'#3#162#3
+  +#8'AutoFill'#9#7'Caption'#6#12'Arama t'#195#188'r'#195#188#28'ChildSizing.Le'
+  +'ftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.Enl'
+  +'argeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertic'
+  +'al'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'cr'
+  +'sScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildS'
+  +'izing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPe'
+  +'rLine'#2#6#12'ClientHeight'#2'#'#11'ClientWidth'#3#158#3#7'Columns'#2#6#9'I'
+  +'temIndex'#2#0#13'Items.Strings'#1#6#10'Filtre yok'#6#12'Ad'#196#177'na G'
+  +#195#182're'#6#15'Soyad'#196#177'na G'#195#182're'#6#13#195#156'nvana G'#195
+  +#182're'#6#9'TC Kimlik'#6#8'Vergi No'#0#10'ParentFont'#8#8'TabOrder'#2#1#0#0
+  +#5'TEdit'#5'Edit1'#4'Left'#2#10#6'Height'#2#28#3'Top'#2#20#5'Width'#3#230#0#7
+  +'OnClick'#7#10'Edit1Click'#10'OnKeyPress'#7#13'Edit1KeyPress'#10'ParentFont'
+  +#8#8'TabOrder'#2#2#4'Text'#6#6'Ara...'#0#0#7'TDBGrid'#7'DBGrid2'#4'Left'#2#10
+  +#6'Height'#3#240#0#3'Top'#3'J'#1#5'Width'#3#156#4#14'AlternateColor'#7#8'clS'
+  +'ilver'#5'Color'#7#8'clWindow'#7'Columns'#14#1#7'MinSize'#2#12#7'MaxSize'#3
+  +#250#0#13'Title.Caption'#6#2'No'#5'Width'#2'>'#9'FieldName'#6#8'tarifeno'#0#1
+  +#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#11'Tarife Ad'#196#177
+  +#5'Width'#3#250#0#9'FieldName'#6#9'tarifeadi'#0#1#7'MinSize'#2#12#7'MaxSize'
+  +#3#250#0#13'Title.Caption'#6#10'A'#195#167#196#177'klama'#5'Width'#3'8'#1#9
+  +'FieldName'#6#8'aciklama'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Ca'
+  +'ption'#6#5'Fiyat'#9'FieldName'#6#5'fiyat'#0#1#7'MinSize'#2#12#7'MaxSize'#3
+  +#250#0#13'Title.Caption'#6#14'Download Limit'#5'Width'#3#138#0#9'FieldName'#6
+  +#13'downloadlimit'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6
+  +#12'Upload Limit'#5'Width'#3#138#0#9'FieldName'#6#11'uploadlimit'#0#1#7'MinS'
+  +'ize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#7'Kota GB'#5'Width'#2'K'#9
+  +'FieldName'#6#12'kotagigabyte'#0#0#10'DataSource'#7#11'Datasource2'#7'Option'
+  +'s'#11#8'dgTitles'#11'dgIndicator'#14'dgColumnResize'#12'dgColumnMove'#10'dg'
+  +'ColLines'#10'dgRowLines'#6'dgTabs'#11'dgRowSelect'#21'dgAlwaysShowSelection'
+  +#15'dgConfirmDelete'#14'dgCancelOnExit'#0#10'ParentFont'#8#10'Scrollbars'#7
+  +#10'ssAutoBoth'#8'TabOrder'#2#3#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'B'#4#6'H'
+  +'eight'#2'&'#3'Top'#3'D'#2#5'Width'#2'^'#7'Default'#9#14'DefaultCaption'#9#4
+  +'Kind'#7#4'bkOK'#11'ModalResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#10'Parent'
+  +'Font'#8#8'TabOrder'#2#4#0#0#7'TBitBtn'#7'BitBtn2'#4'Left'#3'c'#2#6'Height'#2
+  +'&'#3'Top'#3'D'#2#5'Width'#3#189#0#7'Caption'#6#18'Start Subscription'#10'Gl'
+  +'yph.Data'#10':'#4#0#0'6'#4#0#0'BM6'#4#0#0#0#0#0#0'6'#0#0#0'('#0#0#0#16#0#0#0
+  +#16#0#0#0#1#0' '#0#0#0#0#0#0#4#0#0'd'#0#0#0'd'#0#0#0#0#0#0#0#0#0#0#0'FFFo>>>'
+  ,#255#23#23#23#255#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0'iii'#255#201#201#201#255#149
+  +#149#149#255#22#22#22#255#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0'iii'#255#222#222#222#255'111'#255
+  +'EEE'#255#21#21#21#255#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255
+  +#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0'CCC'#255#129#129#129#255'555'#255'>>>'
+  +#255#21#21#21#255#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0'GGG'#255#131#131#131#255'777'#255'???'#255
+  +#21#21#21#255#255#255#255#0#255#255#255#0#255#255#255#0#0#175#239'E'#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0'XXX'#255#132#132#132#255'777'#255'???'#255#21#21
+  +#21#255#255#255#255#0#0#179#241'<'#0#177#241#183#255#255#255#0#0#175#239#6#0
+  +#175#239'H'#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0'NNN'#255'ggg'#255'777'#255'@@@'#255#22#22#22#255#0#181
+  +#241#147#0#179#241#252#0#179#241'9'#0#177#241#207#0#175#241'i'#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255
+  +#255#255#0'NNN'#255'ggg'#255'888'#255'BBB'#255'MMM'#255'K'#204#245#255#25#189
+  +#242#255#13#183#242#255#0#177#241#30#255#255#255#0#255#255#255#0#255#255#255
+  +#0#255#255#255#0#255#255#255#0#255#255#255#0#25#191#243#30#19#189#243#177'OO'
+  +'O'#255'ggg'#255#140#140#140#255#169#169#169#255'A'#151#180#255'w'#217#248
+  +#255#0#181#241#252#0#181#241#204#0#179#241#127#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#27#193#243#21#23#191
+  +#243#183'LLL'#255#202#202#202#255#247#247#247#255#211#211#211#255'K'#161#191
+  +#255't'#217#248#255#0#181#241#243#0#181#241'8'#255#255#255#0#255#255#255#0
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#31#193
+  +#245'~Q'#207#246#255'O'#165#194#255#248#248#248#255#254#254#254#255'Z'#176
+  +#205#255'j'#214#247#255#0#183#241#213#0#183#241#31#255#255#255#0#255#255#255
+  +#0#255#255#255#0#255#255#255#0#255#255#255#0'-'#197#245#24'+'#195#245#189'%'
+  +#193#245#255'N'#206#247#255#131#221#248#255'N'#164#194#255'['#177#207#255'h'
+  +#191#220#255'A'#202#246#255#8#188#241#255#0#185#241#151#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0')'#195#245'~Z'#208#247#255'm'#215#248#255'}'#220#248#255'K'
+  +#205#246#255#17#189#243#246#13#187#243#12#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0
+  +#255#255#255#0'/'#197#245#210'+'#195#245#183''''#193#245#180'P'#206#247#255
+  +#31#193#245'u'#25#191#243#240#21#189#243'Z'#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0'3'#197#245#30'3'#197#245'l'#255#255#255#0'-'#197#245'K+'#195#245#207
+  +#255#255#255#0'!'#193#245'!'#29#193#243'f'#255#255#255#0#255#255#255#0#255
+  +#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255
+  +#255#0#255#255#255#0#255#255#255#0#255#255#255#0'1'#197#245#9'/'#197#245'f'
+  +#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#255#255#255#0#7'OnC'
+  +'lick'#7#12'BitBtn2Click'#10'ParentFont'#8#8'TabOrder'#2#5#0#0#9'TDateEdit'#9
+  +'DateEdit1'#4'Left'#3#249#0#6'Height'#2#28#3'Top'#3'D'#2#5'Width'#2'o'#23'Ca'
+  +'lendarDisplaySettings'#11#14'dsShowHeadings'#14'dsShowDayNames'#0#12'Defaul'
+  +'tToday'#9#9'DateOrder'#7#5'doDMY'#11'ButtonWidth'#2#29#11'DirectInput'#8#9
+  +'NumGlyphs'#2#1#9'MaxLength'#2#10#10'ParentFont'#8#8'TabOrder'#2#6#4'Text'#6
+  +#10'06/01/2020'#0#0#15'TZReadOnlyQuery'#15'ZReadOnlyQuery2'#10'Connection'#7
+  +#12'ZConnection1'#14'AutoCalcFields'#8#11'SQL.Strings'#1#6'(select * from co'
+  +'recustomers LIMIT 0,100;'#0#6'Params'#14#0#4'left'#3#210#0#3'top'#2'2'#0#0
+  +#11'TDataSource'#11'Datasource1'#7'DataSet'#7#15'ZReadOnlyQuery2'#4'left'#3
+  +#170#0#3'top'#2'2'#0#0#11'TDataSource'#11'Datasource2'#7'DataSet'#7#15'ZRead'
+  +'OnlyQuery3'#4'left'#2#10#3'top'#3'6'#1#0#0#15'TZReadOnlyQuery'#15'ZReadOnly'
+  +'Query3'#10'Connection'#7#12'ZConnection1'#14'AutoCalcFields'#8#11'SQL.Strin'
+  +'gs'#1#6#24'SELECT * FROM coretarife'#0#6'Params'#14#0#4'left'#2'2'#3'top'#3
+  +'6'#1#0#0#7'TZTable'#7'ZTable1'#10'Connection'#7#12'ZConnection1'#14'AutoCal'
+  +'cFields'#8#10'BeforePost'#7#17'ZTable1BeforePost'#9'TableName'#6#12'coreabo'
+  +'neler'#4'left'#3'&'#2#3'top'#3'D'#2#0#0#11'TDataSource'#11'Datasource3'#7'D'
+  +'ataSet'#7#7'ZTable1'#4'left'#3#254#1#3'top'#3'D'#2#0#0#12'TZConnection'#12
+  +'ZConnection1'#16'ControlsCodePage'#7#8'cCP_UTF8'#17'AutoEncodeStrings'#9#18
+  ,'Properties.Strings'#1#6#18'AutoEncodeStrings='#0#4'Port'#2#0#8'Protocol'#6#7
+  +'mysql-5'#4'left'#3'z'#3#3'top'#3'D'#2#0#0#0
+]);

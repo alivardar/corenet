@@ -1,0 +1,65 @@
+unit coreabout;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, eventlog, FileUtil, LResources, Forms, Controls, Graphics,
+  Dialogs, StdCtrls, ExtCtrls, Buttons, functionconfig;
+
+type
+
+  { Tabout }
+
+  Tabout = class(TForm)
+    BitBtn1: TBitBtn;
+    EventLog1: TEventLog;
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+
+    procedure BitBtn1Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure Label1Click(Sender: TObject);
+
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end; 
+
+var
+  about: Tabout;
+
+implementation
+
+{ Tabout }
+
+
+
+
+
+procedure Tabout.BitBtn1Click(Sender: TObject);
+begin
+   Self.Close;
+end;
+
+procedure Tabout.FormShow(Sender: TObject);
+Begin
+    Label3.Caption:='Build number : ';
+    Label4.Caption:='Release number : '+versionnumber;
+end;
+
+
+
+
+
+
+initialization
+  {$I coreabout.lrs}
+
+end.
+

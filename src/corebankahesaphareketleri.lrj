@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":204613091,"name":"tbankahesaphareketleri.caption","sourcebytes":[66,97,110,107,32,82,101,99,111,114,100,115],"value":"Bank Records"},
+{"hash":19990689,"name":"tbankahesaphareketleri.dbgrid1.columns[0].title.caption","sourcebytes":[66,97,110,107,97,32,65,100,196,177],"value":"Banka Ad\u0131"},
+{"hash":260504065,"name":"tbankahesaphareketleri.dbgrid1.columns[1].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":211296687,"name":"tbankahesaphareketleri.dbgrid1.columns[2].title.caption","sourcebytes":[72,101,115,97,112,32,78,111],"value":"Hesap No"},
+{"hash":142120257,"name":"tbankahesaphareketleri.dbgrid1.columns[3].title.caption","sourcebytes":[197,158,117,98,101,32,65,100,196,177],"value":"\u015Eube Ad\u0131"},
+{"hash":76030197,"name":"tbankahesaphareketleri.dbgrid1.columns[4].title.caption","sourcebytes":[66,97,107,105,121,101],"value":"Bakiye"},
+{"hash":260504065,"name":"tbankahesaphareketleri.dbgrid2.columns[0].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":133469403,"name":"tbankahesaphareketleri.dbgrid2.columns[1].title.caption","sourcebytes":[66,111,114,195,167,47,65,108,97,99,97,107],"value":"Bor\u00E7/Alacak"},
+{"hash":227004815,"name":"tbankahesaphareketleri.dbgrid2.columns[2].title.caption","sourcebytes":[69,118,114,97,107,32,78,111],"value":"Evrak No"},
+{"hash":5933304,"name":"tbankahesaphareketleri.dbgrid2.columns[3].title.caption","sourcebytes":[84,97,114,105,104],"value":"Tarih"},
+{"hash":6015618,"name":"tbankahesaphareketleri.dbgrid2.columns[4].title.caption","sourcebytes":[84,117,116,97,114],"value":"Tutar"}
+]}

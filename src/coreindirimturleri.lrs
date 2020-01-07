@@ -1,0 +1,105 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tindirimturleri','FORMDATA',[
+  'TPF0'#15'Tindirimturleri'#14'indirimturleri'#4'Left'#3#143#1#6'Height'#3#11#2
+  +#3'Top'#3#223#0#5'Width'#3#208#2#13'ActiveControl'#7#7'DBGrid2'#11'BorderIco'
+  +'ns'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#17#196
+  +#176'ndirim T'#195#188'rleri'#12'ClientHeight'#3#11#2#11'ClientWidth'#3#208#2
+  +#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#3
+  +'1.1'#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'p'#2#6'Height'#2#30#3'Top'#3#232#1#5
+  +'Width'#2'['#7'Default'#9#14'DefaultCaption'#9#4'Kind'#7#4'bkOK'#11'ModalRes'
+  +'ult'#2#1#7'OnClick'#7#12'BitBtn1Click'#8'TabOrder'#2#0#0#0#12'TDBNavigator'
+  +#12'DBNavigator1'#4'Left'#2#0#6'Height'#2'!'#3'Top'#3#0#1#5'Width'#3#208#2#5
+  +'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#11'BorderStyle'#7#8'bsSingle'
+  +#29'ChildSizing.EnlargeHorizontal'#7#14'crsScaleChilds'#27'ChildSizing.Enlar'
+  +'geVertical'#7#14'crsScaleChilds'#28'ChildSizing.ShrinkHorizontal'#7#14'crsS'
+  +'caleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSiz'
+  +'ing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerL'
+  +'ine'#2'd'#12'ClientHeight'#2#29#11'ClientWidth'#3#204#2#10'DataSource'#7#11
+  +'Datasource1'#4'Flat'#9#7'Options'#11#0#8'TabOrder'#2#1#0#0#7'TDBGrid'#7'DBG'
+  +'rid2'#4'Left'#2#0#6'Height'#3#0#1#3'Top'#2#0#5'Width'#3#208#2#5'Align'#7#5
+  +'alTop'#14'AlternateColor'#7#8'clSilver'#5'Color'#7#8'clWindow'#7'Columns'#14
+  +#1#13'Title.Caption'#6#9'Tarife No'#9'FieldName'#6#8'tarifeno'#0#1#13'Title.'
+  +'Caption'#6#11'Tarife Ad'#196#177#9'FieldName'#6#9'tarifeadi'#0#1#13'Title.C'
+  +'aption'#6#7'Kota Gb'#9'FieldName'#6#12'kotagigabyte'#0#1#13'Title.Caption'#6
+  +#14'Download Limit'#9'FieldName'#6#13'downloadlimit'#0#1#13'Title.Caption'#6
+  +#12'Upload Limit'#9'FieldName'#6#11'uploadlimit'#0#1#13'Title.Caption'#6#10
+  +'A'#195#167#196#177'klama'#5'Width'#3#250#0#9'FieldName'#6#8'aciklama'#0#0#10
+  +'DataSource'#7#11'Datasource2'#7'Options'#11#8'dgTitles'#11'dgIndicator'#14
+  +'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6'dgTabs'#11
+  +'dgRowSelect'#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCancelOnExi'
+  +'t'#0#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#2#0#0#9'TRxDBGrid'#9'RxD'
+  +'BGrid1'#4'Left'#2#0#6'Height'#3#191#0#3'Top'#3'!'#1#5'Width'#3#208#2#12'Tit'
+  +'leButtons'#8#8'AutoSort'#9#7'Columns'#14#1#15'Title.Alignment'#7#8'taCenter'
+  +#13'Title.Caption'#6#13#196#176'ndirim Ad'#196#177#17'Title.Orientation'#7#12
+  +'toHorizontal'#9'FieldName'#6#10'indirimadi'#17'Filter.Font.Style'#11#8'fsIt'
+  +'alic'#0#19'Filter.DropDownRows'#2#0#17'Filter.EmptyValue'#6#7'(Empty)'#22'F'
+  +'ilter.EmptyFont.Style'#11#8'fsItalic'#0#16'Filter.ItemIndex'#2#255#11'EditB'
+  +'uttons'#14#0#0#1#15'Title.Alignment'#7#8'taCenter'#13'Title.Caption'#6#7'Ka'
+  +#195#167' Ay'#17'Title.Orientation'#7#12'toHorizontal'#9'FieldName'#6#5'kaca'
+  +'y'#17'Filter.Font.Style'#11#8'fsItalic'#0#19'Filter.DropDownRows'#2#0#17'Fi'
+  +'lter.EmptyValue'#6#7'(Empty)'#22'Filter.EmptyFont.Style'#11#8'fsItalic'#0#16
+  +'Filter.ItemIndex'#2#255#11'EditButtons'#14#0#0#1#15'Title.Alignment'#7#8'ta'
+  +'Center'#13'Title.Caption'#6#5'Tutar'#17'Title.Orientation'#7#12'toHorizonta'
+  +'l'#9'FieldName'#6#5'tutar'#17'Filter.Font.Style'#11#8'fsItalic'#0#19'Filter'
+  +'.DropDownRows'#2#0#17'Filter.EmptyValue'#6#7'(Empty)'#22'Filter.EmptyFont.S'
+  +'tyle'#11#8'fsItalic'#0#16'Filter.ItemIndex'#2#255#11'EditButtons'#14#0#0#1
+  +#15'Title.Alignment'#7#8'taCenter'#13'Title.Caption'#6#6'Tarife'#17'Title.Or'
+  +'ientation'#7#12'toHorizontal'#9'FieldName'#6#8'tarifeid'#17'Filter.Font.Sty'
+  +'le'#11#8'fsItalic'#0#19'Filter.DropDownRows'#2#0#17'Filter.EmptyValue'#6#7
+  +'(Empty)'#22'Filter.EmptyFont.Style'#11#8'fsItalic'#0#16'Filter.ItemIndex'#2
+  +#255#11'EditButtons'#14#0#0#1#15'Title.Alignment'#7#8'taCenter'#13'Title.Cap'
+  +'tion'#6#10'A'#195#167#196#177'klama'#17'Title.Orientation'#7#12'toHorizonta'
+  +'l'#5'Width'#3','#1#9'FieldName'#6#8'aciklama'#17'Filter.Font.Style'#11#8'fs'
+  +'Italic'#0#19'Filter.DropDownRows'#2#0#17'Filter.EmptyValue'#6#7'(Empty)'#22
+  +'Filter.EmptyFont.Style'#11#8'fsItalic'#0#16'Filter.ItemIndex'#2#255#11'Edit'
+  +'Buttons'#14#0#0#0#10'KeyStrokes'#14#1#7'Command'#7#15'rxgcShowFindDlg'#8'Sh'
+  +'ortCut'#3'F@'#7'Enabled'#9#0#1#7'Command'#7#18'rxgcShowColumnsDlg'#8'ShortC'
+  +'ut'#3'W@'#7'Enabled'#9#0#1#7'Command'#7#17'rxgcShowFilterDlg'#8'ShortCut'#3
+  +'T@'#7'Enabled'#9#0#1#7'Command'#7#15'rxgcShowSortDlg'#8'ShortCut'#3'S@'#7'E'
+  +'nabled'#9#0#1#7'Command'#7#19'rxgcShowQuickFilter'#8'ShortCut'#3'Q@'#7'Enab'
+  +'led'#9#0#1#7'Command'#7#19'rxgcHideQuickFilter'#8'ShortCut'#3'H@'#7'Enabled'
+  +#9#0#1#7'Command'#7#13'rxgcSelectAll'#8'ShortCut'#3'A@'#7'Enabled'#9#0#1#7'C'
+  +'ommand'#7#15'rxgcDeSelectAll'#8'ShortCut'#3'-@'#7'Enabled'#9#0#1#7'Command'
+  +#7#19'rxgcInvertSelection'#8'ShortCut'#3'*@'#7'Enabled'#9#0#1#7'Command'#7#24
+  +'rxgcOptimizeColumnsWidth'#8'ShortCut'#3'+@'#7'Enabled'#9#0#0#19'FooterOptio'
+  +'ns.Color'#7#8'clYellow'#9'OptionsRx'#11#19'rdgAllowColumnsForm'#18'rdgAllow'
+  +'DialogFind'#0#11'FooterColor'#7#8'clYellow'#5'Align'#7#5'alTop'#14'Alternat'
+  ,'eColor'#7#8'clSilver'#5'Color'#7#8'clWindow'#12'DrawFullLine'#8#10'FocusCol'
+  +'or'#7#5'clRed'#13'SelectedColor'#7#11'clHighlight'#13'GridLineStyle'#7#7'ps'
+  +'Solid'#10'DataSource'#7#11'Datasource1'#7'Options'#11#9'dgEditing'#8'dgTitl'
+  +'es'#11'dgIndicator'#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'd'
+  +'gRowLines'#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCancelOnExit'
+  +#0#11'ParentColor'#8#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#3#0#0#11
+  +'TDatasource'#11'Datasource1'#7'DataSet'#7#7'ZTable1'#4'left'#2'`'#3'top'#3
+  +#232#1#0#0#7'TZTable'#7'ZTable1'#10'Connection'#7#12'ZConnection1'#14'AutoCa'
+  +'lcFields'#8#9'TableName'#6#18'coreindirimturleri'#12'MasterFields'#6#2'id'
+  +#12'MasterSource'#7#11'Datasource2'#12'LinkedFields'#6#8'tarifeid'#4'left'#2
+  +'@'#3'top'#3#232#1#0#14'TLargeintField'#9'ZTable1id'#12'DisplayWidth'#2#10#9
+  +'FieldKind'#7#6'fkData'#9'FieldName'#6#2'id'#5'Index'#2#0#11'LookupCache'#8
+  +#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'
+  +#8#0#0#12'TStringField'#17'ZTable1indirimadi'#12'DisplayWidth'#2'('#9'FieldK'
+  +'ind'#7#6'fkData'#9'FieldName'#6#10'indirimadi'#5'Index'#2#1#11'LookupCache'
+  +#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Requir'
+  +'ed'#8#4'Size'#2'('#0#0#12'TStringField'#15'ZTable1aciklama'#12'DisplayWidth'
+  +#2'2'#9'FieldKind'#7#6'fkData'#9'FieldName'#6#8'aciklama'#5'Index'#2#2#11'Lo'
+  +'okupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'
+  +#8#8'Required'#8#4'Size'#2'2'#0#0#11'TFloatField'#12'ZTable1tutar'#12'Displa'
+  +'yWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#5'tutar'#5'Index'#2#3
+  +#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'Read'
+  +'Only'#8#8'Required'#8#8'MaxValue'#5#0#0#0#0#0#0#0#0#0#0#8'MinValue'#5#0#0#0
+  +#0#0#0#0#0#0#0#9'Precision'#2#22#0#0#14'TSmallintField'#12'ZTable1kacay'#12
+  +'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#5'kacay'#5'Index'
+  +#2#4#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8
+  +'ReadOnly'#8#8'Required'#8#0#0#14'TLargeintField'#15'ZTable1tarifeid'#12'Dis'
+  +'playWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#8'tarifeid'#5'Index'
+  +#2#5#9'KeyFields'#6#8'tarifeid'#11'LookupCache'#8#13'LookupDataSet'#7#7'ZTab'
+  +'le2'#15'LookupKeyFields'#6#2'id'#17'LookupResultField'#6#9'tarifeadi'#13'Pr'
+  +'oviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#0
+  +#0#0#11'TDatasource'#11'Datasource2'#7'DataSet'#7#7'ZTable2'#4'left'#3#162#0
+  +#3'top'#3#232#1#0#0#7'TZTable'#7'ZTable2'#10'Connection'#7#12'ZConnection1'
+  +#14'AutoCalcFields'#8#9'TableName'#6#10'coretarife'#4'left'#3#197#0#3'top'#3
+  +#232#1#0#0#12'TZConnection'#12'ZConnection1'#16'ControlsCodePage'#7#8'cCP_UT'
+  +'F8'#17'AutoEncodeStrings'#8#18'Properties.Strings'#1#6#18'AutoEncodeStrings'
+  +'='#0#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'left'#2#18#3'top'#3#232#1#0#0#0
+]);

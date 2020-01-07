@@ -1,0 +1,273 @@
+object aktifdesteklistesi: Taktifdesteklistesi
+  Left = 351
+  Height = 709
+  Top = 271
+  Width = 1505
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Active Support Tickets'
+  ClientHeight = 709
+  ClientWidth = 1505
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object BitBtn1: TBitBtn
+    Left = 1380
+    Height = 40
+    Top = 660
+    Width = 114
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 539
+    Top = 31
+    Width = 1505
+    Align = alTop
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        Color = clRed
+        MinSize = 12
+        MaxSize = 250
+        PickList.Strings = (
+          'Aktif'
+          'Pasif'
+        )
+        Title.Caption = 'Durum'
+        FieldName = 'durum'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        Width = 500
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Müşteri Notu'
+        Width = 500
+        FieldName = 'musterinotu'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Sorumlu'
+        FieldName = 'kimsorumlu'
+      end>
+    DataSource = Datasource1
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 1
+  end
+  object DBGrid2: TDBGrid
+    Left = 0
+    Height = 79
+    Top = 570
+    Width = 1505
+    Align = alTop
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'unvani'
+        Width = 250
+        FieldName = 'unvani'
+      end    
+      item
+        Color = clSilver
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'adi'
+        Width = 250
+        FieldName = 'adi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'soyadi'
+        Width = 250
+        FieldName = 'soyadi'
+      end    
+      item
+        Color = clSilver
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'telefon'
+        Width = 125
+        FieldName = 'telefon'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'eposta'
+        Width = 250
+        FieldName = 'eposta'
+      end    
+      item
+        Color = clSilver
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'adres'
+        Width = 312
+        FieldName = 'adres'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 31
+    Top = 0
+    Width = 1505
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 27
+    ClientWidth = 1501
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 3
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbDelete, nbEdit, nbPost, nbCancel, nbRefresh]
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'SELECT * FROM corehatalistesi where durum="Aktif" '
+    )
+    Params = <>
+    left = 1270
+    top = 660
+  end
+  object Datasource1: TDataSource
+    DataSet = ZQuery1
+    left = 1310
+    top = 660
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corecustomers'
+    MasterFields = 'carihesapid'
+    MasterSource = Datasource1
+    LinkedFields = 'id'
+    left = 1100
+    top = 660
+    object ZTable1adi: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'adi'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object ZTable1soyadi: TStringField
+      DisplayWidth = 50
+      FieldKind = fkData
+      FieldName = 'soyadi'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 50
+    end
+    object ZTable1unvani: TStringField
+      DisplayWidth = 100
+      FieldKind = fkData
+      FieldName = 'unvani'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object ZTable1adres: TStringField
+      DisplayWidth = 250
+      FieldKind = fkData
+      FieldName = 'adres'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 250
+    end
+    object ZTable1telefon: TStringField
+      DisplayWidth = 30
+      FieldKind = fkData
+      FieldName = 'telefon'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 30
+    end
+    object ZTable1eposta: TStringField
+      DisplayWidth = 100
+      FieldKind = fkData
+      FieldName = 'eposta'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 100
+    end
+    object ZTable1id: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'id'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+  end
+  object Datasource2: TDataSource
+    DataSet = ZTable1
+    left = 1150
+    top = 660
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 1040
+    top = 660
+  end
+end

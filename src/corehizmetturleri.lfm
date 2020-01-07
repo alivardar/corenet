@@ -1,0 +1,90 @@
+object hizmetturleri: Thizmetturleri
+  Left = 461
+  Height = 358
+  Top = 251
+  Width = 607
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Hizmet Türleri'
+  ClientHeight = 358
+  ClientWidth = 607
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 272
+    Top = 33
+    Width = 607
+    Align = alTop
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Hizmet Adı'
+        Width = 400
+        FieldName = 'hizmetadi'
+      end    
+      item
+        Title.Caption = 'Birim Tutar'
+        Width = 150
+        FieldName = 'hizmetbedeli'
+      end>
+    DataSource = Datasource1
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 33
+    Top = 0
+    Width = 607
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 29
+    ClientWidth = 603
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 512
+    Height = 30
+    Top = 320
+    Width = 83
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Datasource1: TDatasource
+    DataSet = ZTable1
+    left = 96
+    top = 320
+  end
+  object ZTable1: TZTable
+    Connection = mainscreen.ZConnection1
+    AutoCalcFields = False
+    TableName = 'corehizmetturleri'
+    left = 56
+    top = 320
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 24
+    top = 320
+  end
+end

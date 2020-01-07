@@ -1,0 +1,6 @@
+{"version":1,"strings":[
+{"hash":6069395,"name":"tcoreusers.caption","sourcebytes":[85,115,101,114,115],"value":"Users"},
+{"hash":260141413,"name":"tcoreusers.dbgrid1.columns[0].title.caption","sourcebytes":[78,97,109,101,32,83,117,114,110,97,109,101],"value":"Name Surname"},
+{"hash":205986981,"name":"tcoreusers.dbgrid1.columns[1].title.caption","sourcebytes":[85,115,101,114,32,110,97,109,101],"value":"User name"},
+{"hash":145417188,"name":"tcoreusers.dbgrid1.columns[2].title.caption","sourcebytes":[80,97,115,115,119,111,114,100],"value":"Password"}
+]}

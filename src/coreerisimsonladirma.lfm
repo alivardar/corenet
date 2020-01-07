@@ -1,0 +1,246 @@
+object erisimsonladirma: Terisimsonladirma
+  Left = 239
+  Height = 555
+  Top = 99
+  Width = 993
+  ActiveControl = RadioGroup1.RadioButton0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Erişim Sonlandırma'
+  ClientHeight = 555
+  ClientWidth = 993
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object Edit1: TEdit
+    Left = 16
+    Height = 21
+    Top = 24
+    Width = 184
+    OnClick = Edit1Click
+    OnKeyPress = Edit1KeyPress
+    TabOrder = 0
+    Text = 'Ara...'
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 248
+    Height = 48
+    Top = 8
+    Width = 736
+    AutoFill = True
+    Caption = 'Arama türü'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 6
+    ClientHeight = 30
+    ClientWidth = 732
+    Columns = 6
+    ItemIndex = 0
+    Items.Strings = (
+      'Filtre yok'
+      'Adına Göre'
+      'Soyadına Göre'
+      'Ünvana Göre'
+      'TC Kimlik'
+      'Vergi No'
+    )
+    TabOrder = 1
+  end
+  object DBGrid1: TDBGrid
+    Left = 16
+    Height = 231
+    Top = 72
+    Width = 968
+    AlternateColor = clSilver
+    AutoEdit = False
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Adı'
+        Width = 140
+        FieldName = 'adi'
+      end    
+      item
+        Title.Caption = 'Soyadı'
+        Width = 140
+        FieldName = 'soyadi'
+      end    
+      item
+        Title.Caption = 'Ünvanı'
+        Width = 120
+        FieldName = 'unvani'
+      end    
+      item
+        Title.Caption = 'Müşteri Türü'
+        Width = 100
+        FieldName = 'musteritipi'
+      end    
+      item
+        Title.Caption = 'TC Kimlik No'
+        Width = 120
+        FieldName = 'tcno'
+      end    
+      item
+        Title.Caption = 'Vergi Dairesi'
+        Width = 120
+        FieldName = 'vergidairesi'
+      end    
+      item
+        Title.Caption = 'Vergi Numarası'
+        Width = 120
+        FieldName = 'verginumarasi'
+      end>
+    DataSource = Datasource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object BitBtn4: TBitBtn
+    Left = 888
+    Height = 30
+    Top = 512
+    Width = 91
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn4Click
+    TabOrder = 3
+  end
+  object DBGrid2: TDBGrid
+    Left = 16
+    Height = 184
+    Top = 312
+    Width = 968
+    AlternateColor = clSilver
+    AutoEdit = False
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Açılış Tarihi'
+        Width = 200
+        FieldName = 'tarih'
+      end    
+      item
+        Title.Caption = 'Kullanıcı Adı'
+        FieldName = 'username'
+      end    
+      item
+        Title.Caption = 'Şifre'
+        FieldName = 'password'
+      end    
+      item
+        Title.Caption = 'İşlemi Yapan '
+        FieldName = 'islemkullaniciadi'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 30
+    Top = 512
+    Width = 155
+    Caption = 'Erişimi Sonladır'
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000000000000000
+      000000000000000000000000000000000000C600001FC600001FC600001F0000
+      000F000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000004DC00003EDC0000C0DC0000FFDC0000C0C600
+      0052000000130000000000000000000000000000000000000000000000000000
+      00000000000000000000DC000006DC0000C0DC000092DC00003EDC000092DC00
+      00C0C600001F0000000000000000000000000000000000000000000000000000
+      00000000000000000000DC000006DC0000FFA000005CDC000003DC00003EDC00
+      00FFC600001F000000000000000C0000000C0000000F00000000000000000000
+      00000000000000000000DC000006DC0000C0DC000092C6000052DC000092DC00
+      00C0DC0000069000004590000045A00000330000001E0000000A000000000000
+      0000000000000000000000000000DC00003EDC0000C0DC0000FFDC0000C0DC00
+      003EDC00003EDC0000C0DC0000FFDC0000C05D00003E00000017000000000000
+      00000000000000000000000000003E3E3E683E3E3EFFDC000006DC000006DC00
+      0006DC0000C0B20000A7DC00003EDC000092DC0000C081000029000000000000
+      00000000000000000000000000003E3E3E8D3E3E3EC70000000000000010DC00
+      003DDC0000FFA0000074C600001DDC00003EDC0000FF9000002E000000000000
+      000000000000000000004545453E3E3E3EFF3E3E3E523E3E3E833E3E3EFF3E3E
+      3EFFDC0000C0A00000B0A0000074B20000A7DC0000C0810000296868686B5E5E
+      5E88505050AC505050FF454545FF3E3E3EFF3E3E3EFF3E3E3EB93E3E3E7E3E3E
+      3E30DC00003EDC0000C0DC0000FFDC0000C0DC00003E0000000C646464DA5E5E
+      5EFF505050FF505050AC454545FF4545456E3E3E3E3E00000000000000000000
+      000000000000DC000006DC000006C60000050000000400000000000000220000
+      000C00000007505050C0454545FF000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000002C505050FF505050C0000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000686868895E5E5EFF5050506F000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000686868C36868689800000010000000000000000000000000000000000000
+      00000000000000000000000000000000000000000000000000000000001A0000
+      0000000000000000000000000000000000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000
+    }
+    OnClick = BitBtn1Click
+    TabOrder = 5
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    SQL.Strings = (
+      'select * from corecustomers LIMIT 0,100;'
+    )
+    Params = <>
+    left = 328
+    top = 512
+  end
+  object Datasource1: TDatasource
+    DataSet = ZQuery1
+    left = 360
+    top = 513
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coreradiususers'
+    MasterFields = 'id'
+    MasterSource = Datasource1
+    LinkedFields = 'musteriid'
+    left = 485
+    top = 513
+  end
+  object Datasource2: TDatasource
+    DataSet = ZTable1
+    left = 512
+    top = 513
+  end
+  object ZQuery2: TZQuery
+    Connection = ZConnection2
+    AutoCalcFields = False
+    Params = <>
+    left = 696
+    top = 513
+  end
+  object ZConnection2: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 728
+    top = 513
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 280
+    top = 513
+  end
+end

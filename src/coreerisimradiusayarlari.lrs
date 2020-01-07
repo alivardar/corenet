@@ -1,0 +1,102 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Terisimradiusayarlari','FORMDATA',[
+  'TPF0'#21'Terisimradiusayarlari'#20'erisimradiusayarlari'#4'Left'#3#151#1#6'H'
+  +'eight'#3'Z'#2#3'Top'#3#181#0#5'Width'#3#176#4#13'ActiveControl'#7#24'RadioG'
+  +'roup1.RadioButton0'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7
+  +#8'bsDialog'#7'Caption'#6'"'#196#176'nternet Eri'#197#159'im Radius Ayarlar'
+  +#196#177#12'ClientHeight'#3'Z'#2#11'ClientWidth'#3#176#4#13'DesignTimePPI'#2
+  +'x'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'
+  +#6#7'2.0.6.0'#0#6'TLabel'#6'Label2'#4'Left'#3#226#1#6'Height'#2#20#3'Top'#3
+  +'S'#1#5'Width'#2'Z'#7'Caption'#6#18'Kullan'#196#177'c'#196#177' Ad'#196#177
+  +' :'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label3'#4'Left'#3#226
+  +#1#6'Height'#2#20#3'Top'#3#142#1#5'Width'#2'%'#7'Caption'#6#8#197#158'ifre :'
+  +#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label4'#4'Left'#3'J'#3#6
+  +'Height'#2#20#3'Top'#3'U'#1#5'Width'#2'f'#7'Caption'#6#15'Radius Sunucu :'#11
+  +'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label6'#4'Left'#3'J'#3#6'He'
+  +'ight'#2#20#3'Top'#3#145#1#5'Width'#2'j'#7'Caption'#6#18'Simultane Giri'#197
+  +#159' :'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TBevel'#6'Bevel1'#4'Left'#3
+  +#214#1#6'Height'#2#12#3'Top'#3#8#2#5'Width'#3#198#2#5'Shape'#7#12'bsBottomLi'
+  +'ne'#0#0#5'TEdit'#5'Edit2'#4'Left'#3'Z'#2#6'Height'#2#28#3'Top'#3'J'#1#5'Wid'
+  +'th'#3#190#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#5'TEdit'#5'Edit3'#4'Left'#3
+  +'Z'#2#6'Height'#2#28#3'Top'#3#133#1#5'Width'#3#190#0#10'ParentFont'#8#8'TabO'
+  +'rder'#2#1#0#0#7'TBitBtn'#7'BitBtn4'#4'Left'#3'H'#4#6'Height'#2'&'#3'Top'#3
+  +'&'#2#5'Width'#2'^'#7'Default'#9#14'DefaultCaption'#9#4'Kind'#7#4'bkOK'#11'M'
+  +'odalResult'#2#1#7'OnClick'#7#12'BitBtn4Click'#10'ParentFont'#8#8'TabOrder'#2
+  +#2#0#0#7'TBitBtn'#7'BitBtn5'#4'Left'#3#10#4#6'Height'#2'&'#3'Top'#3#204#1#5
+  +'Width'#3#154#0#7'Caption'#6#8'Olu'#197#159'tur'#4'Kind'#7#4'bkOK'#7'OnClick'
+  +#7#12'BitBtn5Click'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#17'TDBLookupComboBo'
+  +'x'#17'DBLookupComboBox2'#4'Left'#3#237#3#6'Height'#2#28#3'Top'#3'J'#1#5'Wid'
+  +'th'#3#182#0#9'DataField'#6#2'id'#10'DataSource'#7#11'Datasource5'#8'KeyFiel'
+  +'d'#6#2'id'#9'ListField'#6#10'servername'#14'ListFieldIndex'#2#0#10'ListSour'
+  +'ce'#7#11'Datasource4'#11'LookupCache'#8#10'ParentFont'#8#8'TabOrder'#2#4#0#0
+  +#9'TSpinEdit'#9'SpinEdit1'#4'Left'#3'Q'#4#6'Height'#2#28#3'Top'#3#133#1#5'Wi'
+  +'dth'#2'R'#8'MinValue'#2#1#10'ParentFont'#8#8'TabOrder'#2#5#5'Value'#2#1#0#0
+  +#11'TRadioGroup'#11'RadioGroup1'#4'Left'#3#2#1#6'Height'#2'<'#3'Top'#2#0#5'W'
+  +'idth'#3#162#3#8'AutoFill'#9#7'Caption'#6#12'Arama t'#195#188'r'#195#188#28
+  +'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'C'
+  +'hildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing'
+  +'.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHoriz'
+  +'ontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChi'
+  +'lds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSiz'
+  +'ing.ControlsPerLine'#2#6#12'ClientHeight'#2'#'#11'ClientWidth'#3#158#3#7'Co'
+  +'lumns'#2#6#9'ItemIndex'#2#0#13'Items.Strings'#1#6#10'Filtre yok'#6#12'Ad'
+  +#196#177'na G'#195#182're'#6#15'Soyad'#196#177'na G'#195#182're'#6#13#195#156
+  +'nvana G'#195#182're'#6#9'TC Kimlik'#6#8'Vergi No'#0#10'ParentFont'#8#8'TabO'
+  +'rder'#2#6#0#0#5'TEdit'#5'Edit1'#4'Left'#2#10#6'Height'#2#28#3'Top'#2#20#5'W'
+  +'idth'#3#230#0#7'OnClick'#7#10'Edit1Click'#10'OnKeyPress'#7#13'Edit1KeyPress'
+  +#10'ParentFont'#8#8'TabOrder'#2#7#4'Text'#6#6'Ara...'#0#0#7'TDBGrid'#7'DBGri'
+  +'d1'#4'Left'#2#10#6'Height'#3#250#0#3'Top'#2'F'#5'Width'#3#156#4#14'Alternat'
+  +'eColor'#7#8'clSilver'#8'AutoEdit'#8#5'Color'#7#8'clWindow'#7'Columns'#14#1#7
+  +'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#4'Ad'#196#177#5'Width'
+  +#3#175#0#9'FieldName'#6#3'adi'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Tit'
+  +'le.Caption'#6#7'Soyad'#196#177#5'Width'#3#175#0#9'FieldName'#6#6'soyadi'#0#1
+  +#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#8#195#156'nvan'#196
+  +#177#5'Width'#3#162#0#9'FieldName'#6#6'unvani'#0#1#7'MinSize'#2#12#7'MaxSize'
+  +#3#250#0#13'Title.Caption'#6#16'M'#195#188#197#159'teri T'#195#188'r'#195#188
+  +#5'Width'#2'}'#9'FieldName'#6#11'musteritipi'#0#1#7'MinSize'#2#12#7'MaxSize'
+  +#3#250#0#13'Title.Caption'#6#12'TC Kimlik No'#5'Width'#3#150#0#9'FieldName'#6
+  +#4'tcno'#0#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#13'Vergi'
+  +' Dairesi'#5'Width'#3#162#0#9'FieldName'#6#12'vergidairesi'#0#1#7'MinSize'#2
+  +#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#15'Vergi Numaras'#196#177#5'Width'
+  +#3#162#0#9'FieldName'#6#13'verginumarasi'#0#0#10'DataSource'#7#11'Datasource'
+  +'1'#7'Options'#11#8'dgTitles'#11'dgIndicator'#14'dgColumnResize'#12'dgColumn'
+  +'Move'#10'dgColLines'#10'dgRowLines'#6'dgTabs'#11'dgRowSelect'#21'dgAlwaysSh'
+  +'owSelection'#15'dgConfirmDelete'#14'dgCancelOnExit'#0#10'ParentFont'#8#8'Re'
+  +'adOnly'#9#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#8#11'OnCellClick'#7
+  +#16'DBGrid1CellClick'#0#0#7'TDBGrid'#7'DBGrid2'#4'Left'#2#14#6'Height'#3#249
+  ,#0#3'Top'#3'J'#1#5'Width'#3#183#1#14'AlternateColor'#7#8'clSilver'#5'Color'#7
+  +#8'clWindow'#7'Columns'#14#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Cap'
+  +'tion'#6#11'Tarife Ad'#196#177#5'Width'#3#188#0#9'FieldName'#6#9'tarifeadi'#0
+  +#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#10'A'#195#167#196
+  +#177'klama'#5'Width'#3#188#0#9'FieldName'#6#8'aciklama'#0#0#10'DataSource'#7
+  +#11'Datasource2'#7'Options'#11#8'dgTitles'#11'dgIndicator'#14'dgColumnResize'
+  +#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6'dgTabs'#11'dgRowSelect'#21
+  +'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCancelOnExit'#0#10'ParentFo'
+  +'nt'#8#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#9#0#0#11'TDataSource'#11
+  +'Datasource2'#7'DataSet'#7#15'ZReadOnlyQuery1'#4'left'#3'0'#2#3'top'#3#184#1
+  +#0#0#7'TZTable'#7'ZTable4'#10'Connection'#7#12'ZConnection1'#14'AutoCalcFiel'
+  +'ds'#8#9'TableName'#6#17'coreradiusservers'#4'left'#3#9#4#3'top'#3'r'#1#0#0
+  +#11'TDataSource'#11'Datasource4'#7'DataSet'#7#7'ZTable4'#4'left'#3#225#3#3't'
+  +'op'#3'r'#1#0#0#7'TZQuery'#7'ZQuery1'#10'Connection'#7#12'ZConnection2'#14'A'
+  +'utoCalcFields'#8#6'Params'#14#0#4'left'#3#205#3#3'top'#3#204#1#0#0#12'TZCon'
+  +'nection'#12'ZConnection2'#16'ControlsCodePage'#7#8'cCP_UTF8'#18'Properties.'
+  +'Strings'#1#6#18'AutoEncodeStrings='#0#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4
+  +'left'#3#165#3#3'top'#3#204#1#0#0#15'TZReadOnlyQuery'#15'ZReadOnlyQuery2'#10
+  +'Connection'#7#12'ZConnection1'#14'AutoCalcFields'#8#11'SQL.Strings'#1#6'(se'
+  +'lect * from corecustomers LIMIT 0,100;'#0#6'Params'#14#0#4'left'#3#230#0#3
+  +'top'#2'2'#0#0#11'TDataSource'#11'Datasource1'#7'DataSet'#7#15'ZReadOnlyQuer'
+  +'y2'#4'left'#3#190#0#3'top'#2'2'#0#0#15'TZReadOnlyQuery'#15'ZReadOnlyQuery1'
+  +#10'Connection'#7#12'ZConnection1'#14'AutoCalcFields'#8#11'SQL.Strings'#1#6
+  +'xselect coreaboneler.id, coreaboneler.carihesapid, coreaboneler.tarifeid, c'
+  +'oretarife.tarifeadi, coretarife.aciklama from '#6'bcoreaboneler, coretarife'
+  +' where coreaboneler.tarifeid=coretarife.id  and coreaboneler.carihesapid=4'
+  +#0#6'Params'#14#0#4'left'#3#8#2#3'top'#3#184#1#0#0#13'TRxMemoryData'#10'dumm'
+  +'ytable'#6'Active'#9#14'AutoCalcFields'#8#9'FieldDefs'#14#1#4'Name'#6#2'id'#8
+  +'DataType'#7#9'ftInteger'#0#0#13'PacketRecords'#2#0#4'left'#3#165#3#3'top'#3
+  +'r'#1#0#0#11'TDataSource'#11'Datasource5'#7'DataSet'#7#10'dummytable'#4'left'
+  +#3'}'#3#3'top'#3'r'#1#0#0#12'TZConnection'#12'ZConnection1'#16'ControlsCodeP'
+  +'age'#7#8'cCP_UTF8'#18'Properties.Strings'#1#6#18'AutoEncodeStrings='#0#8'Ho'
+  +'stName'#6#12'192.168.2.26'#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'left'#3
+  +#150#0#3'top'#2'2'#0#0#0
+]);

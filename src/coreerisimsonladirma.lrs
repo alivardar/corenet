@@ -1,0 +1,100 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Terisimsonladirma','FORMDATA',[
+  'TPF0'#17'Terisimsonladirma'#16'erisimsonladirma'#4'Left'#3#239#0#6'Height'#3
+  +'+'#2#3'Top'#2'c'#5'Width'#3#225#3#13'ActiveControl'#7#24'RadioGroup1.RadioB'
+  +'utton0'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'
+  +#7'Caption'#6#20'Eri'#197#159'im Sonland'#196#177'rma'#12'ClientHeight'#3'+'
+  +#2#11'ClientWidth'#3#225#3#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDeskto'
+  +'pCenter'#10'LCLVersion'#6#3'1.1'#0#5'TEdit'#5'Edit1'#4'Left'#2#16#6'Height'
+  +#2#21#3'Top'#2#24#5'Width'#3#184#0#7'OnClick'#7#10'Edit1Click'#10'OnKeyPress'
+  +#7#13'Edit1KeyPress'#8'TabOrder'#2#0#4'Text'#6#6'Ara...'#0#0#11'TRadioGroup'
+  +#11'RadioGroup1'#4'Left'#3#248#0#6'Height'#2'0'#3'Top'#2#8#5'Width'#3#224#2#8
+  +'AutoFill'#9#7'Caption'#6#12'Arama t'#195#188'r'#195#188#28'ChildSizing.Left'
+  +'RightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.Enlar'
+  +'geHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'
+  +#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsSca'
+  +'leChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizin'
+  +'g.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLin'
+  +'e'#2#6#12'ClientHeight'#2#30#11'ClientWidth'#3#220#2#7'Columns'#2#6#9'ItemI'
+  +'ndex'#2#0#13'Items.Strings'#1#6#10'Filtre yok'#6#12'Ad'#196#177'na G'#195
+  +#182're'#6#15'Soyad'#196#177'na G'#195#182're'#6#13#195#156'nvana G'#195#182
+  +'re'#6#9'TC Kimlik'#6#8'Vergi No'#0#8'TabOrder'#2#1#0#0#7'TDBGrid'#7'DBGrid1'
+  +#4'Left'#2#16#6'Height'#3#231#0#3'Top'#2'H'#5'Width'#3#200#3#14'AlternateCol'
+  +'or'#7#8'clSilver'#8'AutoEdit'#8#5'Color'#7#8'clWindow'#7'Columns'#14#1#13'T'
+  +'itle.Caption'#6#4'Ad'#196#177#5'Width'#3#140#0#9'FieldName'#6#3'adi'#0#1#13
+  +'Title.Caption'#6#7'Soyad'#196#177#5'Width'#3#140#0#9'FieldName'#6#6'soyadi'
+  +#0#1#13'Title.Caption'#6#8#195#156'nvan'#196#177#5'Width'#2'x'#9'FieldName'#6
+  +#6'unvani'#0#1#13'Title.Caption'#6#16'M'#195#188#197#159'teri T'#195#188'r'
+  +#195#188#5'Width'#2'd'#9'FieldName'#6#11'musteritipi'#0#1#13'Title.Caption'#6
+  +#12'TC Kimlik No'#5'Width'#2'x'#9'FieldName'#6#4'tcno'#0#1#13'Title.Caption'
+  +#6#13'Vergi Dairesi'#5'Width'#2'x'#9'FieldName'#6#12'vergidairesi'#0#1#13'Ti'
+  +'tle.Caption'#6#15'Vergi Numaras'#196#177#5'Width'#2'x'#9'FieldName'#6#13've'
+  +'rginumarasi'#0#0#10'DataSource'#7#11'Datasource1'#7'Options'#11#8'dgTitles'
+  +#11'dgIndicator'#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRow'
+  +'Lines'#6'dgTabs'#11'dgRowSelect'#21'dgAlwaysShowSelection'#15'dgConfirmDele'
+  +'te'#14'dgCancelOnExit'#0#8'ReadOnly'#9#10'Scrollbars'#7#10'ssAutoBoth'#8'Ta'
+  +'bOrder'#2#2#0#0#7'TBitBtn'#7'BitBtn4'#4'Left'#3'x'#3#6'Height'#2#30#3'Top'#3
+  +#0#2#5'Width'#2'['#7'Default'#9#14'DefaultCaption'#9#4'Kind'#7#4'bkOK'#11'Mo'
+  +'dalResult'#2#1#7'OnClick'#7#12'BitBtn4Click'#8'TabOrder'#2#3#0#0#7'TDBGrid'
+  +#7'DBGrid2'#4'Left'#2#16#6'Height'#3#184#0#3'Top'#3'8'#1#5'Width'#3#200#3#14
+  +'AlternateColor'#7#8'clSilver'#8'AutoEdit'#8#5'Color'#7#8'clWindow'#7'Column'
+  +'s'#14#1#13'Title.Caption'#6#17'A'#195#167#196#177'l'#196#177#197#159' Tarih'
+  +'i'#5'Width'#3#200#0#9'FieldName'#6#5'tarih'#0#1#13'Title.Caption'#6#16'Kull'
+  +'an'#196#177'c'#196#177' Ad'#196#177#9'FieldName'#6#8'username'#0#1#13'Title'
+  +'.Caption'#6#6#197#158'ifre'#9'FieldName'#6#8'password'#0#1#13'Title.Caption'
+  +#6#15#196#176#197#159'lemi Yapan '#9'FieldName'#6#17'islemkullaniciadi'#0#0
+  +#10'DataSource'#7#11'Datasource2'#7'Options'#11#8'dgTitles'#11'dgIndicator'
+  +#14'dgColumnResize'#12'dgColumnMove'#10'dgColLines'#10'dgRowLines'#6'dgTabs'
+  +#11'dgRowSelect'#21'dgAlwaysShowSelection'#15'dgConfirmDelete'#14'dgCancelOn'
+  +'Exit'#0#8'ReadOnly'#9#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#4#0#0#7
+  +'TBitBtn'#7'BitBtn1'#4'Left'#2#16#6'Height'#2#30#3'Top'#3#0#2#5'Width'#3#155
+  +#0#7'Caption'#6#18'Eri'#197#159'imi Sonlad'#196#177'r'#10'Glyph.Data'#10':'#4
+  +#0#0'6'#4#0#0'BM6'#4#0#0#0#0#0#0'6'#0#0#0'('#0#0#0#16#0#0#0#16#0#0#0#1#0' '#0
+  +#0#0#0#0#0#4#0#0'd'#0#0#0'd'#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#198#0#0#31#198#0#0#31#198#0#0#31#0#0#0#15#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#4
+  +#220#0#0'>'#220#0#0#192#220#0#0#255#220#0#0#192#198#0#0'R'#0#0#0#19#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#220#0#0#6#220
+  +#0#0#192#220#0#0#146#220#0#0'>'#220#0#0#146#220#0#0#192#198#0#0#31#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#220#0#0#6#220
+  +#0#0#255#160#0#0'\'#220#0#0#3#220#0#0'>'#220#0#0#255#198#0#0#31#0#0#0#0#0#0#0
+  +#12#0#0#0#12#0#0#0#15#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#220#0#0#6#220#0
+  +#0#192#220#0#0#146#198#0#0'R'#220#0#0#146#220#0#0#192#220#0#0#6#144#0#0'E'
+  +#144#0#0'E'#160#0#0'3'#0#0#0#30#0#0#0#10#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#220#0#0'>'#220#0#0#192#220#0#0#255#220#0#0#192#220#0#0'>'#220#0#0'>'#220
+  +#0#0#192#220#0#0#255#220#0#0#192']'#0#0'>'#0#0#0#23#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0'>>>h>>>'#255#220#0#0#6#220#0#0#6#220#0#0#6#220#0#0#192#178#0#0
+  ,#167#220#0#0'>'#220#0#0#146#220#0#0#192#129#0#0')'#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0'>>>'#141'>>>'#199#0#0#0#0#0#0#0#16#220#0#0'='#220#0#0#255#160
+  +#0#0't'#198#0#0#29#220#0#0'>'#220#0#0#255#144#0#0'.'#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0'EEE>>>>'#255'>>>R>>>'#131'>>>'#255'>>>'#255#220#0#0#192#160#0#0#176
+  +#160#0#0't'#178#0#0#167#220#0#0#192#129#0#0')hhhk^^^'#136'PPP'#172'PPP'#255
+  +'EEE'#255'>>>'#255'>>>'#255'>>>'#185'>>>~>>>0'#220#0#0'>'#220#0#0#192#220#0#0
+  +#255#220#0#0#192#220#0#0'>'#0#0#0#12'ddd'#218'^^^'#255'PPP'#255'PPP'#172'EEE'
+  +#255'EEEn>>>>'#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#220#0#0#6#220#0#0#6#198#0#0#5
+  +#0#0#0#4#0#0#0#0#0#0#0'"'#0#0#0#12#0#0#0#7'PPP'#192'EEE'#255#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0',PPP'#255'PPP'#192#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'hhh'#137'^^'
+  +'^'#255'PPPo'#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0'hhh'#195'hhh'#152#0#0#0#16#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#26#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
+  +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#7'OnClick'#7#12'BitBt'
+  +'n1Click'#8'TabOrder'#2#5#0#0#7'TZQuery'#7'ZQuery1'#10'Connection'#7#12'ZCon'
+  +'nection1'#14'AutoCalcFields'#8#11'SQL.Strings'#1#6'(select * from corecusto'
+  +'mers LIMIT 0,100;'#0#6'Params'#14#0#4'left'#3'H'#1#3'top'#3#0#2#0#0#11'TDat'
+  +'asource'#11'Datasource1'#7'DataSet'#7#7'ZQuery1'#4'left'#3'h'#1#3'top'#3#1#2
+  +#0#0#7'TZTable'#7'ZTable1'#10'Connection'#7#12'ZConnection1'#14'AutoCalcFiel'
+  +'ds'#8#9'TableName'#6#15'coreradiususers'#12'MasterFields'#6#2'id'#12'Master'
+  +'Source'#7#11'Datasource1'#12'LinkedFields'#6#9'musteriid'#4'left'#3#229#1#3
+  +'top'#3#1#2#0#0#11'TDatasource'#11'Datasource2'#7'DataSet'#7#7'ZTable1'#4'le'
+  +'ft'#3#0#2#3'top'#3#1#2#0#0#7'TZQuery'#7'ZQuery2'#10'Connection'#7#12'ZConne'
+  +'ction2'#14'AutoCalcFields'#8#6'Params'#14#0#4'left'#3#184#2#3'top'#3#1#2#0#0
+  +#12'TZConnection'#12'ZConnection2'#16'ControlsCodePage'#7#8'cCP_UTF8'#17'Aut'
+  +'oEncodeStrings'#8#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'left'#3#216#2#3'to'
+  +'p'#3#1#2#0#0#12'TZConnection'#12'ZConnection1'#16'ControlsCodePage'#7#8'cCP'
+  +'_UTF8'#17'AutoEncodeStrings'#8#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'left'
+  +#3#24#1#3'top'#3#1#2#0#0#0
+]);

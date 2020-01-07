@@ -1,0 +1,31 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Thizmetturleri','FORMDATA',[
+  'TPF0'#14'Thizmetturleri'#13'hizmetturleri'#4'Left'#3#205#1#6'Height'#3'f'#1#3
+  +'Top'#3#251#0#5'Width'#3'_'#2#13'ActiveControl'#7#12'DBNavigator1'#11'Border'
+  +'Icons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#15
+  +'Hizmet T'#195#188'rleri'#12'ClientHeight'#3'f'#1#11'ClientWidth'#3'_'#2#6'O'
+  +'nShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#3'1'
+  +'.1'#0#7'TDBGrid'#7'DBGrid1'#4'Left'#2#0#6'Height'#3#16#1#3'Top'#2'!'#5'Widt'
+  +'h'#3'_'#2#5'Align'#7#5'alTop'#5'Color'#7#8'clWindow'#7'Columns'#14#1#13'Tit'
+  +'le.Caption'#6#11'Hizmet Ad'#196#177#5'Width'#3#144#1#9'FieldName'#6#9'hizme'
+  +'tadi'#0#1#13'Title.Caption'#6#11'Birim Tutar'#5'Width'#3#150#0#9'FieldName'
+  +#6#12'hizmetbedeli'#0#0#10'DataSource'#7#11'Datasource1'#10'Scrollbars'#7#10
+  +'ssAutoBoth'#8'TabOrder'#2#0#0#0#12'TDBNavigator'#12'DBNavigator1'#4'Left'#2
+  +#0#6'Height'#2'!'#3'Top'#2#0#5'Width'#3'_'#2#5'Align'#7#5'alTop'#10'BevelOut'
+  +'er'#7#6'bvNone'#11'BorderStyle'#7#8'bsSingle'#29'ChildSizing.EnlargeHorizon'
+  +'tal'#7#14'crsScaleChilds'#27'ChildSizing.EnlargeVertical'#7#14'crsScaleChil'
+  +'ds'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.Sh'
+  +'rinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRig'
+  +'htThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2'd'#12'ClientHeight'#2
+  +#29#11'ClientWidth'#3'['#2#10'DataSource'#7#11'Datasource1'#4'Flat'#9#7'Opti'
+  +'ons'#11#0#8'TabOrder'#2#1#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3#0#2#6'Height'
+  +#2#30#3'Top'#3'@'#1#5'Width'#2'S'#7'Default'#9#14'DefaultCaption'#9#4'Kind'#7
+  +#4'bkOK'#11'ModalResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#8'TabOrder'#2#2#0
+  +#0#11'TDatasource'#11'Datasource1'#7'DataSet'#7#7'ZTable1'#4'left'#2'`'#3'to'
+  +'p'#3'@'#1#0#0#7'TZTable'#7'ZTable1'#10'Connection'#7#23'mainscreen.ZConnect'
+  +'ion1'#14'AutoCalcFields'#8#9'TableName'#6#17'corehizmetturleri'#4'left'#2'8'
+  +#3'top'#3'@'#1#0#0#12'TZConnection'#12'ZConnection1'#16'ControlsCodePage'#7#8
+  +'cCP_UTF8'#17'AutoEncodeStrings'#8#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'le'
+  +'ft'#2#24#3'top'#3'@'#1#0#0#0
+]);

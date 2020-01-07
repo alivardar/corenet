@@ -1,0 +1,110 @@
+object coreloginscreen: Tcoreloginscreen
+  Left = 703
+  Height = 225
+  Top = 268
+  Width = 452
+  ActiveControl = Edit1
+  BorderStyle = bsSizeToolWin
+  Caption = 'User Login'
+  ClientHeight = 225
+  ClientWidth = 452
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poDesktopCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 20
+    Top = 70
+    Width = 77
+    Caption = 'User name :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 20
+    Top = 118
+    Width = 68
+    Caption = 'Password :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 30
+    Height = 37
+    Top = 10
+    Width = 364
+    Caption = 'CoreNet ISP Automatization'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 100
+    Height = 1
+    Top = 150
+    Width = 1
+    Font.Color = clRed
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 192
+    Height = 28
+    Top = 64
+    Width = 238
+    OnKeyPress = Edit1KeyPress
+    ParentFont = False
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 336
+    Height = 38
+    Top = 168
+    Width = 94
+    Caption = '&OK'
+    Default = True
+    Kind = bkOK
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 192
+    Height = 28
+    Top = 116
+    Width = 238
+    EchoMode = emPassword
+    OnKeyPress = Edit2KeyPress
+    ParentFont = False
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object ZReadOnlyQuery1: TZReadOnlyQuery
+    Connection = ZConnection1
+    AutoCalcFields = False
+    Params = <>
+    left = 136
+    top = 152
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=ON'
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 40
+    top = 147
+  end
+end

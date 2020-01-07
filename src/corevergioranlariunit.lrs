@@ -1,0 +1,34 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tvergioranlari','FORMDATA',[
+  'TPF0'#14'Tvergioranlari'#13'vergioranlari'#4'Left'#3'g'#2#6'Height'#3#3#1#3
+  +'Top'#3#15#1#5'Width'#3#175#1#13'ActiveControl'#7#12'DBNavigator1'#11'Border'
+  +'Icons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#14
+  +'Tax Percentage'#12'ClientHeight'#3#3#1#11'ClientWidth'#3#175#1#13'DesignTim'
+  +'ePPI'#2'x'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'#10'LCL'
+  +'Version'#6#7'2.0.6.0'#0#7'TDBGrid'#7'DBGrid2'#4'Left'#2#0#6'Height'#3#165#0
+  +#3'Top'#2#31#5'Width'#3#173#1#14'AlternateColor'#7#8'clSilver'#5'Color'#7#8
+  +'clWindow'#7'Columns'#14#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Capti'
+  +'on'#6#14'VAT Percentage'#5'Width'#3#188#0#9'FieldName'#6#8'kdvorani'#0#1#7
+  +'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.Caption'#6#20'Other Tax Percentag'
+  +'e'#5'Width'#3#188#0#9'FieldName'#6#8'oivorani'#0#0#10'DataSource'#7#11'Data'
+  +'source2'#10'ParentFont'#8#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#0
+  +#0#12'TDBNavigator'#12'DBNavigator1'#4'Left'#2#0#6'Height'#2#31#3'Top'#2#0#5
+  +'Width'#3#175#1#5'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#11'BorderStyl'
+  +'e'#7#8'bsSingle'#29'ChildSizing.EnlargeHorizontal'#7#14'crsScaleChilds'#27
+  +'ChildSizing.EnlargeVertical'#7#14'crsScaleChilds'#28'ChildSizing.ShrinkHori'
+  +'zontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleCh'
+  +'ilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSi'
+  +'zing.ControlsPerLine'#2'd'#12'ClientHeight'#2#27#11'ClientWidth'#3#171#1#10
+  +'DataSource'#7#11'Datasource2'#4'Flat'#9#7'Options'#11#0#10'ParentFont'#8#8
+  +'TabOrder'#2#1#14'VisibleButtons'#11#6'nbEdit'#6'nbPost'#8'nbCancel'#9'nbRef'
+  +'resh'#0#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'6'#1#6'Height'#2'&'#3'Top'#3#210
+  +#0#5'Width'#2'r'#7'Default'#9#14'DefaultCaption'#9#4'Kind'#7#4'bkOK'#11'Moda'
+  +'lResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#10'ParentFont'#8#8'TabOrder'#2#2
+  +#0#0#11'TDataSource'#11'Datasource2'#7'DataSet'#7#7'ZTable1'#4'left'#2'n'#3
+  +'top'#3#210#0#0#0#7'TZTable'#7'ZTable1'#10'Connection'#7#12'ZConnection1'#14
+  +'AutoCalcFields'#8#9'TableName'#6#12'corevergiler'#4'left'#2'<'#3'top'#3#210
+  +#0#0#0#12'TZConnection'#12'ZConnection1'#16'ControlsCodePage'#7#8'cCP_UTF8'
+  +#18'Properties.Strings'#1#6#18'AutoEncodeStrings='#0#4'Port'#2#0#8'Protocol'
+  +#6#7'mysql-5'#4'left'#2#14#3'top'#3#211#0#0#0#0
+]);

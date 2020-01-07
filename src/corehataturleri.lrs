@@ -1,0 +1,34 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Thataturleri','FORMDATA',[
+  'TPF0'#12'Thataturleri'#11'hataturleri'#4'Left'#3'k'#2#6'Height'#3#136#1#3'To'
+  +'p'#3#13#1#5'Width'#3#244#1#13'ActiveControl'#7#12'DBNavigator1'#11'BorderIc'
+  +'ons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#21'Cu'
+  +'stomer Ticket Types'#12'ClientHeight'#3#136#1#11'ClientWidth'#3#244#1#13'De'
+  +'signTimePPI'#2'x'#6'OnShow'#7#8'FormShow'#8'Position'#7#15'poDesktopCenter'
+  +#10'LCLVersion'#6#7'2.0.6.0'#0#7'TDBGrid'#7'DBGrid1'#4'Left'#2#0#6'Height'#3
+  +'+'#1#3'Top'#2#31#5'Width'#3#244#1#14'AlternateColor'#7#8'clSilver'#5'Color'
+  +#7#8'clWindow'#7'Columns'#14#1#7'MinSize'#2#12#7'MaxSize'#3#250#0#13'Title.C'
+  +'aption'#6#20'Hata T'#195#188'r'#195#188'n'#195#188'n Ad'#196#177#5'Width'#3
+  +#194#1#9'FieldName'#6#11'hataturuadi'#0#0#10'DataSource'#7#11'Datasource1'#10
+  +'ParentFont'#8#10'Scrollbars'#7#10'ssAutoBoth'#8'TabOrder'#2#1#0#0#12'TDBNav'
+  +'igator'#12'DBNavigator1'#4'Left'#2#0#6'Height'#2' '#3'Top'#2#0#5'Width'#3
+  +#244#1#5'Align'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#11'BorderStyle'#7#8'bs'
+  +'Single'#29'ChildSizing.EnlargeHorizontal'#7#14'crsScaleChilds'#27'ChildSizi'
+  +'ng.EnlargeVertical'#7#14'crsScaleChilds'#28'ChildSizing.ShrinkHorizontal'#7
+  +#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'C'
+  +'hildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.Contr'
+  +'olsPerLine'#2'd'#12'ClientHeight'#2#28#11'ClientWidth'#3#240#1#10'DataSourc'
+  +'e'#7#11'Datasource1'#4'Flat'#9#7'Options'#11#0#10'ParentFont'#8#8'TabOrder'
+  +#2#0#14'VisibleButtons'#11#7'nbFirst'#7'nbPrior'#6'nbNext'#6'nbLast'#8'nbIns'
+  +'ert'#8'nbDelete'#6'nbEdit'#6'nbPost'#8'nbCancel'#0#0#0#7'TBitBtn'#7'BitBtn1'
+  +#4'Left'#3'|'#1#6'Height'#2'&'#3'Top'#3'T'#1#5'Width'#2'r'#7'Default'#9#14'D'
+  +'efaultCaption'#9#4'Kind'#7#4'bkOK'#11'ModalResult'#2#1#7'OnClick'#7#12'BitB'
+  +'tn1Click'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7'TZTable'#7'ZTable1'#10'Con'
+  +'nection'#7#12'ZConnection1'#14'AutoCalcFields'#8#9'TableName'#6#15'corehata'
+  +'turleri'#4'left'#2'F'#3'top'#3'T'#1#0#0#11'TDataSource'#11'Datasource1'#7'D'
+  +'ataSet'#7#7'ZTable1'#4'left'#2'n'#3'top'#3'T'#1#0#0#12'TZConnection'#12'ZCo'
+  +'nnection1'#16'ControlsCodePage'#7#8'cCP_UTF8'#18'Properties.Strings'#1#6#18
+  +'AutoEncodeStrings='#0#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'left'#2#30#3't'
+  +'op'#3'U'#1#0#0#0
+]);

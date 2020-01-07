@@ -1,0 +1,15 @@
+{"version":1,"strings":[
+{"hash":220166467,"name":"tstokhareketleri.caption","sourcebytes":[83,116,111,99,107,32,65,99,116,105,111,110,115],"value":"Stock Actions"},
+{"hash":63528449,"name":"tstokhareketleri.dbgrid1.columns[0].title.caption","sourcebytes":[195,156,114,195,188,110,32,65,100,196,177],"value":"\u00DCr\u00FCn Ad\u0131"},
+{"hash":260504065,"name":"tstokhareketleri.dbgrid1.columns[1].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":4786429,"name":"tstokhareketleri.dbgrid1.columns[2].title.caption","sourcebytes":[66,105,114,105,109],"value":"Birim"},
+{"hash":4953053,"name":"tstokhareketleri.dbgrid1.columns[3].title.caption","sourcebytes":[83,111,110,32,68,117,114,117,109],"value":"Son Durum"},
+{"hash":5933304,"name":"tstokhareketleri.dbgrid2.columns[0].title.caption","sourcebytes":[84,97,114,105,104],"value":"Tarih"},
+{"hash":210713294,"name":"tstokhareketleri.dbgrid2.columns[1].title.caption","sourcebytes":[71,101,108,101,110,32,47,32,71,105,100,101,110],"value":"Gelen / Giden"},
+{"hash":260504065,"name":"tstokhareketleri.dbgrid2.columns[2].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":88091266,"name":"tstokhareketleri.dbgrid2.columns[3].title.caption","sourcebytes":[77,105,107,116,97,114],"value":"Miktar"},
+{"hash":44709525,"name":"tstokhareketleri.bitbtn1.caption","sourcebytes":[38,67,108,111,115,101],"value":"&Close"},
+{"hash":56395297,"name":"tstokhareketleri.dbgrid3.columns[0].title.caption","sourcebytes":[195,156,110,118,97,110,196,177],"value":"\u00DCnvan\u0131"},
+{"hash":295153,"name":"tstokhareketleri.dbgrid3.columns[1].title.caption","sourcebytes":[65,100,196,177],"value":"Ad\u0131"},
+{"hash":175079585,"name":"tstokhareketleri.dbgrid3.columns[2].title.caption","sourcebytes":[83,111,121,97,100,196,177],"value":"Soyad\u0131"}
+]}

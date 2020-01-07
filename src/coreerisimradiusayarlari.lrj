@@ -1,0 +1,19 @@
+{"version":1,"strings":[
+{"hash":164407249,"name":"terisimradiusayarlari.caption","sourcebytes":[196,176,110,116,101,114,110,101,116,32,69,114,105,197,159,105,109,32,82,97,100,105,117,115,32,65,121,97,114,108,97,114,196,177],"value":"\u0130nternet Eri\u015Fim Radius Ayarlar\u0131"},
+{"hash":196820618,"name":"terisimradiusayarlari.label2.caption","sourcebytes":[75,117,108,108,97,110,196,177,99,196,177,32,65,100,196,177,32,58],"value":"Kullan\u0131c\u0131 Ad\u0131 :"},
+{"hash":83725258,"name":"terisimradiusayarlari.label3.caption","sourcebytes":[197,158,105,102,114,101,32,58],"value":"\u015Eifre :"},
+{"hash":22522602,"name":"terisimradiusayarlari.label4.caption","sourcebytes":[82,97,100,105,117,115,32,83,117,110,117,99,117,32,58],"value":"Radius Sunucu :"},
+{"hash":259123658,"name":"terisimradiusayarlari.label6.caption","sourcebytes":[83,105,109,117,108,116,97,110,101,32,71,105,114,105,197,159,32,58],"value":"Simultane Giri\u015F :"},
+{"hash":69168802,"name":"terisimradiusayarlari.bitbtn5.caption","sourcebytes":[79,108,117,197,159,116,117,114],"value":"Olu\u015Ftur"},
+{"hash":76004828,"name":"terisimradiusayarlari.radiogroup1.caption","sourcebytes":[65,114,97,109,97,32,116,195,188,114,195,188],"value":"Arama t\u00FCr\u00FC"},
+{"hash":76038414,"name":"terisimradiusayarlari.edit1.text","sourcebytes":[65,114,97,46,46,46],"value":"Ara..."},
+{"hash":295153,"name":"terisimradiusayarlari.dbgrid1.columns[0].title.caption","sourcebytes":[65,100,196,177],"value":"Ad\u0131"},
+{"hash":175079585,"name":"terisimradiusayarlari.dbgrid1.columns[1].title.caption","sourcebytes":[83,111,121,97,100,196,177],"value":"Soyad\u0131"},
+{"hash":56395297,"name":"terisimradiusayarlari.dbgrid1.columns[2].title.caption","sourcebytes":[195,156,110,118,97,110,196,177],"value":"\u00DCnvan\u0131"},
+{"hash":190999004,"name":"terisimradiusayarlari.dbgrid1.columns[3].title.caption","sourcebytes":[77,195,188,197,159,116,101,114,105,32,84,195,188,114,195,188],"value":"M\u00FC\u015Fteri T\u00FCr\u00FC"},
+{"hash":128616271,"name":"terisimradiusayarlari.dbgrid1.columns[4].title.caption","sourcebytes":[84,67,32,75,105,109,108,105,107,32,78,111],"value":"TC Kimlik No"},
+{"hash":113792905,"name":"terisimradiusayarlari.dbgrid1.columns[5].title.caption","sourcebytes":[86,101,114,103,105,32,68,97,105,114,101,115,105],"value":"Vergi Dairesi"},
+{"hash":190031473,"name":"terisimradiusayarlari.dbgrid1.columns[6].title.caption","sourcebytes":[86,101,114,103,105,32,78,117,109,97,114,97,115,196,177],"value":"Vergi Numaras\u0131"},
+{"hash":204408833,"name":"terisimradiusayarlari.dbgrid2.columns[0].title.caption","sourcebytes":[84,97,114,105,102,101,32,65,100,196,177],"value":"Tarife Ad\u0131"},
+{"hash":260504065,"name":"terisimradiusayarlari.dbgrid2.columns[1].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"}
+]}

@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":119403522,"name":"tyenicorebiluser.caption","sourcebytes":[67,114,101,97,116,101,32,110,101,119,32,117,115,101,114],"value":"Create new user"},
+{"hash":24201402,"name":"tyenicorebiluser.label1.caption","sourcebytes":[78,97,109,101,32,115,117,114,110,97,109,101,32,58],"value":"Name surname :"},
+{"hash":119319418,"name":"tyenicorebiluser.label2.caption","sourcebytes":[85,115,101,114,32,110,97,109,101,32,58],"value":"User name :"},
+{"hash":145417188,"name":"tyenicorebiluser.label3.caption","sourcebytes":[80,97,115,115,119,111,114,100],"value":"Password"},
+{"hash":366789,"name":"tyenicorebiluser.bitbtn3.caption","sourcebytes":[83,97,118,101],"value":"Save"}
+]}

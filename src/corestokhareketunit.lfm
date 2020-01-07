@@ -1,0 +1,226 @@
+object stokhareketleri: Tstokhareketleri
+  Left = 356
+  Height = 745
+  Top = 212
+  Width = 1336
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Stock Actions'
+  ClientHeight = 745
+  ClientWidth = 1336
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Bevel1: TBevel
+    Left = 10
+    Height = 12
+    Top = 358
+    Width = 1320
+    Shape = bsTopLine
+  end
+  object Bevel2: TBevel
+    Left = 10
+    Height = 12
+    Top = 690
+    Width = 1320
+    Shape = bsTopLine
+  end
+  object DBGrid1: TDBGrid
+    Left = 10
+    Height = 310
+    Top = 40
+    Width = 1320
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Ürün Adı'
+        FieldName = 'urunadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Birim'
+        FieldName = 'birim'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Son Durum'
+        FieldName = 'sondurum'
+      end>
+    DataSource = Datasource1
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+    TitleStyle = tsNative
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 35
+    Top = 0
+    Width = 1336
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 31
+    ClientWidth = 1332
+    DataSource = Datasource2
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object DBGrid2: TDBGrid
+    Left = 10
+    Height = 310
+    Top = 370
+    Width = 690
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Tarih'
+        FieldName = 'tarih'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Gelen / Giden'
+        Width = 125
+        FieldName = 'gelengiden'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Miktar'
+        FieldName = 'miktar'
+      end>
+    DataSource = Datasource2
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object BitBtn1: TBitBtn
+    Left = 1230
+    Height = 38
+    Top = 700
+    Width = 94
+    Caption = '&Close'
+    Kind = bkClose
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object DBGrid3: TDBGrid
+    Left = 700
+    Height = 310
+    Top = 370
+    Width = 630
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Ünvanı'
+        Width = 250
+        FieldName = 'unvani'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Adı'
+        Width = 175
+        FieldName = 'adi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Soyadı'
+        Width = 175
+        FieldName = 'soyadi'
+      end>
+    DataSource = Datasource3
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 4
+  end
+  object Datasource1: TDataSource
+    DataSet = ZTable1
+    left = 40
+    top = 340
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    ReadOnly = True
+    TableName = 'corestokkart'
+    top = 340
+  end
+  object ZTable2: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corestokhareket'
+    MasterFields = 'id'
+    MasterSource = Datasource1
+    LinkedFields = 'urunid'
+    left = 10
+    top = 700
+  end
+  object Datasource2: TDataSource
+    DataSet = ZTable2
+    left = 50
+    top = 700
+  end
+  object ZTable3: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    ReadOnly = True
+    TableName = 'corecustomers'
+    MasterFields = 'kimekimdenid'
+    MasterSource = Datasource2
+    LinkedFields = 'id'
+    left = 720
+    top = 700
+  end
+  object Datasource3: TDataSource
+    DataSet = ZTable3
+    left = 770
+    top = 700
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 198
+    top = 700
+  end
+end

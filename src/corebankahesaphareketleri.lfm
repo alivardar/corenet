@@ -1,0 +1,160 @@
+object bankahesaphareketleri: Tbankahesaphareketleri
+  Left = 240
+  Height = 612
+  Top = 163
+  Width = 1346
+  ActiveControl = DBGrid1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Bank Records'
+  ClientHeight = 612
+  ClientWidth = 1346
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object BitBtn1: TBitBtn
+    Left = 1240
+    Height = 38
+    Top = 570
+    Width = 94
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 0
+  end
+  object DBGrid1: TDBGrid
+    Left = 10
+    Height = 210
+    Top = 10
+    Width = 1330
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Banka Adı'
+        Width = 250
+        FieldName = 'bankaadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        Width = 250
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Hesap No'
+        Width = 250
+        FieldName = 'hesapno'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Şube Adı'
+        Width = 250
+        FieldName = 'subeadi'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Bakiye'
+        Width = 188
+        FieldName = 'sondurum'
+      end>
+    DataSource = Datasource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 1
+  end
+  object DBGrid2: TDBGrid
+    Left = 10
+    Height = 330
+    Top = 230
+    Width = 1330
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Açıklama'
+        Width = 312
+        FieldName = 'aciklama'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Borç/Alacak'
+        FieldName = 'borcalacak'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Evrak No'
+        FieldName = 'evrakno'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Tarih'
+        FieldName = 'tarih'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Tutar'
+        Width = 250
+        FieldName = 'tutar'
+      end>
+    DataSource = Datasource2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corebankalar'
+    left = 180
+    top = 570
+  end
+  object Datasource1: TDataSource
+    DataSet = ZTable1
+    left = 223
+    top = 570
+  end
+  object Datasource2: TDataSource
+    DataSet = ZTable2
+    left = 744
+    top = 570
+  end
+  object ZTable2: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'corebankahareket'
+    MasterFields = 'id'
+    MasterSource = Datasource1
+    LinkedFields = 'bankaid'
+    left = 701
+    top = 570
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 25
+    top = 569
+  end
+end

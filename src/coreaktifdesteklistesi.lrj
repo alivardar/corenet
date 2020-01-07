@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":223193747,"name":"taktifdesteklistesi.caption","sourcebytes":[65,99,116,105,118,101,32,83,117,112,112,111,114,116,32,84,105,99,107,101,116,115],"value":"Active Support Tickets"},
+{"hash":4966845,"name":"taktifdesteklistesi.dbgrid1.columns[0].title.caption","sourcebytes":[68,117,114,117,109],"value":"Durum"},
+{"hash":260504065,"name":"taktifdesteklistesi.dbgrid1.columns[1].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":121387493,"name":"taktifdesteklistesi.dbgrid1.columns[2].title.caption","sourcebytes":[77,195,188,197,159,116,101,114,105,32,78,111,116,117],"value":"M\u00FC\u015Fteri Notu"},
+{"hash":174703717,"name":"taktifdesteklistesi.dbgrid1.columns[3].title.caption","sourcebytes":[83,111,114,117,109,108,117],"value":"Sorumlu"},
+{"hash":130402377,"name":"taktifdesteklistesi.dbgrid2.columns[0].title.caption","sourcebytes":[117,110,118,97,110,105],"value":"unvani"},
+{"hash":26537,"name":"taktifdesteklistesi.dbgrid2.columns[1].title.caption","sourcebytes":[97,100,105],"value":"adi"},
+{"hash":128382889,"name":"taktifdesteklistesi.dbgrid2.columns[2].title.caption","sourcebytes":[115,111,121,97,100,105],"value":"soyadi"},
+{"hash":180534574,"name":"taktifdesteklistesi.dbgrid2.columns[3].title.caption","sourcebytes":[116,101,108,101,102,111,110],"value":"telefon"},
+{"hash":113732257,"name":"taktifdesteklistesi.dbgrid2.columns[4].title.caption","sourcebytes":[101,112,111,115,116,97],"value":"eposta"},
+{"hash":6797507,"name":"taktifdesteklistesi.dbgrid2.columns[5].title.caption","sourcebytes":[97,100,114,101,115],"value":"adres"}
+]}

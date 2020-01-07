@@ -1,0 +1,47 @@
+unit dbsettings;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils,DCPlazarus;
+
+
+const
+  //mysql server ayarları
+  mysqlserver= '192.168.2.26' ;
+  mysqlusername= 'corenet';
+  mysqlpassword= 'vardar';
+  mysqldbname= 'corenet';
+
+
+implementation
+
+
+function MD5(Password: string): string;
+const HASHSIZE_BYTES = 16;
+var Digest: array[0..HASHSIZE_BYTES - 1] of byte;
+i: integer;
+begin
+with TDCP_md5.Create(nil) do
+try
+Init();
+UpdateStr(Password);
+
+final(Digest[0]);
+
+result := '';
+
+for i := 0 to HASHSIZE_BYTES - 1 do
+result := result + IntToHex((Digest[i]), 2);
+
+result := LowerCase(result);
+finally
+Free();
+end;
+end;
+
+
+end.
+

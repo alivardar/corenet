@@ -1,0 +1,10 @@
+{"version":1,"strings":[
+{"hash":158492756,"name":"ttarifeler.caption","sourcebytes":[80,114,105,99,101,32,76,105,115,116],"value":"Price List"},
+{"hash":150745039,"name":"ttarifeler.dbgrid2.columns[0].title.caption","sourcebytes":[84,97,114,105,102,101,32,78,111],"value":"Tarife No"},
+{"hash":204408833,"name":"ttarifeler.dbgrid2.columns[1].title.caption","sourcebytes":[84,97,114,105,102,101,32,65,100,196,177],"value":"Tarife Ad\u0131"},
+{"hash":260504065,"name":"ttarifeler.dbgrid2.columns[2].title.caption","sourcebytes":[65,195,167,196,177,107,108,97,109,97],"value":"A\u00E7\u0131klama"},
+{"hash":40514786,"name":"ttarifeler.dbgrid2.columns[3].title.caption","sourcebytes":[75,111,116,97,32,71,66],"value":"Kota GB"},
+{"hash":5050244,"name":"ttarifeler.dbgrid2.columns[4].title.caption","sourcebytes":[70,105,121,97,116],"value":"Fiyat"},
+{"hash":115683780,"name":"ttarifeler.dbgrid2.columns[5].title.caption","sourcebytes":[68,111,119,110,108,111,97,100],"value":"Download"},
+{"hash":96941428,"name":"ttarifeler.dbgrid2.columns[6].title.caption","sourcebytes":[85,112,108,111,97,100],"value":"Upload"}
+]}

@@ -1,0 +1,109 @@
+object coreusers: Tcoreusers
+  Left = 642
+  Height = 470
+  Top = 261
+  Width = 778
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Users'
+  ClientHeight = 470
+  ClientWidth = 778
+  DesignTimePPI = 120
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 778
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 28
+    ClientWidth = 774
+    DataSource = Datasource2
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 0
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbDelete, nbEdit, nbPost, nbCancel]
+  end
+  object BitBtn1: TBitBtn
+    Left = 650
+    Height = 38
+    Top = 420
+    Width = 114
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object DBGrid1: TDBGrid
+    Left = 10
+    Height = 370
+    Top = 40
+    Width = 760
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Name Surname'
+        Width = 250
+        FieldName = 'fullname'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'User name'
+        Width = 188
+        FieldName = 'username'
+      end    
+      item
+        MinSize = 12
+        MaxSize = 250
+        Title.Caption = 'Password'
+        Width = 250
+        FieldName = 'password'
+      end>
+    DataSource = Datasource2
+    ParentFont = False
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+  end
+  object Datasource2: TDataSource
+    DataSet = ZTable1
+    left = 110
+    top = 420
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coreusers'
+    left = 70
+    top = 420
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings='
+    )
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 20
+    top = 420
+  end
+end

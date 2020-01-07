@@ -1,0 +1,353 @@
+object yenimusteri: Tyenimusteri
+  Left = 489
+  Height = 426
+  Top = 363
+  Width = 1270
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Yeni Cari Kartı'
+  ClientHeight = 426
+  ClientWidth = 1270
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 20
+    Height = 20
+    Top = 189
+    Width = 26
+    Caption = 'Adı:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 20
+    Height = 20
+    Top = 229
+    Width = 48
+    Caption = 'Soyadı:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 20
+    Height = 20
+    Top = 279
+    Width = 44
+    Caption = 'Ünvan:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 20
+    Height = 20
+    Top = 340
+    Width = 41
+    Caption = 'Adres:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 670
+    Height = 20
+    Top = 144
+    Width = 92
+    Caption = 'T.C Kimlik No:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 670
+    Height = 20
+    Top = 189
+    Width = 87
+    Caption = 'Vergi Dairesi:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 670
+    Height = 20
+    Top = 231
+    Width = 104
+    Caption = 'Vergi Numarası:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 20
+    Height = 20
+    Top = 141
+    Width = 70
+    Caption = 'Cari Türü : '
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 10
+    Height = 20
+    Top = 50
+    Width = 172
+    Caption = 'Müşteri ve Satıcı Bilgileri'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 670
+    Height = 20
+    Top = 276
+    Width = 119
+    Caption = 'Telefon Numarası:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 670
+    Height = 20
+    Top = 314
+    Width = 52
+    Caption = 'E-Posta:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 20
+    Height = 21
+    Top = 90
+    Width = 90
+    Caption = 'Hizmet No :'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBText1: TDBText
+    Left = 220
+    Height = 25
+    Top = 85
+    Width = 74
+    DataField = 'id'
+    DataSource = Datasource1
+    Font.Color = clRed
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 1270
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 36
+    ClientWidth = 1266
+    DataSource = Datasource1
+    Flat = True
+    Options = []
+    ParentFont = False
+    TabOrder = 0
+    VisibleButtons = [nbInsert, nbEdit, nbPost, nbCancel, nbRefresh]
+  end
+  object DBEdit2: TDBEdit
+    Left = 171
+    Height = 28
+    Top = 176
+    Width = 439
+    DataField = 'adi'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 50
+    ParentFont = False
+    TabOrder = 1
+  end
+  object DBEdit3: TDBEdit
+    Left = 170
+    Height = 28
+    Top = 220
+    Width = 440
+    DataField = 'soyadi'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 50
+    ParentFont = False
+    TabOrder = 2
+  end
+  object DBMemo1: TDBMemo
+    Left = 170
+    Height = 109
+    Top = 308
+    Width = 440
+    DataField = 'adres'
+    DataSource = Datasource1
+    ParentFont = False
+    TabOrder = 3
+  end
+  object DBEdit4: TDBEdit
+    Left = 170
+    Height = 28
+    Top = 264
+    Width = 440
+    DataField = 'unvani'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 100
+    ParentFont = False
+    TabOrder = 4
+  end
+  object DBEdit5: TDBEdit
+    Left = 820
+    Height = 28
+    Top = 130
+    Width = 440
+    DataField = 'tcno'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 50
+    ParentFont = False
+    TabOrder = 5
+  end
+  object DBEdit6: TDBEdit
+    Left = 820
+    Height = 28
+    Top = 176
+    Width = 440
+    DataField = 'vergidairesi'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 50
+    ParentFont = False
+    TabOrder = 6
+  end
+  object DBEdit7: TDBEdit
+    Left = 820
+    Height = 28
+    Top = 220
+    Width = 440
+    DataField = 'verginumarasi'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 50
+    ParentFont = False
+    TabOrder = 7
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 170
+    Height = 28
+    Top = 130
+    Width = 200
+    DataField = 'musteritipi'
+    DataSource = Datasource1
+    ItemHeight = 20
+    Items.Strings = (
+      'Bireysel'
+      'Kurumsal'
+      'Satıcı'
+      'Personel'
+    )
+    MaxLength = 0
+    ParentFont = False
+    TabOrder = 8
+  end
+  object BitBtn1: TBitBtn
+    Left = 1150
+    Height = 38
+    Top = 60
+    Width = 110
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object DBEdit8: TDBEdit
+    Left = 820
+    Height = 28
+    Top = 264
+    Width = 440
+    DataField = 'telefon'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 30
+    ParentFont = False
+    TabOrder = 10
+  end
+  object DBEdit9: TDBEdit
+    Left = 820
+    Height = 28
+    Top = 308
+    Width = 440
+    DataField = 'eposta'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 100
+    ParentFont = False
+    TabOrder = 11
+  end
+  object DBEdit10: TDBEdit
+    Left = 820
+    Height = 28
+    Top = 350
+    Width = 440
+    DataField = 'ipcontrol'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 100
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Label12: TLabel
+    Left = 670
+    Height = 20
+    Top = 360
+    Width = 72
+    Caption = 'IP Kontrol :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 670
+    Height = 20
+    Top = 400
+    Width = 67
+    Caption = 'IP Aralığı :'
+    ParentColor = False
+    ParentFont = False
+  end
+  object DBEdit11: TDBEdit
+    Left = 820
+    Height = 28
+    Top = 390
+    Width = 440
+    DataField = 'iprange'
+    DataSource = Datasource1
+    CharCase = ecNormal
+    MaxLength = 100
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Datasource1: TDataSource
+    DataSet = ZTable1
+    left = 680
+    top = 48
+  end
+  object ZTable1: TZTable
+    AutoCalcFields = False
+    TableName = 'corecustomers'
+    left = 640
+    top = 50
+  end
+end

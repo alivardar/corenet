@@ -1,0 +1,112 @@
+object radiuservers: Tradiuservers
+  Left = 215
+  Height = 338
+  Top = 318
+  Width = 961
+  ActiveControl = DBNavigator1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Radius Servers'
+  ClientHeight = 338
+  ClientWidth = 961
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.1'
+  object DBGrid2: TDBGrid
+    Left = 0
+    Height = 271
+    Top = 24
+    Width = 955
+    AlternateColor = clSilver
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'Sunucu Adı'
+        FieldName = 'servername'
+      end    
+      item
+        Title.Caption = 'Hostname'
+        Width = 150
+        FieldName = 'hostname'
+      end    
+      item
+        Title.Caption = 'MySQL DB Name'
+        Width = 150
+        FieldName = 'mysqldbname'
+      end    
+      item
+        Title.Caption = 'MySQL Server'
+        Width = 150
+        FieldName = 'mysqlserver'
+      end    
+      item
+        Title.Caption = 'MySQl User'
+        Width = 150
+        FieldName = 'mysqlusername'
+      end    
+      item
+        Title.Caption = 'MySQL Password'
+        Width = 150
+        FieldName = 'mysqlpassword'
+      end    
+      item
+        Title.Caption = 'Secret Key'
+        Width = 100
+        FieldName = 'radiusecretkey'
+      end>
+    DataSource = Datasource2
+    Scrollbars = ssAutoBoth
+    TabOrder = 0
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Height = 25
+    Top = 0
+    Width = 961
+    Align = alTop
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 100
+    ClientHeight = 21
+    ClientWidth = 957
+    DataSource = Datasource2
+    Flat = True
+    Options = []
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 880
+    Height = 30
+    Top = 304
+    Width = 75
+    Caption = '&Close'
+    Kind = bkClose
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Datasource2: TDatasource
+    DataSet = ZTable1
+    left = 104
+    top = 304
+  end
+  object ZTable1: TZTable
+    Connection = ZConnection1
+    AutoCalcFields = False
+    TableName = 'coreradiusservers'
+    left = 72
+    top = 304
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Port = 0
+    Protocol = 'mysql-5'
+    left = 32
+    top = 304
+  end
+end

@@ -1,0 +1,55 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tcarilistesi','FORMDATA',[
+  'TPF0'#12'Tcarilistesi'#11'carilistesi'#4'Left'#2#5#6'Height'#3'V'#2#3'Top'#2
+  +'G'#5'Width'#3'B'#5#13'ActiveControl'#7#12'DBNavigator1'#11'BorderIcons'#11
+  +#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Caption'#6#12'Cari Liste'
+  +'si'#12'ClientHeight'#3'V'#2#11'ClientWidth'#3'B'#5#6'OnShow'#7#8'FormShow'#8
+  +'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#3'1.1'#0#12'TDBNavigator'
+  +#12'DBNavigator1'#4'Left'#2#0#6'Height'#2' '#3'Top'#2#0#5'Width'#3'B'#5#5'Al'
+  +'ign'#7#5'alTop'#10'BevelOuter'#7#6'bvNone'#11'BorderStyle'#7#8'bsSingle'#29
+  +'ChildSizing.EnlargeHorizontal'#7#14'crsScaleChilds'#27'ChildSizing.EnlargeV'
+  +'ertical'#7#14'crsScaleChilds'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScal'
+  +'eChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing'
+  +'.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'
+  +#2'd'#12'ClientHeight'#2#28#11'ClientWidth'#3'>'#5#10'DataSource'#7#11'Datas'
+  +'ource1'#4'Flat'#9#7'Options'#11#0#8'TabOrder'#2#0#14'VisibleButtons'#11#7'n'
+  +'bFirst'#7'nbPrior'#6'nbNext'#6'nbLast'#8'nbDelete'#6'nbEdit'#6'nbPost'#8'nb'
+  +'Cancel'#9'nbRefresh'#0#0#0#7'TDBGrid'#7'DBGrid1'#4'Left'#2#0#6'Height'#3#8#2
+  +#3'Top'#2'N'#5'Width'#3'B'#5#5'Align'#7#8'alBottom'#14'AlternateColor'#7#8'c'
+  +'lSilver'#5'Color'#7#8'clWindow'#7'Columns'#14#1#13'Title.Caption'#6#4'Ad'
+  +#196#177#5'Width'#3#150#0#9'FieldName'#6#3'adi'#0#1#13'Title.Caption'#6#7'So'
+  +'yad'#196#177#5'Width'#2'd'#9'FieldName'#6#6'soyadi'#0#1#13'Title.Caption'#6
+  +#7'T.C No.'#5'Width'#2'd'#9'FieldName'#6#4'tcno'#0#1#13'Title.Caption'#6#8
+  +#195#156'nvan'#196#177#5'Width'#3'^'#1#9'FieldName'#6#6'unvani'#0#1#13'Title'
+  +'.Caption'#6#13'Vergi Dairesi'#5'Width'#2'd'#9'FieldName'#6#12'vergidairesi'
+  +#0#1#13'Title.Caption'#6#15'Vergi Numaras'#196#177#5'Width'#2'n'#9'FieldName'
+  +#6#13'verginumarasi'#0#1#16'PickList.Strings'#1#6#8'Bireysel'#6#8'Kurumsal'#0
+  +#13'Title.Caption'#6#14'M'#195#188#197#159'teri Tipi'#5'Width'#2'd'#9'FieldN'
+  +'ame'#6#11'musteritipi'#0#1#13'Title.Caption'#6#7'Telefon'#5'Width'#3#150#0#9
+  +'FieldName'#6#7'telefon'#0#1#13'Title.Caption'#6#7'E-Posta'#5'Width'#3#150#0
+  +#9'FieldName'#6#6'eposta'#0#0#10'DataSource'#7#11'Datasource1'#10'Scrollbars'
+  +#7#10'ssAutoBoth'#8'TabOrder'#2#1#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3#216#4#6
+  +'Height'#2#30#3'Top'#2')'#5'Width'#2'K'#7'Default'#9#14'DefaultCaption'#9#4
+  +'Kind'#7#4'bkOK'#11'ModalResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#8'TabOrde'
+  +'r'#2#2#0#0#5'TEdit'#5'Edit1'#4'Left'#2#16#6'Height'#2#21#3'Top'#2'0'#5'Widt'
+  +'h'#3#8#1#7'OnClick'#7#10'Edit1Click'#10'OnKeyPress'#7#13'Edit1KeyPress'#8'T'
+  +'abOrder'#2#3#4'Text'#6#6'Ara...'#0#0#11'TRadioGroup'#11'RadioGroup1'#4'Left'
+  +#3'0'#1#6'Height'#2''''#3'Top'#2' '#5'Width'#3#144#3#8'AutoFill'#9#7'Caption'
+  +#6#12'Arama t'#195#188'r'#195#188#28'ChildSizing.LeftRightSpacing'#2#6#28'Ch'
+  +'ildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsH'
+  +'omogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChi'
+  +'ldResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSiz'
+  +'ing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLef'
+  +'tToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#6#12'ClientHeigh'
+  +'t'#2#21#11'ClientWidth'#3#140#3#7'Columns'#2#6#9'ItemIndex'#2#0#13'Items.St'
+  +'rings'#1#6#10'Filtre yok'#6#12'Ad'#196#177'na G'#195#182're'#6#15'Soyad'#196
+  +#177'na G'#195#182're'#6#13#195#156'nvana G'#195#182're'#6#9'TC Kimlik'#6#8
+  +'Vergi No'#0#8'TabOrder'#2#4#0#0#11'TDatasource'#11'Datasource1'#7'DataSet'#7
+  +#7'ZQuery1'#4'left'#2'h'#3'top'#2#16#0#0#7'TZQuery'#7'ZQuery1'#10'Connection'
+  +#7#12'ZConnection1'#14'AutoCalcFields'#8#11'SQL.Strings'#1#6'(select * from '
+  +'corecustomers LIMIT 0,100;'#0#6'Params'#14#0#4'left'#3#136#0#3'top'#2#16#0#0
+  +#12'TZConnection'#12'ZConnection1'#16'ControlsCodePage'#7#8'cCP_UTF8'#17'Aut'
+  +'oEncodeStrings'#8#4'Port'#2#0#8'Protocol'#6#7'mysql-5'#4'left'#3#176#0#3'to'
+  +'p'#2#16#0#0#0
+]);
