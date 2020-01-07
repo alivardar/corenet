@@ -2,6 +2,8 @@
 
 It is fully ISP management software. It is freeware windows application. Developed with Lazarus and Free pascal. It is using MySQL database and Zeos components. Unfortunately  it is now Turkish but I will translate to English. Application designed for Mikrotik and DaloRadius.
 
+You can check screenshots from here:  http://www.md5m.com/?p=75
+
 # Application Parts 
 
 User management
